@@ -4,15 +4,15 @@
 	#Enable / Disables the ability to throw the eye of ender to locate the stronghold structure
 	#
 	#Default: false
-	throwEyeOfEnder = false
+	throwEyeOfEnder = true
 	#Enable / Disables the ability to use the eye of ender on the end portal frame blocks
 	#
 	#Default: false
-	useEyeOfEnder = false
+	useEyeOfEnder = true
 	#Enable / Disables the ability to activate the nether portal
 	#
 	#Default: false
-	activateNetherPortal = false
+	activateNetherPortal = true
 	#Enable / Disables logging debug messages
 	#
 	#Default: false
@@ -25,49 +25,49 @@
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: -1
-	generateStronghold = 0
+	generateStronghold = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateRuinedPortal = 0
+	generateRuinedPortal = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateBuriedTreasure = 0
+	generateBuriedTreasure = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateDesertPyramid = 0
+	generateDesertPyramid = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateEndCity = 0
+	generateEndCity = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateFortress = 0
+	generateFortress = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateIgloo = 0
+	generateIgloo = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateJungleTemple = 0
+	generateJungleTemple = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
@@ -79,19 +79,19 @@
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateNetherFossil = 0
+	generateNetherFossil = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateOceanMonument = 0
+	generateOceanMonument = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateOceanRuin = 0
+	generateOceanRuin = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
@@ -103,79 +103,79 @@
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateSwampHut = 0
+	generateSwampHut = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateWoodlandMansion = 0
+	generateWoodlandMansion = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateAncientCity = 0
+	generateAncientCity = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateBastionRemnant = 0
+	generateBastionRemnant = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateMansion = 0
+	generateMansion = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generatePillagerOutpost = 0
+	generatePillagerOutpost = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateTrailRuins = 0
+	generateTrailRuins = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateTrialChambers = 0
+	generateTrialChambers = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateVillageDesert = 0
+	generateVillageDesert = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateVillagePlains = 0
+	generateVillagePlains = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateVillageSavanna = 0
+	generateVillageSavanna = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateVillageSnowy = 0
+	generateVillageSnowy = -1
 	# -1 = Don't change generation
 	# 0 = Disable structure generation
 	# 1-999999999 = Limits structure generation to no more than defined number
 	#
 	# Default: 0
-	generateVillageTaiga = 0
+	generateVillageTaiga = -1
 	# Provide a comma separated list of modded structures in the syntax of mod:structure:value
 	#
 	# mod is the name of the mod
