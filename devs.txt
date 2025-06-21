@@ -1,0 +1,52 @@
+Guidelines for developers
+=========================
+
+The following are notes and guidelines for contributing to CD3 without making
+a mess of the repo.
+
+Files and Directories
+---------------------
+
+The are part of the pack itself, and included in the pack file when generated:
+
+* config: Configuration files for mods
+* defaultconfigs: Defaults for per-world configuration files
+* kubejs: Scripts for KubeJS. There are also folders for including assets and
+  datapacks.
+* scripts: CraftTweaker scripts
+* manifest.json: The pack manifest file, which includes pack metadata such as
+  Minecraft and Forge versions, and lists of mods to install
+
+The following are not part of the pack, but used for development purposes:
+
+* .mkpkg: Configuration for the `mkpkg` script, which lives in the CD1 repo
+* .gitignore: A list of files for `git` to ignore
+
+Updating Configuration Files
+----------------------------
+
+Unfortunately, Forge has a habit of rewriting the configuration files
+willy-nilly. It seems like configuration files are completely recreated on
+launch -- even if no configuration has changed. Worse, the configuration
+options are written in an apparently random order. Thus, the configuration
+files change frequently for no good reason.
+
+Therefore, I've adopted the following protocol for committing configs to the
+repo in a way that will meaningfully track *actual* changes made:
+
+* The first time a configuration file is added to the repo, commit a freshly
+  generated copy *before* making any changes. Ideally, this should be done
+  whenever new mods are added to the pack.
+
+  This can fairly easily accomplished using `git`. First, launch Minecraft
+  with the new mods, and load a world. This will generate both global and
+  per-world configuration files for the new mods.
+
+  Next, do a `git restore` on the `config` directory, then commit the
+  directory: This will only commit *new* files. For the `defaultconfigs`
+  folder, copy the files from the save's `serverconfig` folder
+  to the `defaultconfig` folder, `git restore` it, and then commit it.
+
+* When changing a configuration file, `git restore` it first. This will ensure
+  that the commit history will show the actual changes made, and not a
+  completely regenerated file.
