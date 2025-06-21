@@ -1,0 +1,26 @@
+# Generic backup and garbage files
+*~
+*.bak
+*.swp
+*.swo
+
+# Various Minecraft/Curseforge clientside stuff
+.curseclient
+crash-reports/
+datapacks/
+hs_err_*.log
+journeymap/
+local/
+logs/
+minecraftinstance.json
+options.txt
+patchouli_data.json
+resourcepacks/
+rhino.local.properties
+saves/
+usercache.json
+usernamecache.json
+
+# Tracked by the manifest file
+mods/
+
