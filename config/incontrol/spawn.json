@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "mob": "minecraft:hoglin",
+    "result": "deny"
+  }
+]
