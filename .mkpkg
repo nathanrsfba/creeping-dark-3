@@ -1,0 +1,10 @@
+{
+  "overrides": [
+    "config/",
+    "defaultconfigs/",
+    "kubejs/",
+    "mods",
+    "schematics/",
+    "scripts/"
+  ]
+}
