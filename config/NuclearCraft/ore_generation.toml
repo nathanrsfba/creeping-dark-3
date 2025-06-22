@@ -89,7 +89,7 @@
 
 [zinc]
 	#Ore generation settings for zinc
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	#Range: 0 ~ 64
 	vein_size = 7
