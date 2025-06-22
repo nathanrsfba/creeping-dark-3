@@ -22,5 +22,5 @@ usercache.json
 usernamecache.json
 
 # Tracked by the manifest file
-mods/
-
+mods/*
+!mods/readme.txt
