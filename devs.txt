@@ -50,3 +50,31 @@ repo in a way that will meaningfully track *actual* changes made:
 * When changing a configuration file, `git restore` it first. This will ensure
   that the commit history will show the actual changes made, and not a
   completely regenerated file.
+
+Updating Mods
+-------------
+
+When mods are added, updated, or removed, or if Forge itself is updated, the
+`manifest.json` file should be updated, as this is how the repo tracks mods.
+This can be done using the `mkpkg.py` tool in the CD1 repo:
+
+```
+mkpkg.py -m
+```
+
+will update the manifest file based on the content of the `mods` folder and
+the launcher configuration. This should work with both the Curseforge launcher
+and GDLauncher carbon; development is currently happening under the former.
+
+Building the Pack
+-----------------
+
+The pack can be built from the repo, again using mkpkg:
+
+```
+mkpkg.py -M
+```
+
+This will build a Curseforge-compatible .zip file, which should be installable
+using the Curseforge launcher, or any other launcher that can handle
+Curseforge packs.
