@@ -34,7 +34,7 @@
 
 [tin]
 	#Ore generation settings for tin
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	#Range: 0 ~ 64
 	vein_size = 7
@@ -56,7 +56,7 @@
 
 [silver]
 	#Ore generation settings for silver
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	#Range: 0 ~ 64
 	vein_size = 7
@@ -67,7 +67,7 @@
 
 [cobalt]
 	#Ore generation settings for cobalt
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	#Range: 0 ~ 64
 	vein_size = 7
@@ -111,7 +111,7 @@
 
 [lead]
 	#Ore generation settings for lead
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	#Range: 0 ~ 64
 	vein_size = 7
