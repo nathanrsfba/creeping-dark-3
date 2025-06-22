@@ -4,7 +4,6 @@
     "defaultconfigs/",
     "kubejs/",
     "mods",
-    "schematics/",
     "scripts/"
   ]
 }
