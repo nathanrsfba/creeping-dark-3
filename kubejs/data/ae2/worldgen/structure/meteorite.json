@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:ae2mtrt",
+  "biomes": "#twilightforest:in_twilight_forest",
+  "spawn_overrides": {},
+  "step": "top_layer_modification"
+}
