@@ -2,5 +2,9 @@
   {
     "mob": "minecraft:hoglin",
     "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "result": "deny"
   }
 ]
