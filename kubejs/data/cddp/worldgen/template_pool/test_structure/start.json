@@ -1,0 +1,17 @@
+{
+	"name": "cddp:mystructure/start",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "cddp:test_structure",
+				"processors": {
+					"processors": []
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	]
+}
