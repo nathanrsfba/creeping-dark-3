@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mining_dimension:obsidian_cave",
+  "features": "mining_dimension:obsidian_diamond_ore",
+  "step": "underground_ores"
+}

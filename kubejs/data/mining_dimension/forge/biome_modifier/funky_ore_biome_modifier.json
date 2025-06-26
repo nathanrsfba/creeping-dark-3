@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "mining_dimension:andesite_cave",
+    "mining_dimension:empty_cave",
+    "mining_dimension:hard_cave",
+    "mining_dimension:rich_cave",
+    "mining_dimension:nether_cave",
+    "mining_dimension:stone_cave",
+    "mining_dimension:cobble_cave",
+    "mining_dimension:obsidian_cave",
+    "mining_dimension:jagged_cave",
+    "mining_dimension:blaze_haven",
+    "mining_dimension:nether_plains",
+    "mining_dimension:gravel_cave",
+    "mining_dimension:iron_cave"
+  ],
+  "features": "mining_dimension:funky_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mining_dimension:iron_cave",
+  "features": "mining_dimension:concentrated_iron_ore",
+  "step": "underground_ores"
+}
