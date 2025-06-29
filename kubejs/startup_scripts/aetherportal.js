@@ -10,4 +10,6 @@ StartupEvents.registry( 'block', event => {
         .resistance( 1.0 )
         .lightLevel( 1.0 )
         .requiresTool( true )
+        .tagBlock( 'minecraft:mineable/pickaxe' )
+        .tagBlock( 'minecraft:needs_iron_tool' )
 })
