@@ -1,5 +1,5 @@
 {
-  "exclude": "~$|\\.bak$|Deep Dark|Chunk-Pregenerator",
+  "exclude": "~$|\\.bak$|[Dd]eep.[Dd]ark|Chunk-Pregenerator",
   "overrides": [
     "config/",
     "defaultconfigs/",
