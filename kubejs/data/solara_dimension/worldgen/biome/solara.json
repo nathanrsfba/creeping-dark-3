@@ -1,0 +1,246 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.19,
+  "downfall": 0.5,
+  "effects": {
+    "mood_sound": {
+      "sound": "solara_dimension:deep",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "particle": {
+      "options": {
+        "type": "falling_spore_blossom"
+      },
+      "probability": 0.002
+    },
+    "foliage_color": -5259998,
+    "grass_color": -15504107,
+    "sky_color": -7876885,
+    "fog_color": -7876885,
+    "water_color": -15769956,
+    "water_fog_color": -15769956
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "cow",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "chicken",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "pig",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "wolf",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "cat",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "goat",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "fox",
+        "weight": 7,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "mule",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "horse",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 5
+      },
+      {
+        "type": "rabbit",
+        "weight": 7,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "zombie",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "bat",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mooshroom",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "parrot",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "allay",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "ambient": [],
+    "axolotls": [
+      {
+        "type": "axolotl",
+        "weight": 5,
+        "minCount": 3,
+        "maxCount": 3
+      }
+    ],
+    "underground_water_creature": [],
+    "water_creature": [
+      {
+        "type": "squid",
+        "weight": 46,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "dolphin",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "cod",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "turtle",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "tropical_fish",
+        "weight": 50,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "pufferfish",
+        "weight": 40,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "salmon",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:large_dripstone",
+      "minecraft:forest_rock"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:ore_gold_extra",
+      "minecraft:ore_emerald"
+    ],
+    [],
+    [],
+    [
+      "solara_dimension:solara_tree",
+      "minecraft:forest_flowers",
+      "minecraft:patch_large_fern",
+      "minecraft:patch_tall_grass",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
+      "minecraft:patch_grass_forest",
+      "minecraft:bamboo_light",
+      "minecraft:patch_dead_bush_2",
+      "minecraft:trees_savanna",
+      "minecraft:patch_grass_jungle",
+      "minecraft:patch_grass_plain",
+      "minecraft:flower_meadow",
+      "minecraft:trees_meadow",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:seagrass_simple"
+    ],
+    []
+  ]
+}
