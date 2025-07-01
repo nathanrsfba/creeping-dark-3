@@ -5,7 +5,6 @@
 ServerEvents.recipes( event => {
 
     // Alternate drink mixer recipe
-    // event.remove({ output: 'thermal:machine_frame' });
     event.shaped(
         Item.of( 'tropicraft:drink_mixer' ),
         [
@@ -18,5 +17,8 @@ ServerEvents.recipes( event => {
             M: 'tropicraft:bamboo_mug'
         }
     );
+
+    // Remove standard pina colada recipe
+    event.remove({ output: 'tropicraft:pina_colada' });
 
 });
