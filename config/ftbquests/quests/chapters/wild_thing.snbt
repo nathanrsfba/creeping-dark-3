@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wild_thing"
+	group: ""
+	icon: "ars_nouveau:wilden_tribute"
+	id: "51BF370BE292845B"
+	order_index: 12
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Ars Nouveau"]
+	title: "Wild Thing"
+}

@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rock_bottom"
+	group: ""
+	icon: {
+		Count: 1
+		id: "mining_dimension:mining_dimension"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "194D092933176F35"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Immersive Engineering and the Mining Dimension"]
+	title: "Rock Bottom"
+}

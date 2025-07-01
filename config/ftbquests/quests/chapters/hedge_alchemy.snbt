@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hedge_alchemy"
+	group: ""
+	icon: {
+		Count: 1
+		id: "botania:twig_wand"
+		tag: {
+			color1: 0
+			color2: 0
+		}
+	}
+	id: "1F8D4C2ED5621FCB"
+	order_index: 11
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Botania and the Aether"]
+	title: "Hedge Alchemy"
+}

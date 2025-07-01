@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "its_alive"
+	group: ""
+	icon: "enderio:ender_resonator"
+	id: "65980811A0E541B3"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["EnderIO and the Undergarden"]
+	title: "It's Alive"
+}

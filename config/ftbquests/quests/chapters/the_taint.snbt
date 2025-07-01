@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_taint"
+	group: ""
+	icon: "mekanism:elite_control_circuit"
+	id: "09316275E5E47D5C"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Mekanism and the Astral Dimension"]
+	title: "The Taint"
+}

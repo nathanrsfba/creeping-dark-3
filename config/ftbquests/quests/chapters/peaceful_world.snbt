@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "peaceful_world"
+	group: ""
+	icon: "thermal:machine_frame"
+	id: "027644EE8DC3AE33"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Thermal Expansion and Gaia"]
+	title: "Crystalline"
+}
