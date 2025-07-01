@@ -49,6 +49,14 @@ ServerEvents.tags( 'item', event => {
     addTags( event, 'tropicraft:lemon', 'lemon', 
         ['fruits', 'crops', 'citrusfruits', 
             'vinegar_ingredients'] );
+    addTags( event, 'tropicraft:lime', 'lime', 
+        ['fruits', 'crops', 'citrusfruits', 
+            'vinegar_ingredients'] );
+    addTags( event, 'tropicraft:orange', 'orange', 
+        ['fruits', 'crops', 'vinegar_ingredients'] );
+    addTags( event, 'tropicraft:grapefruit', 'grapefruit', 
+        ['fruits', 'crops', 'citrusfruits', 
+            'vinegar_ingredients'] );
 
 });
 
