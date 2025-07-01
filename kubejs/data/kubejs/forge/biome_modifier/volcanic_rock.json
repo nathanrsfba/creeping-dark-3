@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "solara_dimension:solara",
+  "features": "kubejs:volcanic_rock",
+  "step": "underground_ores"
+}
