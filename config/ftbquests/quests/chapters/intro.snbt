@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "intro"
 	group: ""
+	icon: "minecraft:grass_block"
 	id: "2D16E71E5B88D7F9"
 	order_index: 0
 	quest_links: [ ]
@@ -63,7 +64,6 @@
 			}
 			type: "item"
 		}]
-		subtitle: "AAAA"
 		tasks: [{
 			id: "7B00EC7CE811D1A1"
 			title: "Getting Started"
@@ -73,5 +73,6 @@
 		x: -1.5d
 		y: -4.5d
 	}]
-	title: "Intro"
+	subtitle: ["The Overworld"]
+	title: "Darkness Descends"
 }

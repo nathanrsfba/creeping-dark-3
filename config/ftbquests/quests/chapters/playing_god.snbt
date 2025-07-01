@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "playing_god"
+	group: ""
+	icon: "rftoolsdim:realized_dimension_tab"
+	id: "4BCE02D5721C9D12"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["RFTools and Solara"]
+	title: "Playing God"
+}

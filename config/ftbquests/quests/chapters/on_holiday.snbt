@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "on_holiday"
+	group: ""
+	icon: "tropicraft:palm_sapling"
+	id: "74DC5FB8708DEBE9"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["The Tropics"]
+	title: "On Holiday"
+}
