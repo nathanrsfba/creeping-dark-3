@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "intro"
+	group: ""
+	id: "2D16E71E5B88D7F9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"The Dragon was banished from the face of the Earth, but she didn't go without leaving her mark on the world."
+			""
+			"The skies themselves are cursed; diseased with a slow growth of skin that, given time, will cover the Earth in utter darkness."
+			""
+			"The only way to break the curse is to travel to the End and kill the Dragon, retrieve her egg, and place it on Earth. But the way to the End is barred, and the artifacts to reopen it are guarded by her minions, and scattered... across the Multiverse."
+		]
+		icon: "minecraft:dragon_head"
+		id: "055021ADCC543D28"
+		rewards: [{
+			id: "5FA21C00F6D1C839"
+			item: {
+				Count: 1
+				id: "projectred_exploration:white_backpack"
+				tag: {
+					RepairCost: 0
+					backpack_inventory: {
+						item_count: 5
+						items: [
+							{
+								Count: 1b
+								id: "mekanismtools:stone_paxel"
+								slot: 0
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 64b
+								id: "minecraft:oak_log"
+								slot: 1
+							}
+							{
+								Count: 64b
+								id: "minecraft:cobblestone"
+								slot: 2
+							}
+							{
+								Count: 64b
+								id: "minecraft:torch"
+								slot: 3
+							}
+							{
+								Count: 64b
+								id: "minecraft:apple"
+								slot: 4
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Anti-Treepunching Bag\"}"
+					}
+				}
+			}
+			type: "item"
+		}]
+		subtitle: "AAAA"
+		tasks: [{
+			id: "7B00EC7CE811D1A1"
+			title: "Getting Started"
+			type: "checkmark"
+		}]
+		title: "Introduction"
+		x: -1.5d
+		y: -4.5d
+	}]
+	title: "Intro"
+}
