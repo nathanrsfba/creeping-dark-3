@@ -3,18 +3,18 @@
 ServerEvents.recipes( event => {
 
     event.remove( {output: "solara_dimension:solarademension"} );
-    event.custom({
-        type: "thermal:insolator",
-        ingredient: {
-            tag: "minecraft:leaves"
-        },
-        result: [
-            {
-                item: "solara_dimension:solarademension",
-                chance: 1.0
-            }
+    event.shaped(
+        Item.of( "solara_dimension:solarademension" ),
+        [
+            'MLM',
+            'DSD',
+            'MLM'
         ],
-        energy_mod: 3.0,
-        water_mod: 3.0
-    });
+        {
+            M: '#forge:cobblestone/mossy',
+            L: '#minecraft:leaves',
+            S: '#forge:rods/wooden',
+            D: 'rftoolsdim:common_essence'
+        }
+    );
 });
