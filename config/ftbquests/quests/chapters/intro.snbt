@@ -63,7 +63,7 @@
 			}
 			type: "item"
 		}]
-		subtitle: "AAAA"
+		subtitle: ""
 		tasks: [{
 			id: "7B00EC7CE811D1A1"
 			title: "Getting Started"
