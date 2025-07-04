@@ -35,15 +35,26 @@ ServerEvents.tags( 'item', event => {
     ].forEach( item => {
         event.add( 'kubejs:cable_covers', item );
     });
-
-    // Items:
-    // thermal:cured_rubber
-    // #forge:plastic
-    // #minecraft:wool
-    // #forge:leather
-    // minecraft:dried_kelp
-
-
+    [
+        "minecraft:white_wool",
+        "#forge:plastic"
+    ].forEach( item => {
+        event.add( 'kubejs:cable_covers_white', item );
+    });
+    [
+        "minecraft:black_wool",
+        "thermal:cured_rubber",
+        "minecraft:dried_kelp"
+    ].forEach( item => {
+        event.add( 'kubejs:cable_covers_black', item );
+    });
+    [
+        "minecraft:brown_wool",
+        "minecraft:leather",
+        "immersiveengineering:ersatz_leather"
+    ].forEach( item => {
+        event.add( 'kubejs:cable_covers_brown', item );
+    });
 });
 
 ServerEvents.recipes( event => {
@@ -69,7 +80,19 @@ ServerEvents.recipes( event => {
     event.replaceInput( {output: 'ae2:fluix_covered_cable'},
         '#minecraft:wool', '#kubejs:cable_covers' );
 
-    // Stuff we might want to make alternates for, if I'm not too lazy:
-    // projectred_transmission:white_insulated_wire
-    // elevatorid:elevator_white
+    // Insulated wires
+    event.replaceInput( {output: 'projectred_transmission:white_insulated_wire'},
+        'minecraft:white_wool', '#kubejs:cable_covers_white' );
+    event.replaceInput( {output: 'projectred_transmission:black_insulated_wire'},
+        'minecraft:black_wool', '#kubejs:cable_covers_black' );
+    event.replaceInput( {output: 'projectred_transmission:brown_insulated_wire'},
+        'minecraft:brown_wool', '#kubejs:cable_covers_brown' );
+
+    // Elevators
+    event.replaceInput( {output: 'elevatorid:elevator_white'},
+        'minecraft:white_wool', '#kubejs:cable_covers_white' );
+    event.replaceInput( {output: 'elevatorid:elevator_black'},
+        'minecraft:black_wool', '#kubejs:cable_covers_black' );
+    event.replaceInput( {output: 'elevatorid:elevator_brown'},
+        'minecraft:brown_wool', '#kubejs:cable_covers_brown' );
 });
