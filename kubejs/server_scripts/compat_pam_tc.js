@@ -58,6 +58,39 @@ ServerEvents.tags( 'item', event => {
         ['fruits', 'crops', 'citrusfruits', 
             'vinegar_ingredients'] );
 
+    // Tag various fish
+    [
+        "tropicraft:raw_ray",
+        "tropicraft:fresh_marlin",
+        "tropicraft:raw_fish"
+    ].forEach( item => {
+        addTags( event, item, 'rawtropicalfish',
+            ['rawfish', 'fishes', 'rawmeats', 'stock_ingredients'],
+            ['foods/fish/raw'] );
+        event.add( 'minecraft:fishes', item );
+    });
+
+    [
+        "tropicraft:cooked_fish",
+        "tropicraft:cooked_ray",
+        "tropicraft:seared_marlin"
+    ].forEach( item => {
+        event.add( 'minecraft:fishes', item );
+        event.add( 'forge:cookedfish', item );
+        event.add( 'forge:foods/fish/cooked', item );
+    });
+
+    // Tag frog legs
+    [
+        'forge:rawmeats',
+        'forge:stock_ingredients',
+        'forge:foods/meat/raw'
+    ].forEach( tag => {
+        event.add( tag, "tropicraft:frog_leg" );
+    });
+
+    event.add( 'forge:foods/meat/cooked', "tropicraft:cooked_frog_leg" );
+
 });
 
 ServerEvents.recipes( event => {
