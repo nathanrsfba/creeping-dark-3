@@ -51,6 +51,11 @@ repo in a way that will meaningfully track *actual* changes made:
   that the commit history will show the actual changes made, and not a
   completely regenerated file.
 
+* Note that Minecraft will sometimes mangle configuration files *as you're
+  trying to restore them*, so it's probably best to do a `git status` *after*
+  loading it in an editor to verify it's the original, and doing a `git commit
+  -v` when committing to check the diff.
+
 Updating Mods
 -------------
 
