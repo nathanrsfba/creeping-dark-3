@@ -65,27 +65,28 @@ ServerEvents.recipes( event => {
         "acceptMirrored": false,
         "result": { "item": "kubejs:end_orb" },
         "key": {
-            "A": { "item": "blue_skies:poison_arc" }, // Arachnarch drop  
+            "A": { "item": "blue_skies:poison_arc" },
             // "C": { "tag": "" }, // Create item  
             "F": { "item": "undergarden:forgotten_nugget" },
-            "M": { "tag": "kubejs:malachite_loot" }, // Malachite Guard loot  
+            "H": { "item": "twilightforest:fiery_blood" },
+            "M": { "tag": "kubejs:malachite_loot" },
             "N": { "item": "blue_skies:nature_arc" },
             "S": { "tag": "kubejs:slider_loot" },
             "V": { "tag": "kubejs:valkyrie_loot" },
-            // "W": { "item": "" }, // Warden drop  
+            "5": { "item": "minecraft:music_disc_5" },
             "a": { "item": "astral_dimension:astral_amulet" },
             "e": { "item": "tropicraft:eih_spawn_egg" }, // Eye of head  
             // "h": { "item": "" }, // Horned tower loot  
             "n": { "item": "minecraft:nether_star" },
-            "q": { "item": "kubejs:quartz_bone" }, // Quartz bone  
+            "q": { "item": "kubejs:quartz_bone" },
             // "s": { "item": "" }, // Space Needle drop  
             // "v": { "item": "" }, // Void city item  
-            "w": { "item": "ars_nouveau:wilden_tribute" }  // Wilden tribute  
+            "w": { "item": "ars_nouveau:wilden_tribute" }
         },
         "pattern": [
             "  q  ",
             " VFS ",
-            " ean ",
+            "Hean5",
             " AMN ",
             "  w  "
         ]
