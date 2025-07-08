@@ -20,4 +20,7 @@ StartupEvents.registry( 'item', event => {
     // Not sure what this will be for, but let's
     // yoink it from CD2 on general principles
     event.create( 'shadow_flesh' ).displayName( 'Shadow Flesh' );
+
+    // Create the void city key
+    event.create( 'void_rod' ).displayName( 'Void Rod' );
 })

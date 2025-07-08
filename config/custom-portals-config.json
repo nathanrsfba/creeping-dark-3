@@ -5,7 +5,7 @@
       "isFlat": false,
       "frameBlock": "ae2:spatial_pylon",
       "isFluidIgniter": false,
-      "itemIgniter": "ae2:spatial_cell_component_16",
+      "itemIgniter": "kubejs:void_rod",
       "dimension": "cddp:voidcity",
       "r": 0,
       "g": 0,
