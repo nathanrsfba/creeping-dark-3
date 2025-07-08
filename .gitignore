@@ -6,6 +6,7 @@
 
 # Various Minecraft/Curseforge clientside stuff
 .curseclient
+config/worldedit/.archive-unpack/
 crash-reports/
 datapacks/
 hs_err_*.log
@@ -18,6 +19,7 @@ patchouli_data.json
 resourcepacks/
 rhino.local.properties
 saves/
+screenshots/
 usercache.json
 usernamecache.json
 
