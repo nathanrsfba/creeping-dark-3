@@ -1,0 +1,15 @@
+
+{
+  "ConfiguredPortals": [
+    {
+      "isFlat": false,
+      "frameBlock": "ae2:spatial_pylon",
+      "isFluidIgniter": false,
+      "itemIgniter": "ae2:spatial_cell_component_16",
+      "dimension": "cddp:voidcity",
+      "r": 0,
+      "g": 0,
+      "b": 0
+    }
+  ]
+}
