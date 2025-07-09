@@ -7,72 +7,156 @@
 	id: "2D16E71E5B88D7F9"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"The Dragon was banished from the face of the Earth, but she didn't go without leaving her mark on the world."
-			""
-			"The skies themselves are cursed; diseased with a slow growth of skin that, given time, will cover the Earth in utter darkness."
-			""
-			"The only way to break the curse is to travel to the End and kill the Dragon, retrieve her egg, and place it on Earth. But the way to the End is barred, and the artifacts to reopen it are guarded by her minions, and scattered... across the Multiverse."
-		]
-		icon: "minecraft:dragon_head"
-		id: "055021ADCC543D28"
-		rewards: [{
-			id: "5FA21C00F6D1C839"
-			item: {
-				Count: 1
-				id: "projectred_exploration:white_backpack"
-				tag: {
-					RepairCost: 0
-					backpack_inventory: {
-						item_count: 5
-						items: [
-							{
-								Count: 1b
-								id: "mekanismtools:stone_paxel"
-								slot: 0
-								tag: {
-									Damage: 0
+	quests: [
+		{
+			description: [
+				"The Dragon was banished from the face of the Earth, but she didn't go without leaving her mark on the world."
+				""
+				"The skies themselves are cursed; diseased with a slow growth of skin that, given time, will cover the Earth in utter darkness."
+				""
+				"The only way to break the curse is to travel to the End and kill the Dragon, retrieve her egg, and place it on Earth. But the way to the End is barred, and the artifacts to reopen it are guarded by her minions, and scattered... across the Multiverse."
+			]
+			icon: "minecraft:dragon_head"
+			id: "055021ADCC543D28"
+			rewards: [{
+				id: "5FA21C00F6D1C839"
+				item: {
+					Count: 1
+					id: "projectred_exploration:white_backpack"
+					tag: {
+						RepairCost: 0
+						backpack_inventory: {
+							item_count: 5
+							items: [
+								{
+									Count: 1b
+									id: "mekanismtools:stone_paxel"
+									slot: 0
+									tag: {
+										Damage: 0
+									}
 								}
-							}
-							{
-								Count: 64b
-								id: "minecraft:oak_log"
-								slot: 1
-							}
-							{
-								Count: 64b
-								id: "minecraft:cobblestone"
-								slot: 2
-							}
-							{
-								Count: 64b
-								id: "minecraft:torch"
-								slot: 3
-							}
-							{
-								Count: 64b
-								id: "minecraft:apple"
-								slot: 4
-							}
-						]
-					}
-					display: {
-						Name: "{\"text\":\"Anti-Treepunching Bag\"}"
+								{
+									Count: 64b
+									id: "minecraft:oak_log"
+									slot: 1
+								}
+								{
+									Count: 64b
+									id: "minecraft:cobblestone"
+									slot: 2
+								}
+								{
+									Count: 64b
+									id: "minecraft:torch"
+									slot: 3
+								}
+								{
+									Count: 64b
+									id: "minecraft:apple"
+									slot: 4
+								}
+							]
+						}
+						display: {
+							Name: "{\"text\":\"Anti-Treepunching Bag\"}"
+						}
 					}
 				}
-			}
-			type: "item"
-		}]
-		tasks: [{
-			id: "7B00EC7CE811D1A1"
-			title: "Getting Started"
-			type: "checkmark"
-		}]
-		title: "Introduction"
-		x: -1.5d
-		y: -4.5d
-	}]
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B00EC7CE811D1A1"
+				title: "Getting Started"
+				type: "checkmark"
+			}]
+			title: "Introduction"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"You'll need a number of materials to complete your quest... time to start mining."
+				""
+				"This is by no means an exhaustive list of the materials you'll need... just the basics."
+			]
+			icon: "minecraft:raw_iron"
+			id: "502E2EB98F1091C9"
+			tasks: [
+				{
+					id: "10DA7464E2368DDF"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					icon: "thermal:raw_tin"
+					id: "2E49419BD862E0E3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_materials/tin"
+						}
+					}
+					title: "Raw Tin"
+					type: "item"
+				}
+				{
+					id: "01CE26DDD28D42D0"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					icon: "thermal:raw_silver"
+					id: "2EFE0D7A1B938493"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_materials/silver"
+						}
+					}
+					title: "Raw Silver"
+					type: "item"
+				}
+				{
+					id: "7BF2560C19FBF19D"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					icon: "thermal:raw_lead"
+					id: "357F31F6B10CD54D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:raw_materials/lead"
+						}
+					}
+					title: "Raw Lead"
+					type: "item"
+				}
+				{
+					id: "3773FC38F0D4ABC7"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "323DADC25332327D"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "2620C17ED58F2CCF"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+	]
 	subtitle: ["The Overworld"]
 	title: "Darkness Descends"
 }
