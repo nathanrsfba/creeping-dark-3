@@ -71,7 +71,7 @@
 				type: "checkmark"
 			}]
 			title: "Introduction"
-			x: -1.5d
+			x: 0.0d
 			y: -4.5d
 		}
 		{
@@ -82,6 +82,11 @@
 			]
 			icon: "minecraft:raw_iron"
 			id: "502E2EB98F1091C9"
+			rewards: [{
+				id: "03EF6F81A1506736"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "10DA7464E2368DDF"
@@ -153,8 +158,443 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
+			title: "Diggy Diggy Hole"
+			x: 0.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["502E2EB98F1091C9"]
+			dependency_requirement: "one_started"
+			description: [
+				"You'll need a way to turn metals (and other materials) into dust. Not only are they required for crafting, but they can also double your ore output."
+				""
+				"Some early game options are the Immersive Engineering crusher, or the Integrated Dynamics squeezer."
+				""
+				"As you unlock other technologies, you'll find other, and sometimes better methods..."
+			]
+			icon: "thermal:iron_dust"
+			id: "69BC921B8646F6D2"
+			progression_mode: "flexible"
+			tasks: [
+				{
+					icon: "thermal:iron_dust"
+					id: "11D25555EF11ABF3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/iron"
+						}
+					}
+					title: "Iron Dust"
+					type: "item"
+				}
+				{
+					icon: "thermal:copper_dust"
+					id: "7149DB077F405D0A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/copper"
+						}
+					}
+					title: "Copper Dust"
+					type: "item"
+				}
+				{
+					icon: "thermal:tin_dust"
+					id: "43E74A43BCC4DE84"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/tin"
+						}
+					}
+					title: "Tin Dust"
+					type: "item"
+				}
+				{
+					icon: "thermal:silver_dust"
+					id: "48E215C3C6A1093A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/silver"
+						}
+					}
+					title: "Silver Dust"
+					type: "item"
+				}
+				{
+					icon: "thermal:gold_dust"
+					id: "257FCE62F44E9EBD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/gold"
+						}
+					}
+					title: "Gold Dust Woman"
+					type: "item"
+				}
+				{
+					icon: "thermal:lead_dust"
+					id: "28FA5FD5E3399033"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/lead"
+						}
+					}
+					title: "Lead Dust"
+					type: "item"
+				}
+			]
+			title: "Don't Breathe This"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Mine it deep underground in mountanous biomes, or sell some crap to a villager"]
+			id: "11FD5B62F37A69CB"
+			rewards: [{
+				id: "2A9202D81613E62E"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			subtitle: "...get away"
+			tasks: [{
+				id: "2B0471900C579541"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Money!"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["502E2EB98F1091C9"]
+			dependency_requirement: "one_started"
+			description: [
+				"You'll need to smelt those metal ores into ingots to make use of them. You could just dump them in a furnace... but eventually you'll want something that will increase your ore output."
+				""
+				"One option is the various crushing machines (see the Don't Breathe This! quest). Another is the Tinker's Construct smeltery. (See the book Materials and You)"
+				""
+				"Create has its own system for multiplying ore yield as well, that works slightly differently than the usual crushing machines"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "5E527BA2C154DB72"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "2E2C9C1503430CC4"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77B13C90EC347382"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					icon: "thermal:lead_ingot"
+					id: "7B584A8ADBDBC4FC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/lead"
+						}
+					}
+					title: "Lead Ingot"
+					type: "item"
+				}
+				{
+					icon: "minecraft:copper_ingot"
+					id: "6339417EA3E00E3D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					title: "Copper Ingot"
+					type: "item"
+				}
+				{
+					icon: "thermal:tin_ingot"
+					id: "7E5A449E2FD1B445"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/tin"
+						}
+					}
+					title: "Tin Ingot"
+					type: "item"
+				}
+				{
+					icon: "thermal:silver_ingot"
+					id: "1FDB00709C263560"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
+					title: "Silver Ingot"
+					type: "item"
+				}
+				{
+					id: "78B9B8C778DB8EFD"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Terry Tibbs"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E527BA2C154DB72"]
+			dependency_requirement: "one_started"
+			description: ["Besides steel, there are many other alloys you'll need, which are made from a combination of metals (and sometimes other materials). Here are just a few."]
+			icon: "thermal:bronze_ingot"
+			id: "079B29A9A74393D9"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "63B1B63D33287BD2"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			subtitle: "...is my enemoy's enemoy, no more, no less."
+			tasks: [
+				{
+					icon: "thermal:bronze_ingot"
+					id: "4B012FFB5797B8EA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/bronze"
+						}
+					}
+					title: "Bronze Ingot"
+					type: "item"
+				}
+				{
+					id: "33C1C6E226EA3CB6"
+					item: "thermal:invar_ingot"
+					type: "item"
+				}
+				{
+					icon: "thermal:electrum_ingot"
+					id: "30CB1C5FB0015D32"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/electrum"
+						}
+					}
+					title: "Electrum Ingot"
+					type: "item"
+				}
+			]
+			title: "The Enemoy of my Enemoy..."
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E527BA2C154DB72"]
+			dependency_requirement: "one_started"
+			description: [
+				"Steel is one of the most commonly used alloys, and you'll need to make some sooner rather than later."
+				""
+				"The earliest method to make steel is the Immersive Engineering blast furnace. Later on you can use the Induction Smelter or Energetic Infuser"
+			]
+			icon: "mekanism:ingot_steel"
+			id: "4874E61F350DDBE8"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "41BDF7044E2D79A7"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "mekanism:ingot_steel"
+				id: "07F4CBC998CE4137"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Steel Ingot"
+				type: "item"
+			}]
+			title: "Steel This Book"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E527BA2C154DB72"]
+			dependency_requirement: "one_started"
+			description: ["Radioactive elements useful for nuclear engineering"]
+			icon: "immersiveengineering:ingot_uranium"
+			id: "26B39841A0EDC236"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "23764F5EC2098CEF"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			subtitle: "Discovered by Madame Curie"
+			tasks: [
+				{
+					icon: "immersiveengineering:ingot_uranium"
+					id: "0ACF72A748B02D55"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/uranium"
+						}
+					}
+					title: "Uranium Ingot"
+					type: "item"
+				}
+				{
+					icon: "nuclearcraft:thorium_ingot"
+					id: "2CD31C26BDCE7C76"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/thorium"
+						}
+					}
+					title: "Thorium ingot"
+					type: "item"
+				}
+			]
+			title: "Radio-Activity"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Kill animals for organic resources"]
+			icon: "minecraft:leather"
+			id: "1F09E722460DC4B9"
+			rewards: [{
+				id: "654DC38420E4615C"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:cow"
+					icon: "minecraft:leather"
+					id: "715A41888F6513C7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:pig"
+					icon: "minecraft:porkchop"
+					id: "6A2EFD825AD87C54"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:chicken"
+					icon: "minecraft:feather"
+					id: "0E216EEF37F78D9D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:sheep"
+					icon: "minecraft:white_wool"
+					id: "0878906F5E7651DD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Murder!"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Kill monsters for organic resources"]
+			icon: "minecraft:creeper_head"
+			id: "454CA66DDBE09581"
+			rewards: [{
+				id: "37363C2F98BF8576"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:rotten_flesh"
+					id: "7F3F92450F9197B4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:bone"
+					id: "7B31A456DB0BF9D2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:gunpowder"
+					id: "4C0C196DB9CA08C3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "778408B7DA1F7D23"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Hunt!"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Kill an enderman for its pearls"]
+			id: "24354EBA95E6EF73"
+			rewards: [{
+				id: "51948BCE8DA5F0D0"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "tconstruct:enderman_head"
+				id: "52346956FBB6D3A2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "End!"
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["The Overworld"]
