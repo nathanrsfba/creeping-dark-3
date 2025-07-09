@@ -18,8 +18,8 @@
 				title: "Hell Awaits"
 				type: "dimension"
 			}]
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CF5E025B4C6FA0A"]
@@ -31,8 +31,157 @@
 				type: "item"
 			}]
 			title: "Cinnamon Roll"
-			x: -2.0d
-			y: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02B25897A10B850C"]
+			description: [
+				"Plonk down 4 soul sand in a T shape, then plonk 3 wither skeleton skulls on top."
+				""
+				"Then stand back."
+				""
+				"And arm yourself to the teeth first."
+			]
+			id: "31D2E82F3E5DEB5F"
+			rewards: [{
+				id: "012D3E95D9C348DB"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31D607CB9679AEF3"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Wither Without You"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CF5E025B4C6FA0A"]
+			description: ["To summon the Wither, you'll need some soul sand and Wither skeleton skulls. You can usually find the latter in nether fortresses; a weapon with a few levels of severing might be helpful."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "02B25897A10B850C"
+			rewards: [{
+				id: "395D21CB4B11AB02"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "044FF6DFA7D8E629"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "18A6FA97A10306EA"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			title: "Wither Bait"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CF5E025B4C6FA0A"]
+			description: ["Kill some ghasts for their tears"]
+			id: "5CA4D09DB5945946"
+			rewards: [{
+				id: "2247E9FBCDAE8CF3"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_tear"
+				id: "24C8B752305ECE12"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Shed A Tear"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CF5E025B4C6FA0A"]
+			description: ["Kill some blazes for their rods"]
+			id: "039912F62EE6BF3E"
+			rewards: [
+				{
+					id: "741A3C65591186D0"
+					item: "kubejs:coin_bronze"
+					type: "item"
+				}
+				{
+					id: "723A8B0A69EB16A6"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "79BFDA916AA1A307"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Blaze A Trail"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31D2E82F3E5DEB5F"]
+			description: [
+				"Beacons can be useful things. Place them on a pyramid of valuable blocks, with a view of the sky, and it can give buffs to all nearby players."
+				""
+				"Even more importantly, it can help combat the plague, if only a little bit. Placing it directly under a block of dragonskin will blast a small patch of it away temporarily. The beacon doesn't even need to be activated for this to work. This only happens when a beacon is placed; it won't prevent growth from occurring while the beacon is placed."
+				""
+				"You'll also need it later on for the Ritual of Gaia."
+				""
+				"If you craft an Uncrafting Table from the Twilight Forest, you can reclaim the nether star within, at the cost of a bit of XP."
+			]
+			id: "03EB4D7156527170"
+			rewards: [{
+				id: "0F851051969CD62C"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2316B777138E6BB0"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Bacon"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Reasonably abundant resources found in the Nether"]
+			icon: "minecraft:quartz"
+			id: "44071016E3A34737"
+			rewards: [{
+				id: "4F71E3F7A2A88693"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C736493850D13A8"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "59D7192562244CFC"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			title: "Nether Minerals"
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["The Nether"]

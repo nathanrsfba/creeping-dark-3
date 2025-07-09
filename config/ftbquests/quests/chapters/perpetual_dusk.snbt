@@ -7,19 +7,155 @@
 	id: "20D3004966C12B8C"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["666EEE5D946A7BBE"]
-		id: "4F60E0174BE09833"
-		tasks: [{
-			dimension: "twilightforest:twilight_forest"
+	quests: [
+		{
+			dependencies: ["666EEE5D946A7BBE"]
+			description: ["Create a 2x2 pool of water, surround it with plants (flowers, grass, saplings, whatever), and throw in the netherite"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			id: "348222D02697F23F"
-			title: "Into The Forest"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+			id: "10D720ABFDEBCFD0"
+			rewards: [{
+				id: "6980B50D63013C59"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilightforest"
+				id: "3A8D2A477583D50D"
+				type: "dimension"
+			}]
+			title: "Into the Forest"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10D720ABFDEBCFD0"]
+			description: [
+				"You'll need Certus Quarts to unlock Thermal Expansion, RFTools, and Applied Energistics."
+				""
+				"Meteorites land in the Twilight Forest, containing bits of certus and a Mysterious Cube. You can also find it in ore form."
+			]
+			id: "525980C7534BF5CF"
+			rewards: [{
+				id: "45BD2B30ED7F19B3"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "567994564A12BEFD"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "Certus"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10D720ABFDEBCFD0"]
+			description: ["Once in the Twilight Forest, look for the Naga in its stone arena, and kill it. Taking the Naga Scales will allow you to reach the Twilight Lich"]
+			id: "377CC1D08CC9BB7F"
+			rewards: [{
+				id: "5EA9C0109A5A4471"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "79B2732870425D89"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Why did it have to be snakes?"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["377CC1D08CC9BB7F"]
+			description: ["Find the Twilight Lich atop his tower. Bat his projectiles back at him until his shields are gone, then finish him off. Picking up his sceptre will allow access to the swamp maze."]
+			id: "192034BC8E8ED283"
+			rewards: [{
+				id: "1F6E7DEA9E085045"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "46214CB0DB1FD2AD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Xykon"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["192034BC8E8ED283"]
+			description: ["Find the Labyrinth within the Twilight Swamp. Traverse the maze and find the Minoshroom, and kill him. Eat one of the Meef Stroganoff to gain access to the Hydra."]
+			id: "6F7A8C44C396EC20"
+			rewards: [{
+				id: "3AC547D00A1F935C"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "30F89C674AC159E4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Moo."
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F7A8C44C396EC20"]
+			description: ["You will need to obtain some of the Fiery Blood of the Hydra. Find him in his lair in the Fire Swamp. Kill him."]
+			icon: "twilightforest:hydra_trophy"
+			id: "1DB4F0166A54BBD0"
+			rewards: [{
+				id: "37147E38506525F3"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42A98C9BE616FFD5"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			title: "Labors of Hercules"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"A guidebook for the Twilight Forest."
+				""
+				"As the name shows, it may not be entirely complete."
+			]
+			id: "05C8534D0BCBA894"
+			rewards: [{
+				id: "4A02C64F51BF9344"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E58392130ADA962"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "twilightforest:guide"
+					}
+				}
+				type: "item"
+			}]
+			title: "RTFM (Twilit Edition)"
+			x: -3.5d
+			y: -0.5d
+		}
+	]
 	subtitle: ["The Twilight Forest"]
 	title: "Perpetual Dusk"
 }

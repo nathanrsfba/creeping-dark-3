@@ -21,6 +21,7 @@
 			item: "minecraft:clay"
 			type: "item"
 		}]
+		shape: "square"
 		tasks: [{
 			consume_items: true
 			count: 2L

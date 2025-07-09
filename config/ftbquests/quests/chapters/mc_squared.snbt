@@ -7,18 +7,332 @@
 	id: "27A29B0E284948AA"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["4F60E0174BE09833"]
-		description: ["Certus Quartz can be found as ores in the Twilight Forest. It can also be found in meteorites alongside the presses"]
-		id: "6B7537D71F56509C"
-		tasks: [{
-			id: "753EB2387124159D"
-			item: "ae2:certus_quartz_crystal"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"78AFE95C7107BE1A"
+				"709F51B2A81E98AC"
+			]
+			description: [
+				"Drop a 64k storage unit into this, and start piping garbage into it, and eventually it'll collapse onto itself."
+				""
+				"Make sure to set the mode to Singularity."
+				""
+				"Time to get some serious cobblegen going! Or, perhaps make an RFTools builder and quarry a bunch of garbage."
+			]
+			id: "00B31105EE8EDA9C"
+			rewards: [{
+				id: "6B48EA23D1B58FA6"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A9239D09AD91C4C"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["525980C7534BF5CF"]
+			description: [
+				"Once you've found some Certus, you'll want to make some Fluix. It's an essential part of most AE2 machines."
+				""
+				"To do this, simply put some certus, nether quartz, and redstone into an induction smelter."
+				""
+				"Charged certus does not generate in the world anymore, but isn't necessary to make Fluix with this method. However, once you have fluix, you can make a charger to make charged certus, which you'll need if you want to make a meteorite compass."
+			]
+			id: "661C3ADD8CD53DC8"
+			rewards: [{
+				id: "4048E968F311FC41"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03FE211E65906383"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "Crystal Smoothie"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["661C3ADD8CD53DC8"]
+			description: [
+				"The good news: You don't have go hunting all over the countryside for meteorites anymore. You just need to find one. They contain a Mysterious Cube that has all the presses. They're found in the Twilight Forest."
+				""
+				"If you're having trouble finding even a single meteor, build a meteorite compass."
+			]
+			icon: "ae2:silicon_press"
+			id: "04BB88CCFD22FD5D"
+			rewards: [{
+				id: "356C1D0ADAA765C9"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0DF9F4680BE243D4"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "616FB02A429788DF"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "5FB93D8C2BAE7913"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "29560D176EB477D7"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+			]
+			title: "The Sky Is Falling"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["661C3ADD8CD53DC8"]
+			description: ["You'll need these to make ME circuits. Unlike most AE2 machines, these run on regular RF power, instead of being plugged into an ME network"]
+			id: "12AA3121C032D235"
+			rewards: [{
+				id: "709E0985BD01AEEA"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CAB3E24B0DF9F9D"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "Scribe"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"04BB88CCFD22FD5D"
+				"12AA3121C032D235"
+				"6AA250BB33C01A93"
+			]
+			dependency_requirement: "all_started"
+			description: ["You'll need lots of these for various ME devices."]
+			icon: "ae2:calculation_processor"
+			id: "22DFE135B335DC62"
+			rewards: [{
+				id: "429E58E23F9904E2"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FF86054B101EA63"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "69E38C2A10C18F8E"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "6E542C85764FD1F8"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+			]
+			title: "80386"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"22DFE135B335DC62"
+				"661C3ADD8CD53DC8"
+			]
+			description: ["You'll need an ME controller in order to connect more than 8 devices in an ME network."]
+			id: "3E99180740DE61A5"
+			rewards: [{
+				id: "319577D030900384"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DF42C1EB0F6289C"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "Cyber Controller"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			description: ["You'll need silicon to make energistics circuitry. You get it by smelting certus quartz dust, or a couple other methods if you'd care to dig into JEI."]
+			id: "6AA250BB33C01A93"
+			rewards: [{
+				id: "429331732D03948E"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ae2:silicon"
+				id: "4E253ED2F7C0D46A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:silicon"
+					}
+				}
+				title: "Silicon"
+				type: "item"
+			}]
+			title: "Implant Ore"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["661C3ADD8CD53DC8"]
+			description: ["With this, you can compress scrap matter into some useful things."]
+			id: "709F51B2A81E98AC"
+			rewards: [{
+				id: "104ED553BE5950CD"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3703D43B178240E0"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "Black Hole in a Box"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["752E2B6F7C3D1ACF"]
+			description: ["Store a lot of stuff in an ME system"]
+			id: "78AFE95C7107BE1A"
+			rewards: [{
+				id: "2174A5468D8938E9"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18BAA59680611DE6"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			title: "Kilobytes"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22DFE135B335DC62"]
+			description: ["Store stuff in an ME system"]
+			id: "752E2B6F7C3D1ACF"
+			rewards: [{
+				id: "372674EF1FEDE67A"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "638069266C551BBA"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			title: "Kilobyte"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["661C3ADD8CD53DC8"]
+			description: ["Used for building spatial IO chambers, they can also make a portal to the Void City."]
+			id: "2A7B5CEB81F0A061"
+			rewards: [{
+				id: "20FAF86C1159C143"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "12CF6B7A04560625"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2A7B5CEB81F0A061"
+				"00B31105EE8EDA9C"
+				"071E3DFD430D7227"
+			]
+			description: [
+				"Use some spatial pylons, build a portal in the shape of a Nether portal, and light it with the void rod."
+				""
+				"Inside, you'll find the Void City: An End City floating in the middle of nothing. Take the dragon's head from the airship and bring it back. Just don't drop it in the void."
+				""
+				"You'll also find some other End loot scattered around the city."
+				""
+				"Note that the city spawns at coordinates (0, 0), so build your portal in the overworld near that spot, or you'll have a real fun time getting to the city."
+				""
+				"If you screw up (or want to generate more loot) you can respawn the void city by placing another singularity into the ender chest. But those are time-consuming to make, so best not screw up."
+			]
+			id: "035A8B38776B54EE"
+			rewards: [{
+				id: "483B763B0A0496EA"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4822175E38F1A5E0"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Craft an ender chest. Not the vanilla one, the Ender Storage one, with three bits of wool on the top."
+				""
+				"Color the top three key slots by right-clicking on them with the appropriate colored dye. Set it to the following colors, from left to right: Red, orange, yellow."
+				""
+				"Drop the singularity in, and after a moment, you'll receive a Void Rod: The key to the Void City portal."
+			]
+			icon: "enderstorage:ender_chest"
+			id: "071E3DFD430D7227"
+			rewards: [{
+				id: "47967FD1347EC674"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4DCE060572AB2F6E"
+					item: "kubejs:void_rod"
+					type: "item"
+				}
+				{
+					id: "200D284E06D48EB7"
+					item: "enderstorage:ender_chest"
+					type: "item"
+				}
+			]
+			title: "Hammerspace"
+			x: -4.0d
+			y: 1.0d
+		}
+	]
 	subtitle: ["Applied Energistics"]
 	title: "MC Squared"
 }
