@@ -1,0 +1,37 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "the_shop"
+	group: ""
+	id: "59937398C567A592"
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		disable_toast: true
+		icon: "minecraft:clay"
+		id: "767286A2B4F70496"
+		optional: true
+		rewards: [{
+			auto: "no_toast"
+			id: "7C7E48C2FD8BFEF7"
+			item: "minecraft:clay"
+			type: "item"
+		}]
+		tasks: [{
+			consume_items: true
+			count: 2L
+			id: "26748DD4F47A8B90"
+			item: { Count: 2, id: "kubejs:coin_copper" }
+			optional_task: true
+			type: "item"
+		}]
+		title: "Clay"
+		x: -1.5d
+		y: -2.5d
+	}]
+	title: "The Shop"
+}
