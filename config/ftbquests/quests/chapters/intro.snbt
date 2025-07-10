@@ -366,7 +366,11 @@
 		{
 			dependencies: ["5E527BA2C154DB72"]
 			dependency_requirement: "one_started"
-			description: ["Besides steel, there are many other alloys you'll need, which are made from a combination of metals (and sometimes other materials). Here are just a few."]
+			description: [
+				"Besides steel, there are many other alloys you'll need, which are made from a combination of metals (and sometimes other materials). Here are just a few."
+				""
+				"There's multiple machines that will make alloys. The Alloy Kiln is an early one, as is the smeltery. You'll unlock other machines later that can make various alloys."
+			]
 			icon: "thermal:bronze_ingot"
 			id: "079B29A9A74393D9"
 			progression_mode: "flexible"
