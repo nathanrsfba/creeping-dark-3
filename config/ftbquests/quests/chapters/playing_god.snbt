@@ -7,7 +7,219 @@
 	id: "4BCE02D5721C9D12"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["525980C7534BF5CF"]
+			description: ["The base of most RFTools machines"]
+			id: "335F491FB4CC579C"
+			rewards: [{
+				id: "314CCF1F2C332442"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7496AC6FA98AF8E4"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			title: "Framed!"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["335F491FB4CC579C"]
+			description: [
+				"With this technology, you will have the power to create your own universes."
+				""
+				"Make an empty tab, put it in the encriber, give it a name, and hit Store. You'll get back a dimension tab for a brand new dimension."
+				""
+				"You can also create some dimlets to control how your new world generates. Craft the 'Technology Guide' and read up on dimensions for details."
+				""
+				"If you just want to create a random world, just leave it blank. Or, throw in some digit dimlets to create new random worlds."
+			]
+			icon: "rftoolsdim:enscriber"
+			id: "4BFA2FC3D193C993"
+			rewards: [{
+				id: "001254AC8940C39D"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			subtitle: "MystCraft? Never heard of it."
+			tasks: [
+				{
+					id: "1F2484D049E6322D"
+					item: "rftoolsdim:enscriber"
+					type: "item"
+				}
+				{
+					id: "2BB4731664A34477"
+					item: "rftoolsdim:empty_dimension_tab"
+					type: "item"
+				}
+			]
+			title: "Enscribbler"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["335F491FB4CC579C"]
+			description: ["Instantaneously teleport from one place to another."]
+			icon: "rftoolsutility:matter_transmitter"
+			id: "214503FF9A5D2B27"
+			rewards: [{
+				id: "2AB761386DD95265"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D49E5A97E4C323D"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					id: "7A4D17F295CF13F5"
+					item: "rftoolsutility:matter_receiver"
+					type: "item"
+				}
+				{
+					id: "44E0AF4B12771016"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+			]
+			title: "Transmat"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BFA2FC3D193C993"]
+			description: [
+				"Once you've made a dimension tab, drop it into this device (along with a not-insignificant amount of power), and it will build your new world according to its specification."
+				""
+				"Make sure to give it plenty of power before trying to explore it. If it runs out of power while you're inside, you'll die quite quickly."
+			]
+			id: "77FC6B4F862C94F4"
+			rewards: [{
+				id: "7A8FD232A35DDA33"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F60C721DA07EBE3"
+				item: "rftoolsdim:dimension_builder"
+				type: "item"
+			}]
+			title: "Genesis"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77FC6B4F862C94F4"]
+			description: [
+				"Before you go off gallivanting around new universes, you need to make sure you have a way to return home, possibly in a hurry!"
+				""
+				"You have several options, some of which you've already crafted just to get to this point."
+				""
+				"Place a matter receiver in your base, plug it into power. Make an extra matter transmitter, dial it to the receiver in your base, charge it up good, and take it with you. Place it down in the new world and use it to return home."
+				""
+				"Better yet, make a Charged Porter. Shift-right-click on your base receiver to link the two together. Keep it charged up (A simple dimensional cell will do the job) and on you at all times, and use it to return home from anywhere."
+				""
+				"Or, if you have another method already prepared (waystone, Mekanism teleporter, etc) feel free to use that."
+			]
+			id: "454B2D6562D94CDA"
+			tasks: [{
+				id: "475DE29F098A077B"
+				type: "checkmark"
+			}]
+			title: "...and back again"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["454B2D6562D94CDA"]
+			description: [
+				"Now that you've created your new world, it's time to go explore it."
+				""
+				"Create a matter transmitter, use the dialing device to link it to the receiver in your new world, and jump in!"
+				""
+				"As you explore this strange new world, you'll encounter blobs that drop dimensional essense on death. Collect a few bits of it."
+			]
+			id: "7F817E6B13869EA7"
+			rewards: [{
+				id: "2C17B257BCFDEB1F"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F46BDC1D99300D4"
+				item: "rftoolsdim:common_essence"
+				type: "item"
+			}]
+			title: "Blob Ore"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			description: ["A guidebook for RFTools and friends (including XNet)"]
+			id: "7A41E4036642FC7B"
+			rewards: [{
+				id: "276228FA1ADA2064"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "711D14573A6D419A"
+				item: "rftoolsbase:manual"
+				type: "item"
+			}]
+			title: "RTFM (Technological Edition)"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F817E6B13869EA7"]
+			description: ["Make this stick using some of that dimensional essense. Then build a portal out of mossy stone, and use the stick to light it."]
+			id: "6ADF2A24616A432E"
+			rewards: [{
+				id: "47544FDD667DBCCB"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F0BD901EF884AB4"
+				item: {
+					Count: 1
+					id: "solara_dimension:solarademension"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Leafy Wand"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6ADF2A24616A432E"]
+			description: ["The Solara dimension is a peaceful dimension where hostile mods don't normally spawn."]
+			id: "4FFA29EE35DD01AC"
+			rewards: [{
+				id: "6EC773ED2291B7C2"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "solara_dimension:solarademension"
+				id: "7B6607B96EFFBE1D"
+				title: "Peaceful World"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+	]
 	subtitle: ["RFTools and Solara"]
 	title: "Playing God"
 }

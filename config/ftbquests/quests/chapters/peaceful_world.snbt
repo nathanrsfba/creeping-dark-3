@@ -7,7 +7,241 @@
 	id: "027644EE8DC3AE33"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"525980C7534BF5CF"
+				"70E2E09838BAE0B1"
+				"1DCF08EFE290D368"
+				"07E100BC3E0A1818"
+			]
+			description: ["This machine will make crystals from dusts and liquids."]
+			id: "6C2CF1454D976697"
+			rewards: [{
+				id: "54AB6A00FF6267FA"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1577ACCF618B9A60"
+				item: "thermal:machine_crystallizer"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Crystal Lizzie"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: ["Mix quartz, obsidian and glass to make this explosion-resistant glass"]
+			id: "07E100BC3E0A1818"
+			rewards: [{
+				id: "53C21EA329F666BC"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "thermal:obsidian_glass"
+				id: "2B0F4BB3D6F0365D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "thermal:glass/hardened"
+					}
+				}
+				title: "Hardened Glass"
+				type: "item"
+			}]
+			title: "Rock Hard Glass"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			description: ["Mix copper, silver and redstone to get this alloy used for security applications, among others"]
+			id: "34378179B5074E6D"
+			rewards: [{
+				id: "1F436AB9E380DA1D"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66CB95F5974AB4A8"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34378179B5074E6D"]
+			description: ["Make this out of signalum using a multiservo press, or a smeltery"]
+			id: "1DCF08EFE290D368"
+			rewards: [{
+				id: "147AD67B7295D0AA"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A8247F12BABD941"
+				item: "thermal:signalum_plate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			description: ["Mix copper and nickel to make this alloy used for power generation, among other applications"]
+			id: "70E2E09838BAE0B1"
+			rewards: [{
+				id: "03EF32AE6C5C50CF"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "thermal:constantan_ingot"
+				id: "04D79C6A5699B953"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/constantan"
+					}
+				}
+				title: "Constantan Ingot"
+				type: "item"
+			}]
+			title: "Constan(sin/cos)"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"09FDACDD5A5FB5AA"
+				"6C2CF1454D976697"
+			]
+			description: [
+				"Mix the appropriate mineral with the appropriate fluid in the crystallizer to make these crystals."
+				""
+				"You need at least 40 of each."
+			]
+			icon: "gaiadimension:crystallized_redstone"
+			id: "771CF03292A41126"
+			rewards: [{
+				id: "0647B22CEFEB0624"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "13C33EF4B8F9EEBE"
+					item: "gaiadimension:crystallized_redstone"
+					type: "item"
+				}
+				{
+					id: "4F31B761C75E5749"
+					item: "gaiadimension:crystallized_lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "Funny-looking crystals"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["525980C7534BF5CF"]
+			description: ["Use this to melt down various things"]
+			id: "09FDACDD5A5FB5AA"
+			rewards: [{
+				id: "07A97CC5C6A21CF6"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D2F126F82A8F2A6"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			title: "Liquid Rock"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["771CF03292A41126"]
+			description: ["Make a nether-portal shaped portal with these blocks, and light them with a Glint and Gold"]
+			icon: "gaiadimension:keystone_block"
+			id: "702AEFF68D37564A"
+			rewards: [{
+				id: "772767714C4FBD6A"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "467BF190FA5BFD50"
+					item: { Count: 10, id: "gaiadimension:keystone_block" }
+					type: "item"
+				}
+				{
+					id: "6A1C04C93F81D0DA"
+					item: {
+						Count: 1
+						id: "gaiadimension:glint_and_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gaian Portal"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["702AEFF68D37564A"]
+			id: "0D72C8BBC4EB7D3A"
+			tasks: [{
+				dimension: "gaiadimension:gaia_dimension"
+				id: "7FB47FD596393B50"
+				title: "Crystal World"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D72C8BBC4EB7D3A"]
+			description: [
+				"In the Gaia dimension, you will find the Malachite Guard Tower."
+				""
+				"Find it, climb to the top, kill the guard's drones, then kill him."
+			]
+			id: "7BFAF47457B62B26"
+			rewards: [{
+				id: "17E5702F5A4C22E1"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "gaiadimension:malachite_guard"
+				icon: {
+					Count: 1
+					id: "gaiadimension:malachite_guard_baton"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "770A8D12E2FDFBC4"
+				title: "Mal"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+	]
 	subtitle: ["Thermal Expansion and Gaia"]
 	title: "Crystalline"
 }

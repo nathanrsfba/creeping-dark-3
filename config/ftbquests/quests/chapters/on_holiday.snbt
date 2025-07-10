@@ -7,7 +7,28 @@
 	id: "74DC5FB8708DEBE9"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: [
+			"0D72C8BBC4EB7D3A"
+			"4FFA29EE35DD01AC"
+		]
+		dependency_requirement: "one_completed"
+		description: ["You'll need some of this rock to get into the Tropics. You can find it in volcanic biomes in Gaia, and also in blobs underground in Solara"]
+		id: "644BD4CAA2A8CEF0"
+		rewards: [{
+			id: "045AC2DB84D356D1"
+			item: "kubejs:coin_bronze"
+			type: "item"
+		}]
+		tasks: [{
+			id: "2FB100FFC71AD4BF"
+			item: "gaiadimension:volcanic_rock"
+			type: "item"
+		}]
+		title: "Hot Rock"
+		x: 0.5d
+		y: -1.5d
+	}]
 	subtitle: ["The Tropics"]
 	title: "On Holiday"
 }
