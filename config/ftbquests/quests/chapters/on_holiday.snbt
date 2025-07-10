@@ -7,28 +7,189 @@
 	id: "74DC5FB8708DEBE9"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"0D72C8BBC4EB7D3A"
-			"4FFA29EE35DD01AC"
-		]
-		dependency_requirement: "one_completed"
-		description: ["You'll need some of this rock to get into the Tropics. You can find it in volcanic biomes in Gaia, and also in blobs underground in Solara"]
-		id: "644BD4CAA2A8CEF0"
-		rewards: [{
-			id: "045AC2DB84D356D1"
-			item: "kubejs:coin_bronze"
-			type: "item"
-		}]
-		tasks: [{
-			id: "2FB100FFC71AD4BF"
-			item: "gaiadimension:volcanic_rock"
-			type: "item"
-		}]
-		title: "Hot Rock"
-		x: 0.5d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"0D72C8BBC4EB7D3A"
+				"4FFA29EE35DD01AC"
+			]
+			dependency_requirement: "one_completed"
+			description: ["You'll need some of this rock to get into the Tropics. You can find it in volcanic biomes in Gaia, and also in blobs underground in Solara"]
+			id: "644BD4CAA2A8CEF0"
+			rewards: [{
+				id: "045AC2DB84D356D1"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FB100FFC71AD4BF"
+				item: "gaiadimension:volcanic_rock"
+				type: "item"
+			}]
+			title: "Hot Rock"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["644BD4CAA2A8CEF0"]
+			description: [
+				"Find some coconut and pineapple, cut them into chunks, then place both of them in the drink mixer, and then a bamboo mug."
+				""
+				"(Right click the *base* of the mixer to add items)"
+				""
+				"All of the above materials can usually be found in jungles, and sometimes other warm biomes as well. Look for tropical gardens in jungles as well; they sometimes yield pineapples."
+				""
+				"If you're having trouble find a jungle, you can make a Nature's Compass. Also, you can by coconuts and pineapples by crafting a market block"
+			]
+			icon: "tropicraft:drink_mixer"
+			id: "40CEEC76E90FCEB9"
+			rewards: [{
+				id: "77565BA6899957E9"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D2D04000A082B89"
+					item: "tropicraft:drink_mixer"
+					type: "item"
+				}
+				{
+					id: "2E73E5A10388A3B6"
+					item: "tropicraft:coconut_chunk"
+					type: "item"
+				}
+				{
+					id: "40DD4A364AF038B3"
+					item: "tropicraft:pineapple_cubes"
+					type: "item"
+				}
+				{
+					id: "12FB513EDB68B17A"
+					item: "tropicraft:bamboo_mug"
+					type: "item"
+				}
+				{
+					id: "6401C08F890F46C8"
+					item: "tropicraft:pina_colada"
+					type: "item"
+				}
+			]
+			title: "Shake it, baby"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["03CDBB73D9EF5666"]
+			description: ["You can find these valuable gems underground in the Tropics"]
+			icon: "tropicraft:azurite_gem"
+			id: "6F37A222BF792667"
+			rewards: [{
+				id: "63E6682B843E884E"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1814EE1FEE9ECADE"
+					item: "tropicraft:azurite_gem"
+					type: "item"
+				}
+				{
+					id: "7E5F611B2130048C"
+					item: "tropicraft:eudialyte_gem"
+					type: "item"
+				}
+				{
+					id: "3C87B14FB4E60A67"
+					item: "tropicraft:zircon_gem"
+					type: "item"
+				}
+			]
+			title: "Tropical Wealth"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03CDBB73D9EF5666"]
+			description: [
+				"You can find this volcanic rock in several ways."
+				""
+				"1. Break one of the Moai heads the natives have scattered around the realm. Careful; there's lava inside to deter looters!"
+				"2. Naturally occuring in volcanoes. Unsurprisingly, these are full of lava as well."
+				"3. Kill one of the Moai creatures. They're made of rock, so you'll need the appropriate tool to damage them..."
+			]
+			id: "010B862B28B3AD36"
+			rewards: [{
+				id: "405C104776B96468"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0005D127490AC426"
+				item: "tropicraft:chunk"
+				type: "item"
+			}]
+			title: "Chunky"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03CDBB73D9EF5666"]
+			description: [
+				"In the Tropics, you'll find a giant spherical dungeon split in two."
+				""
+				"Inside, you will find one of the Moai creatures"
+				""
+				"Kill it, and take its eye, and keep it safe."
+				""
+				"If you're not careful, it might turn into another Moai creature."
+				""
+				"(Keeping it secret is optional)"
+			]
+			id: "2C6212FE3010B715"
+			rewards: [{
+				id: "537B75F810C53F68"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BB78CD9B5DC8A8F"
+				item: "tropicraft:eih_spawn_egg"
+				type: "item"
+			}]
+			title: "The Heads Have Eyes"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40CEEC76E90FCEB9"]
+			description: [
+				"The Tropics is ... well, a tropical paradise."
+				""
+				"But it is not without its own dangers..."
+				""
+				"To get there, craft a (Tropicraft) chair, sit down, and drink a Pina Colada during sunset. Make sure to have a way back. Like a warp stone. Or another chair and drink."
+			]
+			hide_until_deps_visible: false
+			icon: "tropicraft:pineapple"
+			id: "03CDBB73D9EF5666"
+			rewards: [{
+				id: "70BC29DD783B96A0"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "tropicraft:tropics"
+				id: "0BAF8A357594093B"
+				title: "Enter The Tropics"
+				type: "dimension"
+			}]
+			title: "Drift Away"
+			x: -0.5d
+			y: -2.0d
+		}
+	]
 	subtitle: ["The Tropics"]
 	title: "On Holiday"
 }
