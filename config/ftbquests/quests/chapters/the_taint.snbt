@@ -7,7 +7,336 @@
 	id: "09316275E5E47D5C"
 	order_index: 8
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["141F407562B4006D"]
+			description: ["The first step to almost all Mekanism machinery"]
+			id: "647F8D4E4F926FE2"
+			rewards: [{
+				id: "14DDD6C64CAE866D"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61DDDD334EA0BC87"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Met Allergic"
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"71F9815549866AF2"
+				"4CBF39162C14A625"
+				"24FA95F7ED9FB981"
+			]
+			description: ["Condense dissolved gas down into items."]
+			id: "2DB877292FA538A0"
+			rewards: [{
+				id: "1C790754591DCB48"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EE5EEB4E5318DC8"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			title: "Ressolution"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["647F8D4E4F926FE2"]
+			description: [
+				"Circuitry used in simple Mekanism machines."
+				""
+				"Drop two redstone and an osmium ingot into the infuser to make one."
+			]
+			id: "2F3CFBEBB6058213"
+			rewards: [{
+				id: "221DF61542880BE6"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A6FF5E32CE9D29C"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			title: "Circuitous"
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["647F8D4E4F926FE2"]
+			description: ["Toss a piece of redstone and iron into the infuser"]
+			id: "669EAE86BD4E64C4"
+			rewards: [{
+				id: "0E29C26ED67C0CC6"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DCDFAFF27081659"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			title: "Enrichment"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2F3CFBEBB6058213"
+				"669EAE86BD4E64C4"
+			]
+			description: ["Circuitry used in not-so-simple Mekanism machines"]
+			icon: "mekanism:ultimate_control_circuit"
+			id: "71F9815549866AF2"
+			rewards: [{
+				id: "529FC50B25A6AEBD"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E0135FF2D0CE3CB"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+				{
+					id: "020FEFC0D856E3FC"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+				{
+					id: "4C530068566E39A3"
+					item: "mekanism:ultimate_control_circuit"
+					type: "item"
+				}
+			]
+			title: "Upgradement"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["669EAE86BD4E64C4"]
+			description: [
+				"Crush two diamonds, and put it into the infuser with an enriched alloy."
+				""
+				"Better yet, make an enrichment chamber, toss a diamond in it, and put the resulting compressed diamond into the infuser with *four* infused alloys."
+			]
+			id: "59EFA2D08300922D"
+			rewards: [{
+				id: "3AAD40B84EF0C08A"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1668F3AF0FD6E168"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			title: "Reinforcement"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"59EFA2D08300922D"
+				"3F4AA97CE68090DD"
+			]
+			description: ["Put four refined obsidian dusts and one reinforced alloy into the infuser. (Or, one compressed obsidian and two alloys)"]
+			id: "4CBF39162C14A625"
+			rewards: [{
+				id: "1753254C79852809"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05F07EB5C02DC11B"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			title: "Atomization"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["647F8D4E4F926FE2"]
+			description: ["Crush some obsidian, and put the dust into the infuser with a crushed diamond. (Or, again, make compressed diamond in the enrichment chamber to make eight times as much)"]
+			id: "3F4AA97CE68090DD"
+			rewards: [{
+				id: "02B35C15FDB14EB0"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A64C56671A5F58F"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
+			title: "Refinement"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"71F9815549866AF2"
+				"669EAE86BD4E64C4"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"Make an osmium compressor, then throw in some refined obsidian and osmium."
+				""
+				"Unfortunately, compressed obsidian will not work with this process."
+			]
+			icon: "mekanism:ingot_refined_obsidian"
+			id: "24FA95F7ED9FB981"
+			rewards: [{
+				id: "21CA9C2ECA353F97"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0057B78B272395C4"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			title: "Rock Hard Ingots"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7F6D7746289B0FA7"]
+			description: ["Make a portal out of Glowing Obsidian, then use some of that crystallized iron to make a lighter."]
+			icon: {
+				Count: 1
+				id: "astral_dimension:astral_dimension"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3FDFD1E749FF9A4E"
+			rewards: [{
+				id: "52C6E3147B7D7C63"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "4F24610463E45ADD"
+					item: { Count: 10, id: "astral_dimension:glowing_obsidian" }
+					type: "item"
+				}
+				{
+					id: "4A342F283C5BD2EA"
+					item: {
+						Count: 1
+						id: "astral_dimension:astral_dimension"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Astral Portal"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71F9815549866AF2"]
+			description: ["Dissolves ores into slurry for further refinement."]
+			id: "02EB1B47ACA74D95"
+			rewards: [{
+				id: "7C2813357E6069D8"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "278EDC53BF195EC5"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			title: "Dissolution"
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71F9815549866AF2"]
+			description: ["Cleans processed slurry for further processing."]
+			id: "773E021C9DFBF286"
+			rewards: [{
+				id: "335E2CBF8B0ED2FC"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12844183C2E26AB2"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			title: "Washment"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2DB877292FA538A0"
+				"02EB1B47ACA74D95"
+				"773E021C9DFBF286"
+			]
+			description: [
+				"You'll use some Mekanism processing machines to make this."
+				""
+				"First: Mix some sulfuric acid with iron ore (either a single block of ore of 3 raw irons) in the chemical dissolution chamber. You can just put in sulfur dust for small-scale refinement (like making the item for this quest) but if you wan't to use this for ore processing you'll need to look into large-scale sulfuric acid production."
+				""
+				"Second: Pipe the slurry into the chemical washer (using a pressurized tube) along with some water to get processed slurry."
+				""
+				"Finally: Pipe out the clean slurry (again, with a pressurized tube) into the crystallizer to get iron crystals."
+			]
+			id: "7F6D7746289B0FA7"
+			rewards: [{
+				id: "6BB59420D7CB196C"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C26112772B0F4C6"
+				item: { Count: 4, id: "mekanism:crystal_iron" }
+				type: "item"
+			}]
+			title: "Fancy Iron"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FDFD1E749FF9A4E"]
+			description: [
+				"The Astral Dimension is a world that has been tainted by the strange magics of the End."
+				""
+				"Traversal by foot is dangerous, so flight is recommended for exploration. A jetpack will do, or an elytra from the void city."
+			]
+			id: "3EB3273881A4FF18"
+			rewards: [{
+				id: "240124831CB672DA"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "astral_dimension:astral_dimension"
+				id: "5E60F65B9DFAC2A1"
+				type: "dimension"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+	]
 	subtitle: ["Mekanism and the Astral Dimension"]
 	title: "The Taint"
 }

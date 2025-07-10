@@ -21,6 +21,7 @@
 			tasks: [{
 				dimension: "twilightforest:twilightforest"
 				id: "3A8D2A477583D50D"
+				title: "Visit The Twilight Forest"
 				type: "dimension"
 			}]
 			title: "Into the Forest"

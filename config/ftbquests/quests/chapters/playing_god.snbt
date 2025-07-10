@@ -213,7 +213,7 @@
 			tasks: [{
 				dimension: "solara_dimension:solarademension"
 				id: "7B6607B96EFFBE1D"
-				title: "Peaceful World"
+				title: "Visit Solara"
 				type: "dimension"
 			}]
 			x: 5.5d

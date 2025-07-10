@@ -13,7 +13,249 @@
 	id: "194D092933176F35"
 	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"010B862B28B3AD36"
+				"6F37A222BF792667"
+				"40FFD1B49A3998F1"
+			]
+			description: [
+				"To create the portal to the Mining Dimension, you'll need to build the Arc Furnace, a massive, multiblock smelting machine. Refer to the appropriate chapter in the Engineer's Manual to learn how."
+				""
+				"Once you've built the furnace, take some Chunk, some tropical gemstones, and quartz, and throw it in the arc furnace."
+				""
+				"Then build a portal out of cobblestone, and light it with the Quartz and Steel."
+			]
+			id: "0FF40DD0A37CB3C5"
+			rewards: [{
+				id: "1798A7C0E43E338C"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F6993BCA175CC2B"
+				item: {
+					Count: 1
+					id: "mining_dimension:mining_dimension"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Going Down"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C032DF843BD3AB8"]
+			description: [
+				"You'll need three of these to run the arc furnace. There's a couple different ways to make them."
+				""
+				"You could buy the blueprint from the appropriate villager, and make it in the engineer's workbench."
+				""
+				"Or, you can make them using the metal press. Just throw four HOP graphite ingots onto it with a rod press, though they have less durability when made with this method"
+				""
+				"You need to add all four at once, so simpler automation methods (like a hopper) might not work."
+			]
+			id: "40FFD1B49A3998F1"
+			rewards: [{
+				id: "31923C05402D6967"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "302083E6D861E4CB"
+				item: {
+					Count: 1
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Electric"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06C6BDFC0153A9CE"]
+			description: ["Take that graphite dust and toss it in a furnace."]
+			id: "2C032DF843BD3AB8"
+			rewards: [{
+				id: "1A0EC839D28A9F98"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "0EFE3F555A230175"
+				item: "immersiveengineering:ingot_hop_graphite"
+				type: "item"
+			}]
+			title: "Graphite Ingots"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["279035402C823388"]
+			description: ["To make graphite dust, you'll need to make an industrial squeezer. Consult the engineer's manual for details."]
+			id: "06C6BDFC0153A9CE"
+			rewards: [{
+				id: "237A4E254E96164D"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "36DBA65AE8036148"
+				item: "immersiveengineering:dust_hop_graphite"
+				type: "item"
+			}]
+			title: "HOP to it"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["509A694EE337900D"]
+			description: [
+				"Next, you'll need to crush that coke into dust."
+				""
+				"For that, you'll need to make a crusher -- See the Engineer's Manual for details"
+			]
+			id: "279035402C823388"
+			rewards: [{
+				id: "4B8CD1075996E6BD"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			subtitle: "Don't breathe this!"
+			tasks: [{
+				count: 96L
+				id: "10F0D86B6C6E422B"
+				item: "immersiveengineering:dust_coke"
+				type: "item"
+			}]
+			title: "Coke Dust"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"In order to make the portal to the Deep Dark, you'll need an Arc Furnace. And in order to run it, you'll need to make graphite electrodes from a source of carbon."
+				""
+				"First, you need to make coal coke. You can either build the IE coke oven (Consult the Engineer's Manual for details), or you could make the pyrolyzer from Thermal Expansion."
+				""
+				"Both methods will also generate Creosote Oil, a substance you'll need for making treated wood"
+			]
+			id: "509A694EE337900D"
+			rewards: [{
+				id: "1E6EA042F7207404"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				count: 96L
+				icon: "immersiveengineering:coal_coke"
+				id: "674E3ADF7C91D0DF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:coal_coke"
+					}
+				}
+				title: "Coal Coke"
+				type: "item"
+			}]
+			title: "Coca Cola"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3EF45E7F56DB7530"]
+			description: ["The basic material of Mekanism machines"]
+			id: "141F407562B4006D"
+			rewards: [{
+				id: "2049F2B0810357B8"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F0BCAF5BDDFD76F"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
+			title: "Wizard of Osmium"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FF40DD0A37CB3C5"]
+			description: ["The mining dimension is a realm, deep underground, with nothing in it but monsters and ores."]
+			icon: "minecraft:bedrock"
+			id: "3EF45E7F56DB7530"
+			rewards: [{
+				id: "3A179D7EEEB67091"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "mining_dimension:mining_dimension"
+				id: "4930A29E83CEFE66"
+				title: "Enter the Mining Dimension"
+				type: "dimension"
+			}]
+			title: "How Deep Is Your Dark?"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EF45E7F56DB7530"]
+			description: [
+				"Hidden away in the mining dimension is a giant spider in a glass dome."
+				""
+				"Find her, kill her, and pluck out her eye."
+				""
+				"She moves fast. You might want to be ready for that."
+			]
+			icon: "minecraft:cobweb"
+			id: "670334F58E28FCF9"
+			rewards: [{
+				id: "3DB6E26BA037A3EF"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD1E4CCD5C70627"
+				item: "kubejs:evil_eye"
+				type: "item"
+			}]
+			title: "Maybe She'll Help"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["A guidebook for Immersive Engineering"]
+			id: "2793FFC88A6B076C"
+			rewards: [{
+				id: "14DBB214438643BB"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "693A0F3764B5655B"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			title: "RTFM (Engineering Edition)"
+			x: -4.5d
+			y: -1.5d
+		}
+	]
 	subtitle: ["Immersive Engineering and the Mining Dimension"]
 	title: "Rock Bottom"
 }
