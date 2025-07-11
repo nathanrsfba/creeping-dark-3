@@ -159,6 +159,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["4CF5E025B4C6FA0A"]
 			description: ["Reasonably abundant resources found in the Nether"]
 			icon: "minecraft:quartz"
 			id: "44071016E3A34737"
@@ -176,6 +177,11 @@
 				{
 					id: "59D7192562244CFC"
 					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "05CA7C782FFD123D"
+					item: "tconstruct:raw_cobalt"
 					type: "item"
 				}
 			]
