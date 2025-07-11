@@ -1,0 +1,17 @@
+{
+    "name": "cddp:underground_lab/start_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "cddp:underground_lab",
+                "processors": {
+                    "processors": []
+                },
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ]
+}
