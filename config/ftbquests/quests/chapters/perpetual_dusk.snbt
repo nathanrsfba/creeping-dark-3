@@ -31,7 +31,7 @@
 		{
 			dependencies: ["10D720ABFDEBCFD0"]
 			description: [
-				"You'll need Certus Quarts to unlock Thermal Expansion, RFTools, and Applied Energistics."
+				"You'll need Certus Quartz to unlock Thermal Expansion, RFTools, and Applied Energistics."
 				""
 				"Meteorites land in the Twilight Forest, containing bits of certus and a Mysterious Cube. You can also find it in ore form."
 			]
