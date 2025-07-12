@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:is_overworld",
+    "#cddp:twilight_ores",
+    "tropicraft:bamboo_rainforest",
+    "tropicraft:beach",
+    "tropicraft:kelp_forest",
+    "tropicraft:mangroves",
+    "tropicraft:ocean",
+    "tropicraft:osa_rainforest",
+    "tropicraft:overgrown_mangroves",
+    "tropicraft:rainforest",
+    "tropicraft:river",
+    "tropicraft:tropical_peaks",
+    "tropicraft:tropics"
+  ]
+}

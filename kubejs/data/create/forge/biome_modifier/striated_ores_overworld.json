@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#cddp:overworld_ores",
+  "features": "create:striated_ores_overworld",
+  "step": "underground_ores"
+}

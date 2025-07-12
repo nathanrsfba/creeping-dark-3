@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#cddp:overworld_ores",
+  "features": "thermal:tin_ore",
+  "step": "underground_ores"
+}

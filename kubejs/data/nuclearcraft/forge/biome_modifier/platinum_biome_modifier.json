@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#cddp:overworld_ores",
+  "features": "nuclearcraft:platinum_placed",
+  "step": "underground_ores"
+}

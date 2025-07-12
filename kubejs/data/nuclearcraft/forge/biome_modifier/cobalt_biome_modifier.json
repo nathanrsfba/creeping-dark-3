@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#cddp:mining_dimension_ores",
+  "features": "nuclearcraft:cobalt_placed",
+  "step": "underground_ores"
+}

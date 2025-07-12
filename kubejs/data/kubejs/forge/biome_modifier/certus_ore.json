@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#twilightforest:in_twilight_forest",
+  "biomes": "#cddp:twilight_ores",
   "features": "kubejs:certus_ore",
   "step": "underground_ores"
 }
