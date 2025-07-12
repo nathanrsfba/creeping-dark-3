@@ -5,9 +5,10 @@
     "crafttweaker",
     "create",
     "thermal",
+    "tconstruct",
+    "nuclearcraft",
     "immersiveengineering",
-    "mekanism",
-    "tconstruct"
+    "mekanism"
   ],
   "stoneStrata": [
     "stone",
@@ -81,7 +82,14 @@
     "uranium",
     "zinc"
   ],
-  "priorityOverrides": {},
+  "priorityOverrides": {
+    "forge:gems/ruby": "projectred_core",
+    "forge:gems/sapphire": "projectred_core",
+    "forge:gems/peridot": "projectred_core",
+    "forge:ores/ruby": "projectred_exploration",
+    "forge:ores/sapphire": "projectred_exploration",
+    "forge:ores/peridot": "projectred_exploration"
+  },
   "customTags": {},
   "tagOwnerships": {},
   "itemTagInheritanceMode": "ALLOW",
