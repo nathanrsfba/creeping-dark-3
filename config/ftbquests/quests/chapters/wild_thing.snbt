@@ -7,7 +7,320 @@
 	id: "51BF370BE292845B"
 	order_index: 12
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"111EF84EB0F800F6"
+				"4E58607183CAB4BC"
+			]
+			description: ["Place the spellbook on the table, select the Summon Steed glyph, then toss 4 leathers onto the table. You'll need a bit of XP to do this."]
+			icon: "ars_nouveau:glyph_summon_steed"
+			id: "339BE3C37C384ADE"
+			rewards: [{
+				id: "5008BC8D46EB3A77"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FFD50A4E1F4167E"
+				item: "ars_nouveau:glyph_summon_steed"
+				type: "item"
+			}]
+			title: "Crunch"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D0A14A86FD46259"]
+			description: ["Makes magical glyphs for creating new spells"]
+			id: "111EF84EB0F800F6"
+			rewards: [{
+				id: "6B3B088C39D92D03"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1AE4A5565E1B625B"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "Magical Scribbles"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A4F1896DA221B07"]
+			description: [
+				"An arcane construct for making magical items."
+				""
+				"Place the apparatus on top of the core, and place the pedestals down nearby"
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "3EB1F46B11C52215"
+			rewards: [{
+				id: "52B2D527F3920C32"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4AB87D512E3B97FC"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "7002D346625CCDC2"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5DBC38C9398D30BF"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			title: "Poor Man's Infusion"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04E991A0CF99EA0F"]
+			description: ["A mystical gemstone with magical properties. You can make them by putting lapis or amethyst into the imbuement chamber."]
+			id: "047028D469D6F80D"
+			rewards: [{
+				id: "56B808D5BA1062C5"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D0D7589E2860D86"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "Use The Source"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["047028D469D6F80D"]
+			description: [
+				"Some magical processes require Source energy to complete. This jar can store it."
+				""
+				"You'll need a way to generate source energy to fill it with. The Volcanic Sourcelink is the simplest one. It generates source by burning solid fuels."
+				""
+				"It can also generate enough heat to melt the stone around it, so be careful..."
+			]
+			icon: "ars_nouveau:source_jar"
+			id: "6C439855A968C105"
+			rewards: [{
+				id: "6D6B623B7A5D2703"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C691115A259EECD"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "7E7719EF5260E001"
+					item: "ars_nouveau:volcanic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Liquid Magic"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3EB1F46B11C52215"]
+			dependency_requirement: "all_started"
+			description: ["A device for performing magical rituals"]
+			id: "6A8C5BB3A32414F1"
+			rewards: [{
+				id: "35CA44060A8309B3"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C6C480870F5DD21"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "Cultists"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6A8C5BB3A32414F1"
+				"68F2C398E5DF3E86"
+			]
+			description: [
+				"Use the tablet to light the brazier, drop the horn, spike, and wing on it, then activate it."
+				""
+				"And be well-prepared for combat."
+			]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "585248C8327CA6B2"
+			rewards: [{
+				id: "593DD38FBDF1C2C7"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66833197D6DBD4F6"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "11213939D0979B03"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "48F45CEDEC5874D4"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					id: "0817D474BC0F2A56"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "Wild Thing"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["A guidebook to Ars Nouveau"]
+			id: "6254A4D2E32F4FE4"
+			rewards: [{
+				id: "67A12CC8274CA141"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2630AA519D3F95AC"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "RTFM (New Edition)"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D0A14A86FD46259"]
+			description: ["Mixes magical essense with items to make magical materials"]
+			id: "04E991A0CF99EA0F"
+			rewards: [{
+				id: "0CEE264816C41465"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "289AE4759773D68B"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"You can find these magical trees scattered around the world. Sometimes you'll even find an entire forest of them!"
+				""
+				"There's several different types, with differing uses."
+			]
+			id: "4D0A14A86FD46259"
+			rewards: [{
+				id: "18A3DCA08345C51E"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "ars_nouveau:blue_archwood_log"
+				id: "4546AF63A2444F22"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs/archwood"
+					}
+				}
+				title: "Archwood"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["047028D469D6F80D"]
+			description: ["Stone infused with magical energies"]
+			id: "7A4F1896DA221B07"
+			rewards: [{
+				id: "3AA2EF1A4436C7FE"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "239F4F9C50CDEFEC"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["You can use this to perform magic spells... and to learn new ones"]
+			id: "4E58607183CAB4BC"
+			rewards: [{
+				id: "3D52F9A2635F5FAC"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D7C0C00FB49AC96"
+				item: "ars_nouveau:novice_spell_book"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3EB1F46B11C52215"
+				"6C439855A968C105"
+				"339BE3C37C384ADE"
+			]
+			description: [
+				"A Summon Steed glyph can be \"corrupted\" into a wilden summoning artifact."
+				""
+				"Enchant it in the Enchanting Apparatus with some Vexing Archwood, a Lapis Block, and either (a) 3 wilden drops, or (b) an Emerald Block, bow, and iron sword."
+				""
+				"You'll need a bit of Source for this."
+			]
+			id: "68F2C398E5DF3E86"
+			rewards: [{
+				id: "0BF2B28F3994DB3F"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F828E8D7BA5EAF4"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+	]
 	subtitle: ["Ars Nouveau"]
 	title: "Wild Thing"
 }
