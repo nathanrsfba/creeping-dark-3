@@ -7,13 +7,13 @@ ServerEvents.recipes( event => {
         Item.of( 'undergarden:catalyst' ),
         [
             'GIG',
-            'IZI',
+            'IEI',
             'GIG'
         ],
         {
             I: 'minecraft:iron_ingot',
             G: 'minecraft:gold_ingot',
-            Z: 'enderio:frank_n_zombie'
+            E: 'enderio:ender_crystal'
         }
     );
 });
