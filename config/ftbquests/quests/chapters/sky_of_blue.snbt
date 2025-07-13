@@ -159,6 +159,7 @@
 						ArcLevel: 0
 					}
 				}
+				match_nbt: false
 				type: "item"
 			}]
 			title: "The Summoning"
@@ -194,6 +195,7 @@
 						ArcLevel: 0
 					}
 				}
+				match_nbt: false
 				type: "item"
 			}]
 			title: "Flamel"
@@ -225,6 +227,7 @@
 						ArcLevel: 0
 					}
 				}
+				match_nbt: false
 				type: "item"
 			}]
 			title: "Arachnophobia"
@@ -262,6 +265,7 @@
 						ArcLevel: 0
 					}
 				}
+				match_nbt: false
 				type: "item"
 			}]
 			title: "Crushed Starlight"
