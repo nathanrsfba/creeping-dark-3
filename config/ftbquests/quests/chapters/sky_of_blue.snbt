@@ -13,7 +13,262 @@
 	id: "56BED8168CE64A3E"
 	order_index: 10
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			x: -5.5d
+			y: 0.0d
+			description: [
+				"Out in the world, you might find a lone house (sometimes with a shack out back). This is the home of the Gatekeeper, who can sell you a Zeal Lighter, with which you can open portals to both the Everdawn and Everbright."
+				""
+				"In the shack out back (or, sometimes, an attic in the house), you'll find a disused portal to one of the two dimensions. Clear out any debris, light it up, and go exploring!"
+				""
+				"If you like, you can mine some of the native stone, bring it back to the overworld, turn it into bricks, and make your own portal."
+				""
+				"(To venture into the other dimension, search the overworld for other gatekeeper houses until you find the appropriate portal)"
+			]
+			id: "4C3479AA75FCBF55"
+			tasks: [{
+				id: "4E89ACC9777ED053"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D5F39473A7B795A"
+				type: "item"
+				item: "kubejs:coin_bronze"
+			}]
+		}
+		{
+			title: "RTFM (Blue Edition)"
+			x: -7.5d
+			y: 0.0d
+			description: [
+				"Take a book to the gatekeeper, and he'll write down his knowledge of the Everbright and Everdawn for you."
+				""
+				"Unlike most manuals, using the book doesn't read it. Instead, it permenantly adds a tab to your inventory screen that you can refer to any time"
+			]
+			id: "40CF999018CB8474"
+			tasks: [{
+				id: "78BCA94836B9900A"
+				type: "item"
+				item: "blue_skies:blue_journal"
+			}]
+			rewards: [{
+				id: "1D0727FB19654C90"
+				type: "item"
+				item: "kubejs:coin_bronze"
+			}]
+		}
+		{
+			title: "Perpetual Noon"
+			icon: "blue_skies:turquoise_stonebrick"
+			x: -4.0d
+			y: 1.5d
+			description: ["The Everbright is a cold dimension where it's perpetually day"]
+			dependencies: ["4C3479AA75FCBF55"]
+			id: "56008290B4D3BB93"
+			tasks: [{
+				id: "2D8C41A73E3A1EA4"
+				type: "dimension"
+				title: "Enter the Everbright"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [{
+				id: "7208CA53CEF7171E"
+				type: "item"
+				item: "kubejs:coin_bronze"
+			}]
+		}
+		{
+			title: "Perpetual Dawn"
+			icon: "blue_skies:lunar_stonebrick"
+			x: -4.0d
+			y: -1.5d
+			description: ["The Everdawn is a warm dimension where it's perpetually dawn"]
+			dependencies: ["4C3479AA75FCBF55"]
+			id: "5674F44364647A22"
+			tasks: [{
+				id: "34B8F41A4538740A"
+				type: "dimension"
+				title: "Enter the Everdawn"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [{
+				id: "2160837520974B6D"
+				type: "item"
+				item: "kubejs:coin_bronze"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"Charoite is similar to Diamond, and spawns at similar depths."
+				""
+				"Overworld tools and armor are less effective in the Everbright and Everdawn, so it might be a good idea to gather up some of this"
+			]
+			dependencies: [
+				"56008290B4D3BB93"
+				"5674F44364647A22"
+			]
+			dependency_requirement: "one_completed"
+			id: "04D438EF5DB94B0B"
+			tasks: [{
+				id: "20A2DD0DC2977AF6"
+				type: "item"
+				item: "blue_skies:charoite"
+			}]
+			rewards: [{
+				id: "5284BF85508C1A8C"
+				type: "item"
+				item: "kubejs:coin_bronze"
+			}]
+		}
+		{
+			title: "The Summoning"
+			icon: {
+				id: "blue_skies:ethereal_arc"
+				Count: 1b
+				tag: {
+					ArcLevel: 0
+				}
+			}
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"In the Everbright, you'll find the lair of the Summoner."
+				""
+				"See the guidebook for details"
+			]
+			dependencies: ["56008290B4D3BB93"]
+			id: "492D60B4C61D5F45"
+			tasks: [{
+				id: "20ACA8D2DE9AADDF"
+				type: "item"
+				item: {
+					id: "blue_skies:ethereal_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63566F714F7AFA64"
+				type: "item"
+				item: "kubejs:coin_gold"
+			}]
+		}
+		{
+			title: "Flamel"
+			icon: {
+				id: "blue_skies:dusk_arc"
+				Count: 1b
+				tag: {
+					ArcLevel: 0
+				}
+			}
+			x: -1.5d
+			y: -1.5d
+			description: [
+				"In the Everdawn, you'll find the lair of the Alchemist."
+				""
+				"See the guidebook for details"
+			]
+			dependencies: ["5674F44364647A22"]
+			id: "5783AFF25E9D825D"
+			tasks: [{
+				id: "471D0925DFEF9DD2"
+				type: "item"
+				item: {
+					id: "blue_skies:dusk_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3DF6D4006F73E78E"
+				type: "item"
+				item: "kubejs:coin_gold"
+			}]
+		}
+		{
+			title: "Arachnophobia"
+			icon: {
+				id: "blue_skies:poison_arc"
+				Count: 1b
+				tag: {
+					ArcLevel: 0
+				}
+			}
+			x: 0.5d
+			y: -1.5d
+			description: ["Once you defeat the Alchemist, look for the Poison dungeon, and the Arachnarch within"]
+			dependencies: ["5783AFF25E9D825D"]
+			id: "376D07AC2F8D14CB"
+			tasks: [{
+				id: "677A58FC1199F889"
+				type: "item"
+				item: {
+					id: "blue_skies:poison_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "686FCDDE244BFE7E"
+				type: "item"
+				item: "kubejs:coin_platinum"
+			}]
+		}
+		{
+			title: "Crushed Starlight"
+			icon: {
+				id: "blue_skies:nature_arc"
+				Count: 1b
+				tag: {
+					ArcLevel: 0
+				}
+			}
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"Once you defeat the summoner, look for the Nature Dungeon, and the Starlit Crusher within"
+				""
+				"Highly recommended (in fact, essentially essential) for this fight will be a Soulbound Spear (which you'll probably have acquired as loot by now) and a diopsite axe."
+				""
+				"To kill him, you'll need to chop down the wall surrounding him with an axe, throw the spear at him to stun him, then wail away at him with the axe while he's stunned. Then, retreat to the corners of the room, heal if you need to, and attack again when your spear is recharged."
+			]
+			dependencies: ["492D60B4C61D5F45"]
+			id: "2BB2919393888FC2"
+			tasks: [{
+				id: "22BA68491D2AF548"
+				type: "item"
+				item: {
+					id: "blue_skies:nature_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "15388B74259D87C9"
+				type: "item"
+				item: "kubejs:coin_platinum"
+			}]
+		}
+ ]
 	subtitle: ["The Everdawn and the Everbright"]
 	title: "Sky of Blue"
 }
