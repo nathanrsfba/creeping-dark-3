@@ -14,7 +14,469 @@
 	id: "1F8D4C2ED5621FCB"
 	order_index: 11
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"Search the world to find some mystical flowers."
+				""
+				"Or brew up some Floral Fertilizer and grow your own."
+			]
+			id: "1C90CBC8B332AFEF"
+			rewards: [{
+				id: "43EB6D6C4A9B0B08"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B3624841A483A3A"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			title: "Flower Child"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1C90CBC8B332AFEF"]
+			description: [
+				"The start of the Botania tech tree is the Petal Apothecary."
+				""
+				"Consult the Lexica to learn more."
+			]
+			id: "723ACEEAE39C669F"
+			rewards: [{
+				id: "5C8B19E8A5E7ED47"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EE3CD2F420E3A10"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "Not a pharmacy"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["723ACEEAE39C669F"]
+			description: ["One of the most basic mana-generating flowers, this generates man by burning solid fuels"]
+			id: "7E075524688AD532"
+			rewards: [{
+				id: "58973990D64A686E"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34D9FEEFE5A82C44"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			title: "Fire!"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["723ACEEAE39C669F"]
+			description: [
+				"A lot of Botania constructs require livingwood and livingrock... for which you'll need a Pure Daisy to create."
+				""
+				"Throw some water into the apothecary, throw in four white petals, and finally throw in some seeds."
+			]
+			id: "52F3BB0723A0AA76"
+			rewards: [{
+				id: "252A047099FC1045"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3069CE8878A9B21B"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["52F3BB0723A0AA76"]
+			description: ["Plonk some logs and/or stone down adjacent (including diagonally) to the Pure Daisy and wait a minute."]
+			icon: "botania:livingrock"
+			id: "72CCC20E2593E7E0"
+			rewards: [{
+				id: "698F441F90E0488A"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A5D713ABE254325"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "63A16F1820D79271"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "Living Dead Trees"
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"72CCC20E2593E7E0"
+				"3A5D713ABE254325"
+			]
+			dependency_requirement: "all_started"
+			description: ["Basically, Botania's version of a wrench."]
+			id: "4ECE17C73F35E68E"
+			rewards: [{
+				id: "1B107576B2689D9C"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34B680ED23F268AC"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Magic Wand"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"72CCC20E2593E7E0"
+				"3A5D713ABE254325"
+			]
+			dependency_requirement: "all_started"
+			description: ["The Mana Spreader transports mana over short distances"]
+			id: "610A5269C90BFA8E"
+			rewards: [{
+				id: "09B242AD320046A4"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "723023350BFC4607"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			title: "Spread 'Em"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"72CCC20E2593E7E0"
+				"63A16F1820D79271"
+			]
+			dependency_requirement: "all_started"
+			description: ["The Mana Pool is used to store mana"]
+			id: "3114475CF5A51FB9"
+			rewards: [{
+				id: "1D4AE6D01051550A"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "217BBB4AA52E021D"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			title: "Not for swimming"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7E075524688AD532"
+				"4ECE17C73F35E68E"
+				"610A5269C90BFA8E"
+				"3114475CF5A51FB9"
+			]
+			description: ["Some very common mana-infused resources"]
+			icon: "botania:manasteel_ingot"
+			id: "7C6B8D5113EB44AA"
+			rewards: [{
+				id: "536214EEE1F18ADE"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5A92D8150C3AA246"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "49EAE879EFDED736"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "0CAA51B2571DAE1D"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			title: "Ingots from Heaven"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C6B8D5113EB44AA"]
+			dependency_requirement: "all_started"
+			description: ["The next tier of technology requires Runes. And that requires a Runic Altar"]
+			id: "52322CF37B9634E0"
+			rewards: [{
+				id: "039FA61F2141007D"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "408774DE247E13C2"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			title: "Altared State"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52322CF37B9634E0"]
+			description: [
+				"A magical alloy that needs a bunch of mana to create."
+				""
+				"Create a checkerboard pattern out of livingrock and lapis blocks, plonk the agglomeration plate on top, then place a spark above it and a mana pool."
+				""
+				"To create terrasteel, fill the mana pool at least half full, then drop a mana diamond, mana pearl, and manasteel on the plate and stand back."
+			]
+			icon: "botania:terrasteel_ingot"
+			id: "592948D6F557E9DD"
+			rewards: [{
+				id: "7DCA0F3F8D32C5FE"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "2236F245F241ED97"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "20CDF1E49398795C"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					id: "3534E05EB3EBF7CF"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "638C9A2DC56DA5B1"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "50F302AA4340F9A5"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			title: "Terrasteel"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["592948D6F557E9DD"]
+			description: [
+				"The Elven Gateway will open a portal to Alfheim, allowing you to trade with the Elves for rare and valuable resources."
+				""
+				"Read the Lexica Botania to learn how to build the structure."
+				""
+				"Once you've opened the portal, throw the book in to receive some of the collected knowledge of the Elves"
+			]
+			icon: "botania:alfheim_portal"
+			id: "24C9D8F02EEA776F"
+			rewards: [{
+				id: "1712E3882B1C7641"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					icon: "botania:livingwood_log"
+					id: "1B2491052405C451"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:livingwood_logs"
+						}
+					}
+					title: "Livingwood"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0337B13272F7FD48"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					id: "489D40A83E1F5CD1"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "282AA53E2C4A1E55"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			title: "Elven Gateway"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: ["A guidebook to Botania"]
+			id: "013E4021A9281F74"
+			tasks: [{
+				id: "17E987C686B714AD"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "RTFM (Botanical Edition)"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["24C9D8F02EEA776F"]
+			description: ["Throw some glowstone into the elven portal to get the materials to  visit the Aether"]
+			id: "1827BA68AA7F1383"
+			rewards: [{
+				id: "3F5D03FE3FC4A70F"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "09E9303D3E0C660D"
+				item: { Count: 10, id: "kubejs:aether_portal" }
+				type: "item"
+			}]
+			title: "Aether Portal"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1827BA68AA7F1383"]
+			description: ["Build a portal out of Aether Portal Blocks, and activate it by pouring water into it."]
+			icon: "aether:aether_portal_frame"
+			id: "10D3904B8A499850"
+			rewards: [{
+				id: "3BEC8668ACED5F4B"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "69ED6113191C7A11"
+				title: "Visit The Aether"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["10D3904B8A499850"]
+			description: ["You will need to obtain one of the Valkyrie Queen's artifacts from her temple in the sky. Kill ten of her minions, then talk to her."]
+			id: "79C9158C9904071F"
+			rewards: [{
+				id: "6EACA6BF04FE7630"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aether:valkyrie_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43400074FF9752B8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:valkyrie_loot"
+					}
+				}
+				title: "Kill a Valkyrie Queen"
+				type: "item"
+			}]
+			title: "Ride of the Valkyries"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10D3904B8A499850"]
+			description: [
+				"Search the Aether for a stone opening in the ground. Go in, kill the Slider, and then loot his treasure chest for any of his artifacts."
+				""
+				"Bring a pickaxe that does some damage; you'll need it to fight him."
+			]
+			id: "5BF84CE71F22B4F3"
+			rewards: [{
+				id: "0AF9E09F8B39E27B"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aether:sentry_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3F310BB9B6F78BF4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:slider_loot"
+					}
+				}
+				title: "Kill The Slider"
+				type: "item"
+			}]
+			title: "Burgers"
+			x: -3.5d
+			y: -1.5d
+		}
+	]
 	subtitle: ["Botania and the Aether"]
 	title: "Hedge Alchemy"
 }
