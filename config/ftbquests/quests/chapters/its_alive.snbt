@@ -7,7 +7,460 @@
 	id: "65980811A0E541B3"
 	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["7581BB97463052B0"]
+			description: ["You'll need these alloys for lots of EnderIO stuff"]
+			icon: "enderio:soularium_ingot"
+			id: "15A93609C3C48C3C"
+			rewards: [{
+				id: "32F9D47267D645BE"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34CCCBBD477709CA"
+					item: "enderio:soularium_ingot"
+					type: "item"
+				}
+				{
+					id: "4F95269E51FA8A55"
+					item: "enderio:energetic_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "1E74C7BFB6414A47"
+					item: "enderio:vibrant_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "1E06A08AC4A48712"
+					item: "enderio:dark_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "Advanced Alloys"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FB25DC7E098F1BE"]
+			description: ["Use the heads of your fallen enemies ... as circuitry?"]
+			icon: "enderio:slice_and_splice"
+			id: "1E8446D54EE73607"
+			rewards: [{
+				id: "0F607010AF68AA80"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A50782EF83CA79"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			title: "Genetic Engineering"
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15A93609C3C48C3C"]
+			dependency_requirement: "all_started"
+			description: ["At what point does this cease being science and become eldritch magics?"]
+			icon: "enderio:ensouled_chassis"
+			id: "2FB25DC7E098F1BE"
+			rewards: [{
+				id: "73D4BC05434064A3"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F7CD395238B802A"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			title: "Intelligent Machines"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7581BB97463052B0"]
+			dependency_requirement: "all_started"
+			description: ["A block of blast-resistant glass."]
+			icon: "enderio:fused_quartz"
+			id: "62E488605B110CED"
+			rewards: [{
+				id: "439BC6B2209F0699"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "enderio:fused_quartz"
+				id: "1DEEE9BDB8334A13"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "enderio:fused_quartz"
+					}
+				}
+				title: "Fused Quartz"
+				type: "item"
+			}]
+			title: "32 Oz"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FB3DFFECF4B78D5"]
+			dependency_requirement: "all_started"
+			description: ["You'll need these to run most EnderIO machines"]
+			icon: "enderio:basic_capacitor"
+			id: "2D32F49A5C31A30F"
+			rewards: [{
+				id: "0E44F5EC4000E05D"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1502D34B1009DC08"
+				item: "enderio:basic_capacitor"
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Cappa"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1FB3DFFECF4B78D5"
+				"141F407562B4006D"
+			]
+			description: ["The base of most EnderIO machines"]
+			icon: "enderio:void_chassis"
+			id: "2A249A9B7E9BCA3E"
+			rewards: [{
+				id: "4B197D919FACF53B"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23D58DAD7A2DCD39"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			title: "Chassy"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E8446D54EE73607"]
+			dependency_requirement: "all_started"
+			description: ["Use the souls of your fallen enemies ... in machinery?"]
+			icon: "enderio:soul_binder"
+			id: "6C52999AC1714D37"
+			rewards: [{
+				id: "768103F87463D24C"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A53D8C04BA436EC"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			title: "Soul Slavery"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62E488605B110CED"]
+			description: ["Make a soul vial and trap a zombie in it."]
+			icon: "enderio:empty_soul_vial"
+			id: "0850EE72A6CC2D6E"
+			rewards: [{
+				id: "1BD8DFEA076600AD"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "672D09EB51BC4C22"
+					item: "enderio:empty_soul_vial"
+					type: "item"
+				}
+				{
+					id: "251870AEF30219C2"
+					item: {
+						Count: 1
+						id: "enderio:filled_soul_vial"
+						tag: {
+							BlockEntityTag: {
+								EntityStorage: {
+									Entity: {
+										AbsorptionAmount: 0.0f
+										Air: 300s
+										AngerTime: 0
+										ArmorDropChances: [
+											0.085f
+											0.085f
+											0.085f
+											0.085f
+										]
+										ArmorItems: [
+											{ }
+											{ }
+											{ }
+											{ }
+										]
+										Attributes: [
+											{
+												Base: 0.08d
+												Name: "forge:entity_gravity"
+											}
+											{
+												Base: 0.30000001192092896d
+												Name: "minecraft:generic.movement_speed"
+											}
+											{
+												Base: 0.0d
+												Name: "forge:step_height_addition"
+											}
+											{
+												Base: 64.0d
+												Modifiers: [{
+													Amount: 0.10369036401592754d
+													Name: "Random spawn bonus"
+													Operation: 1
+													UUID: [I;
+														186607033
+														1781090959
+														-1629173570
+														1381303761
+													]
+												}]
+												Name: "minecraft:generic.follow_range"
+											}
+										]
+										BalmData: { }
+										Brain: {
+											memories: { }
+										}
+										CanPickUpLoot: 0b
+										CanUpdate: 1b
+										DeathTime: 0s
+										FallDistance: 0.0f
+										FallFlying: 0b
+										Fire: -1s
+										ForgeCaps: {
+											"aether:mob_accessory": {
+												DropChances: {
+													aether_gloves: 0.085f
+													aether_pendant: 0.085f
+													hands: 0.085f
+													necklace: 0.085f
+												}
+											}
+											"botania:loonium_drop": { }
+											"curios:inventory": {
+												Curios: [ ]
+											}
+											"mekanism:radiation": {
+												radiation: 1.0E-7d
+											}
+											"structure_gel:gel_entity": {
+												portal: "structure_gel:empty"
+											}
+											"twilightforest:cap_shield": {
+												permshields: 0
+												tempshields: 0
+											}
+											"twilightforest:cap_thrown": {
+												throwCooldown: 0
+												throwX: 0.0d
+												throwY: 0.0d
+												throwZ: 0.0d
+												yetiThrown: 0b
+											}
+											"twilightforest:giant_pick_mine": {
+												giantBlockConversion: 0
+												giantPickBreaking: 0b
+												giantPickMining: 0L
+											}
+										}
+										ForgeData: { }
+										HandDropChances: [
+											0.085f
+											0.085f
+										]
+										HandItems: [
+											{ }
+											{ }
+										]
+										Health: 40.0f
+										HurtByTimestamp: 0
+										HurtTime: 0s
+										Invulnerable: 0b
+										LeftHanded: 0b
+										Motion: [
+											0.0741532627014286d
+											-0.0784000015258789d
+											-0.07572642991000365d
+										]
+										OnGround: 1b
+										PersistenceRequired: 0b
+										PortalCooldown: 0
+										Pos: [
+											545.0728445607975d
+											66.0d
+											-436.0764559402724d
+										]
+										Rotation: [
+											225.03714f
+											25.15099f
+										]
+										UUID: [I;
+											-2010978392
+											772687818
+											-1291245828
+											1973557572
+										]
+										cpaCooldown: 0
+										cpadidTP: 0b
+										"forge:spawn_type": "NATURAL"
+										id: "minecraft:enderman"
+									}
+									MaxHealth: 40.0f
+								}
+							}
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Yoink"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0850EE72A6CC2D6E"
+				"6C52999AC1714D37"
+				"189C3B1E788CCCDA"
+			]
+			description: ["An Emerald. But even better still."]
+			id: "234AF9C4EC3F3519"
+			rewards: [{
+				id: "30BF04261734FD77"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FBE669C94FB83BE"
+				item: "enderio:ender_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15A93609C3C48C3C"]
+			description: ["An emerald. Only better."]
+			id: "189C3B1E788CCCDA"
+			rewards: [{
+				id: "6BE64F80BD278D9A"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CE6420512AE1CB1"
+				item: "enderio:vibrant_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2A249A9B7E9BCA3E"
+				"2D32F49A5C31A30F"
+			]
+			description: ["A furnace that can also smelt items together to make alloys."]
+			id: "7581BB97463052B0"
+			rewards: [{
+				id: "27C7E5EC6EF7F17B"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B5CC856774E356D"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			title: "SAG No Longer Required"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			description: ["Dig down to the bottom of the world, clear out some space, and set some bedrock on fire."]
+			id: "1FB3DFFECF4B78D5"
+			rewards: [{
+				id: "15B2632C9CA85CC9"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "065AEAEDF4F9ECBB"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			title: "Popcorn"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["234AF9C4EC3F3519"]
+			description: [
+				"The Undergarden is a subterranian cavern, full of flora and fauna adapted to the darkness."
+				""
+				"Build a portal out of stone bricks, make a catalyst, and use the one to light the other."
+			]
+			id: "17D408B12BB87154"
+			rewards: [{
+				id: "25FDCE90B1588948"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "26A2E7E90E5C8BBB"
+				title: "Visit The Undergarden"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17D408B12BB87154"]
+			description: ["Search the Undergarden for a catacomb, and find and kill the Forgotten Guardian within."]
+			id: "703F6291C19A32AE"
+			rewards: [{
+				id: "373EA0FBB81096FF"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				id: "081AD16382E82611"
+				item: "undergarden:forgotten_nugget"
+				type: "item"
+			}]
+			title: "Who dis?"
+			x: 5.5d
+			y: 1.0d
+		}
+	]
 	subtitle: ["EnderIO and the Undergarden"]
 	title: "It's Alive"
 }
