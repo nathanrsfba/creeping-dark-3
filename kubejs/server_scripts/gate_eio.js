@@ -2,22 +2,9 @@
 
 // Gate EIO machines to osmium, via machine frame
 ServerEvents.recipes( event => {
-    // Primitive alloy smelter
+    // Remove primitive alloy smelter. Require the full one
+    // for quest purposes.
     event.remove({ output: 'enderio:primitive_alloy_smelter' });
-    event.shaped(
-        Item.of( 'enderio:primitive_alloy_smelter' ),
-        [
-            'FFF',
-            'OGO',
-            'DDD'
-        ],
-        {
-            F: 'minecraft:furnace',
-            G: 'enderio:grains_of_infinity',
-            O: 'mekanism:ingot_osmium',
-            D: 'minecraft:deepslate'
-        }
-    );
 
     // Void Chassis
     event.remove({ output: 'enderio:void_chassis' });
