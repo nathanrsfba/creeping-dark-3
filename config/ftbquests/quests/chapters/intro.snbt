@@ -433,7 +433,7 @@
 			description: [
 				"Steel is one of the most commonly used alloys, and you'll need to make some sooner rather than later."
 				""
-				"The earliest method to make steel is the Immersive Engineering blast furnace. Later on you can use the Induction Smelter or Energetic Infuser"
+				"The earliest method to make steel is the Immersive Engineering blast furnace. Later on you can use the Induction Smelter or Metallurgic Infuser"
 			]
 			icon: "mekanism:ingot_steel"
 			id: "4874E61F350DDBE8"
