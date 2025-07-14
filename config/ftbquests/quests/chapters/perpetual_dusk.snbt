@@ -129,33 +129,6 @@
 			x: -1.5d
 			y: 1.0d
 		}
-		{
-			description: [
-				"A guidebook for the Twilight Forest."
-				""
-				"As the name shows, it may not be entirely complete."
-			]
-			id: "05C8534D0BCBA894"
-			rewards: [{
-				id: "4A02C64F51BF9344"
-				item: "kubejs:coin_bronze"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5E58392130ADA962"
-				item: {
-					Count: 1
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "twilightforest:guide"
-					}
-				}
-				type: "item"
-			}]
-			title: "RTFM (Twilit Edition)"
-			x: -3.5d
-			y: -0.5d
-		}
 	]
 	subtitle: ["The Twilight Forest"]
 	title: "Perpetual Dusk"

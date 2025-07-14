@@ -7,7 +7,7 @@
 	filename: "the_shop"
 	group: ""
 	id: "59937398C567A592"
-	order_index: 14
+	order_index: 15
 	quest_links: [ ]
 	quests: [{
 		can_repeat: true

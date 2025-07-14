@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "to_boldly_go"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "15831BAC610B4FAB"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Everything you need to know to leave orbit"]
+			id: "56A338943F5EAC3C"
+			rewards: [{
+				id: "1E84FA163BF55709"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B844E1F67CD0B12"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ad_astra:astrodux"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "RTFM (Astronautical Edition)"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4874E61F350DDBE8"]
+			description: [
+				"There's several machines that can make plates, including ones from Immersive Engineering, Thermal Expansion, Create, Nuclearcraft, and Ad Astral."
+				""
+				"You can even just smash one out with a hammer, or pour one out of the smeltery."
+			]
+			id: "476D7E338B452A93"
+			rewards: [{
+				id: "3F77911F9DB27872"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "396B8A1EC81BED33"
+				item: "immersiveengineering:plate_steel"
+				type: "item"
+			}]
+			title: "Utensils not included"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"476D7E338B452A93"
+				"141F407562B4006D"
+			]
+			description: ["This contraption looks like something out of an H.R. Giger nightmare, but is actually just used to build rockets."]
+			id: "6E4A228445B8EF25"
+			rewards: [{
+				id: "19E667ED9445163C"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "608CF9E7996938FD"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["476D7E338B452A93"]
+			description: ["A flat metallic surface for your rocket to blast off of"]
+			id: "157A894A7B61BB28"
+			rewards: [{
+				id: "23F92548A0EC13C6"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66EC8C4D067B5111"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "McQuack"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E4A228445B8EF25"]
+			description: ["The simplest rocket, it'll get you to the moon"]
+			id: "5F96DA922F465079"
+			rewards: [{
+				id: "4D7C337F3D1ECC6B"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C1CF4E80C07D7F3"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Elton John"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["476D7E338B452A93"]
+			description: [
+				"Refines crude oil into rocket fuel."
+				""
+				"You can find oil in geysers out in the ocean."
+			]
+			id: "61A5043573588AD5"
+			rewards: [{
+				id: "7B2D5B7872F94D7D"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C228A918FC8692B"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			title: "SCOOP IT UP WITH YOUR HANDS"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["476D7E338B452A93"]
+			description: ["You'll need this to survive in space"]
+			icon: {
+				Count: 1
+				id: "ad_astra:space_suit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "68CB3A107C6AAAE5"
+			rewards: [{
+				id: "2AA78ACAC1841D1E"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42DFF2F46B9737BC"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "3B2001275CBD8305"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "185E0081AFB18804"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "1AD0BFA9901F213B"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Space Suit"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["476D7E338B452A93"]
+			description: [
+				"Pipe water into this and it'll electrolyse out the oxygen. Then stick the spacesuit chest into it and it'll fill it."
+				""
+				"You can also pipe it out into a tank, and right-click with the suit to fill it."
+			]
+			id: "653AE7F3EBF9F4F9"
+			rewards: [{
+				id: "6F1AB270D4D4FE9C"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1891679EA876268A"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			title: "Do Breathe This"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"68CB3A107C6AAAE5"
+				"157A894A7B61BB28"
+				"653AE7F3EBF9F4F9"
+				"5F96DA922F465079"
+				"61A5043573588AD5"
+			]
+			description: [
+				"Plonk down the landing pad, plonk the rocket on it, then right-click to get in."
+				""
+				"Open your inventory (which also opens the rocket inventory), fill it with fuel, take a spare landing pad and 3 buckets of fuel, then press space to take off!"
+				""
+				"Remember to hold down Space when you get within about 100m of the ground. Otherwise you might just crash and burn."
+			]
+			id: "5F55726957C4BF4E"
+			rewards: [{
+				id: "37AE2E743E58E981"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "64041A1ED894F284"
+				title: "Visit The Moon"
+				type: "dimension"
+			}]
+			title: "Press Space To Slow Down"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F55726957C4BF4E"]
+			description: ["A new metallic ore you can find on the moon"]
+			id: "1A4C6E61F4782869"
+			rewards: [{
+				id: "5584C8BDB669170B"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03D9FF3BBD68E2A9"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+	]
+	title: "To Boldly Go"
+}
