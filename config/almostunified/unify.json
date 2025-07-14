@@ -3,12 +3,12 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
-    "create",
     "thermal",
     "tconstruct",
-    "nuclearcraft",
     "immersiveengineering",
-    "mekanism"
+    "mekanism",
+    "nuclearcraft",
+    "create"
   ],
   "stoneStrata": [
     "stone",
@@ -88,7 +88,20 @@
     "forge:gems/peridot": "projectred_core",
     "forge:ores/ruby": "projectred_exploration",
     "forge:ores/sapphire": "projectred_exploration",
-    "forge:ores/peridot": "projectred_exploration"
+    "forge:ores/peridot": "projectred_exploration",
+    "forge:ores/uranium": "nuclearcraft",
+    "forge:ingots/uranium": "nuclearcraft",
+    "forge:raw_materials/uranium": "nuclearcraft",
+    "forge:storage_blocks/uranium": "nuclearcraft",
+    "forge:dusts/uranium": "nuclearcraft",
+    "forge:ingots/steel": "mekanism",
+    "forge:storage_blocks/steel": "mekanism",
+    "forge:dusts/steel": "mekanism",
+    "forge:ingots/zinc": "create",
+    "forge:ores/zinc": "create",
+    "forge:raw_materials/zinc": "create",
+    "forge:dusts/zinc": "create",
+    "forge:storage_blocks/zinc": "create"
   },
   "customTags": {},
   "tagOwnerships": {},
