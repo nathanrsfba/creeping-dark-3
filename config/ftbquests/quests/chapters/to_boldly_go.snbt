@@ -279,8 +279,243 @@
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
+			title: "Desh"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1A4C6E61F4782869"]
+			description: ["You'll need to build one of these to get to Marss"]
+			id: "52C90E5D1B298CBD"
+			rewards: [{
+				id: "63AC59B80B0046F1"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53636EBB19F5A50A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
 			x: 2.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["52C90E5D1B298CBD"]
+			description: ["The next destination in the space race"]
+			id: "026D0CB209FF7F53"
+			rewards: [{
+				id: "3516D795A63732D3"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "54ADE4C503C81C21"
+				title: "Land on Mars"
+				type: "dimension"
+			}]
+			title: "Red Planet"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["026D0CB209FF7F53"]
+			description: ["A new element, found only on Mars"]
+			id: "00A99A8DF6D1D95D"
+			rewards: [{
+				id: "12176B6D9E5B720B"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0262787ACB6A09AB"
+				item: "ad_astra:raw_ostrum"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"00A99A8DF6D1D95D"
+				"2D28283B6820D387"
+			]
+			description: ["An upgraded space suit that can withstand the heat of Venus and Mercury"]
+			icon: {
+				Count: 1
+				id: "ad_astra:netherite_space_suit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2EA59C86F869753E"
+			rewards: [{
+				id: "48DF81C126CAFFAB"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EDB6993A140D366"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "489AC1B43F84A606"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "59AE2857C3629955"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "37889EC9B8A6B59E"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Hotsuit"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"00A99A8DF6D1D95D"
+				"2D28283B6820D387"
+			]
+			description: ["A rocket that will take you to Venus and Mercury"]
+			id: "28AF3EFB4F08370D"
+			rewards: [{
+				id: "00F3F316D16CB5BD"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EDB5D19CBECC3AE"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2D28283B6820D387"]
+			dependency_requirement: "one_started"
+			description: ["Go to either Venus or Mercury and grab some of this metal, native to hot worlds"]
+			id: "4368A557F1E59C9E"
+			rewards: [{
+				id: "4369B379DFC077E5"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E9BDB843ACC658C"
+				item: "ad_astra:raw_calorite"
+				type: "item"
+			}]
+			title: "Rim Worlds"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			description: ["A hot world near the sun, with new dangers"]
+			icon: "ad_astra:venus_globe"
+			id: "2D28283B6820D387"
+			rewards: [{
+				id: "29C7FB7F3FECA2C7"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "2905B861E2A35CF4"
+				title: "Land on Venus"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4368A557F1E59C9E"]
+			description: ["The final step towards leaving the solar system"]
+			id: "4C2D010721CF80FF"
+			rewards: [{
+				id: "6975FA1235863524"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "413DBCDC551ADC24"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C2D010721CF80FF"]
+			description: ["A world out side our solar system. Cold, but habitable, with a breathable atmosphere."]
+			id: "6AEC216956478318"
+			rewards: [{
+				id: "519BB3610953D16E"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "6C4F48BEC2492034"
+				title: "Land on Glacio"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 6.5d
 		}
 	]
 	title: "To Boldly Go"
