@@ -1,5 +1,5 @@
 {
-    "name": "cddp:broken_sphere/start_pool",
+    "name": "cddp:space_needle/start_pool",
     "fallback": "minecraft:empty",
     "elements": [
         {
