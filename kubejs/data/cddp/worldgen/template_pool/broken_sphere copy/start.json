@@ -1,0 +1,17 @@
+{
+    "name": "cddp:spider_dome/start_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "cddp:spider_dome",
+                "processors": {
+                    "processors": []
+                },
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ]
+}
