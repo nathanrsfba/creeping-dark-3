@@ -23,6 +23,15 @@ screenshots/
 usercache.json
 usernamecache.json
 
+# Server garbage
+eula.txt
+libraries/
+run.bat
+run.sh
+server.properties
+user_jvm_args.txt
+world/
+
 # Tracked by the manifest file
 mods/*
 !mods/readme.txt
