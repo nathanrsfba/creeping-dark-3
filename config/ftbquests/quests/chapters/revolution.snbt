@@ -7,7 +7,262 @@
 	id: "603CF9F367E3134D"
 	order_index: 14
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Mixes stuff up. With optional heat source"]
+			icon: "create:mechanical_mixer"
+			id: "3A1AC6B5BA0AEA94"
+			rewards: [{
+				id: "73F6518E1C8433BC"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37B82A3FC301DFF2"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "43A08A069E2E153E"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Will It Blend?"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Take an empty blaze burner into the nether, then right click a blaze to capture it."
+				""
+				"Then stick it under a basin to use as a heater"
+			]
+			id: "760A11B52C1D6FAA"
+			rewards: [{
+				id: "6AADC2EC9A56945D"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DBC1F89FE7464EF"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Fire in a Box"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3A1AC6B5BA0AEA94"
+				"52197ACCDF84AEA8"
+				"5159D58699500171"
+				"3A74BF6DEC02636C"
+				"4A83F5F0C037BC03"
+			]
+			description: ["Makes blazes burn really hot"]
+			id: "57861DBC95853A29"
+			rewards: [{
+				id: "0D5887433952CE44"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "732DEAE0241E57CC"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "Hotcakes"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: ["Pours liquid onto items"]
+			id: "52197ACCDF84AEA8"
+			rewards: [{
+				id: "442ED1B4D6D3F3FB"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "476325E225705C58"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Splurt."
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46A1C6F7CAA2848C"]
+			description: ["Big wheels that grind things down, and can also process ores"]
+			id: "5159D58699500171"
+			rewards: [{
+				id: "4022F13A517B2427"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4F24665BBFA88DED"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Wheels of Justice"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"149A525DEA4B46AB"
+				"1D6A78094CC73F24"
+			]
+			description: ["An array of these can be used for automated crafting. They can even craft things bigger than the standard 3x3 crafting grid"]
+			id: "46A1C6F7CAA2848C"
+			rewards: [{
+				id: "38EDFECB46D937C3"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AB7EAC94322E18B"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			description: ["An alloy made of copper and zinc. There's a few different ways to make it."]
+			id: "149A525DEA4B46AB"
+			rewards: [{
+				id: "057710CF3DD81607"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "638BE3DDA082CBCA"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Budget Gold"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D62B6188B10E877"]
+			description: ["Transmits kinetic force perpendicular to the axis of rotation. Also can be used to change rotational direction, and connecting different sizes together will change rotation speed"]
+			icon: "create:cogwheel"
+			id: "37B389454C48EF02"
+			rewards: [{
+				id: "02DF2C8FB23CB7F6"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6C0AE8654AA3AA7E"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "6429A10926C56A6D"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			description: ["An alloy, made of both stone and metal, used in many creations"]
+			id: "4D62B6188B10E877"
+			rewards: [{
+				id: "70F0E7E48ECE1C07"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "296B6155A4AA312A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Rocky Ingots"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["37B389454C48EF02"]
+			description: ["You'll need a method of generating rotational power to run Create machines. This is one of the simpler methods."]
+			id: "1D6A78094CC73F24"
+			rewards: [{
+				id: "7C88756779A3912F"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57F4A6E7F1579D35"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			description: ["Create doesn't have an ingame manual as-such. Instead, you can learn about almost any Create mechanism by hovering over an item (including in JEI) and holding W to see how it works."]
+			icon: "minecraft:book"
+			id: "7CACB508ED0CF4D1"
+			tasks: [{
+				id: "7210899620FA84B9"
+				type: "checkmark"
+			}]
+			title: "RTFM (Creative Edition)"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4D62B6188B10E877"]
+			description: [
+				"A platform for putting items on so machines can work on them."
+				""
+				"You'll need it for things like spouts."
+			]
+			id: "3A74BF6DEC02636C"
+			rewards: [{
+				id: "321197A882D6656C"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6812AC14F751B443"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "Despot"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D62B6188B10E877"]
+			description: ["Crushes stuff."]
+			id: "4A83F5F0C037BC03"
+			rewards: [{
+				id: "3433DFA993BDF689"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3321A719952F2D03"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Stomp"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
 	subtitle: ["Create and The End"]
 	title: "Revolution"
 }
