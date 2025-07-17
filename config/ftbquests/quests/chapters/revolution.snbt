@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1D6A78094CC73F24"]
 			description: ["Mixes stuff up. With optional heat source"]
 			icon: "create:mechanical_mixer"
 			id: "3A1AC6B5BA0AEA94"
@@ -17,21 +18,14 @@
 				item: "kubejs:coin_bronze"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "37B82A3FC301DFF2"
-					item: "create:mechanical_mixer"
-					type: "item"
-				}
-				{
-					id: "43A08A069E2E153E"
-					item: "create:basin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "37B82A3FC301DFF2"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
 			title: "Will It Blend?"
-			x: -4.0d
-			y: -1.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -51,18 +45,18 @@
 				type: "item"
 			}]
 			title: "Fire in a Box"
-			x: -4.0d
-			y: 0.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"3A1AC6B5BA0AEA94"
 				"52197ACCDF84AEA8"
 				"5159D58699500171"
 				"3A74BF6DEC02636C"
 				"4A83F5F0C037BC03"
+				"05662BB926A979A5"
 			]
-			description: ["Makes blazes burn really hot"]
+			description: ["Mix the biomass with cinder flour and sugar to get biofuel. Then pour it onto a blaze cake base, to get this thing we haven't decided on yet."]
 			id: "57861DBC95853A29"
 			rewards: [{
 				id: "0D5887433952CE44"
@@ -190,7 +184,7 @@
 				type: "item"
 			}]
 			title: "Rocky Ingots"
-			x: 1.0d
+			x: 2.0d
 			y: -5.5d
 		}
 		{
@@ -219,8 +213,8 @@
 				type: "checkmark"
 			}]
 			title: "RTFM (Creative Edition)"
-			x: -1.0d
-			y: -4.0d
+			x: 4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4D62B6188B10E877"]
@@ -241,26 +235,64 @@
 				type: "item"
 			}]
 			title: "Despot"
-			x: -1.0d
+			x: 0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4D62B6188B10E877"]
 			description: ["Crushes stuff."]
+			icon: "create:mechanical_press"
 			id: "4A83F5F0C037BC03"
 			rewards: [{
 				id: "3433DFA993BDF689"
 				item: "kubejs:coin_bronze"
 				type: "item"
 			}]
-			tasks: [{
-				id: "3321A719952F2D03"
-				item: "create:mechanical_press"
+			tasks: [
+				{
+					id: "3321A719952F2D03"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "735BAF43305931E4"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Stomp"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3A1AC6B5BA0AEA94"
+				"760A11B52C1D6FAA"
+			]
+			description: ["Press some seeds to make seed oil (or make plant oil in the IE squeezer), then mix it with flowers."]
+			id: "05662BB926A979A5"
+			rewards: [{
+				id: "158BE4E8B8950E3D"
+				item: "kubejs:coin_bronze"
 				type: "item"
 			}]
-			title: "Stomp"
-			x: 1.0d
-			y: -1.0d
+			tasks: [{
+				id: "442B5FB9DFBCB563"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "70D89A2BB84E0E34"
+			tasks: [{
+				id: "3056B3CFC23EB337"
+				item: "create:blaze_cake_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
 		}
 	]
 	subtitle: ["Create and The End"]
