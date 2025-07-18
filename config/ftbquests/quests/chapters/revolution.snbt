@@ -9,6 +9,66 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"31D2E82F3E5DEB5F"
+				"1DB4F0166A54BBD0"
+				"2C6212FE3010B715"
+				"00B31105EE8EDA9C"
+				"670334F58E28FCF9"
+				"376D07AC2F8D14CB"
+				"2BB2919393888FC2"
+				"585248C8327CA6B2"
+				"57861DBC95853A29"
+				"035A8B38776B54EE"
+				"7BFAF47457B62B26"
+				"27057D8B6AA90D45"
+				"703F6291C19A32AE"
+				"79C9158C9904071F"
+				"5BF84CE71F22B4F3"
+			]
+			description: [
+				"TODO: CHECK DEPENDENCIES. Not all of them will be represented."
+				""
+				"Finally, you have everything you need to access the End."
+				""
+				"Craft the End Orb from all the materials and artifacts you've gathered. Once you've held it in your hands, the End will open up to you. You can even pass the orb on to others, to open the end to them as well."
+				""
+				"Find a stronghold, open the portal, go in."
+			]
+			id: "7E53EAE5BFA52CFA"
+			rewards: [{
+				id: "3807B9A42458A000"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "506F127EAD3B5F4D"
+				item: "kubejs:end_orb"
+				type: "item"
+			}]
+			title: "The Key To It All"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E53EAE5BFA52CFA"]
+			description: ["Find her. Kill her. Place her egg in the world to end the plague."]
+			id: "75B3E2EF94B0509C"
+			rewards: [{
+				id: "58715C4A500AB3B8"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71B798DF5AC6A5B4"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "The Cure"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
 			dependencies: ["1D6A78094CC73F24"]
 			description: ["Mixes stuff up. With optional heat source"]
 			icon: "create:mechanical_mixer"
@@ -53,10 +113,14 @@
 				"52197ACCDF84AEA8"
 				"5159D58699500171"
 				"3A74BF6DEC02636C"
-				"4A83F5F0C037BC03"
 				"05662BB926A979A5"
+				"70D89A2BB84E0E34"
 			]
-			description: ["Mix the biomass with cinder flour and sugar to get biofuel. Then pour it onto a blaze cake base, to get this thing we haven't decided on yet."]
+			description: [
+				"Mix the biomass with cinder flour and sugar to get biofuel. Then pour it onto a blaze cake base"
+				""
+				"It's useful as a solid fuel, and also for the End Ritual."
+			]
 			id: "57861DBC95853A29"
 			rewards: [{
 				id: "0D5887433952CE44"
@@ -65,12 +129,12 @@
 			}]
 			tasks: [{
 				id: "732DEAE0241E57CC"
-				item: "create:blaze_cake"
+				item: "kubejs:pain_cake"
 				type: "item"
 			}]
-			title: "Hotcakes"
+			title: "Tastes like burning!"
 			x: -2.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			description: ["Pours liquid onto items"]
@@ -213,8 +277,8 @@
 				type: "checkmark"
 			}]
 			title: "RTFM (Creative Edition)"
-			x: 4.5d
-			y: -5.5d
+			x: -4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4D62B6188B10E877"]
@@ -262,7 +326,7 @@
 			]
 			title: "Stomp"
 			x: 2.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -285,14 +349,22 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["4A83F5F0C037BC03"]
+			description: ["The cakes made from this are definitely &onot&r edible"]
 			id: "70D89A2BB84E0E34"
+			rewards: [{
+				id: "37A71381CD846C14"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3056B3CFC23EB337"
 				item: "create:blaze_cake_base"
 				type: "item"
 			}]
+			title: "Hotcakes"
 			x: 0.0d
-			y: 0.5d
+			y: -0.5d
 		}
 	]
 	subtitle: ["Create and The End"]
