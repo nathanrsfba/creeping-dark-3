@@ -298,6 +298,7 @@
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
+			title: "Fancy Figurehead"
 			x: -7.5d
 			y: 0.5d
 		}
