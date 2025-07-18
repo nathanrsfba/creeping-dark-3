@@ -609,6 +609,51 @@
 			x: 3.0d
 			y: 0.0d
 		}
+		{
+			description: [
+				"Loot an ancient city in the Deep Dark far underground to find the pieces to make this."
+				""
+				"But beware the Warden."
+			]
+			id: "73147030361D189E"
+			rewards: [{
+				id: "10357E9E1B863B5D"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F5CC6F5BBBD17C"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			title: "The Heist"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["The first piece you'll need to open the End is a quartz bone, held by an old Forgotten in his underground lab in the Overworld"]
+			icon: {
+				Count: 1
+				id: "quark:forgotten_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5BC2BEC129823553"
+			rewards: [{
+				id: "049C7CD4C4DCD88E"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57A558EDD04D3F57"
+				item: "kubejs:quartz_bone"
+				type: "item"
+			}]
+			title: "Forget Me Not"
+			x: 0.0d
+			y: 1.5d
+		}
 	]
 	subtitle: ["The Overworld"]
 	title: "Darkness Descends"

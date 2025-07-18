@@ -219,6 +219,24 @@
 			x: 5.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["4FFA29EE35DD01AC"]
+			description: ["In the otherwise peaceful world of Solara, you'll find the Horned Tower, fortress of the Lost Hunter. Kill him, and peel the very flesh from his bones."]
+			id: "07C2502F11E2D9EF"
+			rewards: [{
+				id: "11BE1722E43916D2"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "056C6351A76DD5E5"
+				item: "kubejs:shadow_flesh"
+				type: "item"
+			}]
+			title: "Just Like The Curse..."
+			x: 5.5d
+			y: -1.5d
+		}
 	]
 	subtitle: ["RFTools and Solara"]
 	title: "Playing God"
