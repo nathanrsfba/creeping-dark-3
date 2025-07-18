@@ -66,29 +66,30 @@ ServerEvents.recipes( event => {
         "result": { "item": "kubejs:end_orb" },
         "key": {
             "A": { "item": "blue_skies:poison_arc" },
-            // "C": { "tag": "" }, // Create item  
+            "C": { "item": "kubejs:pain_cake" }, // Create item
             "F": { "item": "undergarden:forgotten_nugget" },
             "H": { "item": "twilightforest:fiery_blood" },
             "M": { "tag": "kubejs:malachite_loot" },
             "N": { "item": "blue_skies:nature_arc" },
             "S": { "tag": "kubejs:slider_loot" },
             "V": { "tag": "kubejs:valkyrie_loot" },
-            "5": { "item": "minecraft:music_disc_5" },
+            "5": { "item": "minecraft:music_disc_5" }, // Ancient loot
             "a": { "item": "astral_dimension:astral_amulet" },
             "e": { "item": "tropicraft:eih_spawn_egg" }, // Eye of head  
-            // "h": { "item": "" }, // Horned tower loot  
+            "h": { "item": "kubejs:shadow_flesh" }, // Horned tower loot  
             "n": { "item": "minecraft:nether_star" },
-            "q": { "item": "kubejs:quartz_bone" },
+            "q": { "item": "kubejs:quartz_bone" }, // Miniboss loot
+            "s": { "item": "kubejs:evil_eye" }, // Spider dome loot
             // "s": { "item": "" }, // Space Needle drop  
-            // "v": { "item": "" }, // Void city item  
+            "v": { "item": "minecraft:dragon_head" }, // Void city item  
             "w": { "item": "ars_nouveau:wilden_tribute" }
         },
         "pattern": [
-            "  q  ",
+            " Cqh ",
             " VFS ",
             "Hean5",
             " AMN ",
-            "  w  "
+            " vws "
         ]
     });
 });
