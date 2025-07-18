@@ -331,6 +331,7 @@
 			tasks: [{
 				dimension: "astral_dimension:astral_dimension"
 				id: "5E60F65B9DFAC2A1"
+				title: "Visit the Astral Dimension"
 				type: "dimension"
 			}]
 			x: 0.5d
