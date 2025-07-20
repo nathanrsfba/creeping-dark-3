@@ -6,33 +6,1381 @@
 	disable_toast: true
 	filename: "the_shop"
 	group: ""
+	icon: "kubejs:coin_gold"
 	id: "59937398C567A592"
 	order_index: 15
 	quest_links: [ ]
-	quests: [{
-		can_repeat: true
-		disable_toast: true
-		icon: "minecraft:clay"
-		id: "767286A2B4F70496"
-		optional: true
-		rewards: [{
-			auto: "no_toast"
-			id: "7C7E48C2FD8BFEF7"
-			item: "minecraft:clay"
-			type: "item"
-		}]
-		shape: "square"
-		tasks: [{
-			consume_items: true
-			count: 2L
-			id: "26748DD4F47A8B90"
-			item: { Count: 2, id: "kubejs:coin_copper" }
-			optional_task: true
-			type: "item"
-		}]
-		title: "Clay"
-		x: -1.5d
-		y: -2.5d
-	}]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			description: ["Punched from the finest trees."]
+			disable_toast: true
+			icon: "minecraft:oak_log"
+			id: "26AD464185A409B5"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "2C6B95CB56B7CA84"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "61E5D19BDA2E70A3"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Wood"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			description: ["Sipsco's Finest™"]
+			disable_toast: true
+			icon: "minecraft:dirt"
+			id: "4B012179699D7380"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 32
+				id: "3D41B1DC2C141E9D"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "2D0E38ABC0289102"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Dirt"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			description: ["Sometimes you just need the basics."]
+			disable_toast: true
+			icon: "minecraft:cobblestone"
+			id: "1A8F2FEDF0028FD7"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 32
+				id: "58A731F81FC084AD"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "6DF39F5E12C38DA9"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Cobblestone"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			description: [
+				"The most dangerous enemy in the game."
+				""
+				"If you're playing Terraria."
+			]
+			disable_toast: true
+			icon: "minecraft:sand"
+			id: "166ECA7419471F69"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 32
+				id: "06D084B23E794EF5"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "28F56443D75BC349"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Sand"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:gravel"
+			id: "7D64F0C95D71E76A"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "678E35BEEB0003C3"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "1D5F8D76DF29C668"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Gravel"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:clay"
+			id: "50112E3250D9887E"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "0B44C3E853F6F964"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "19DBFBCE43645495"
+				item: { Count: 2, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Clay"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4CF5E025B4C6FA0A"]
+			disable_toast: true
+			icon: "minecraft:obsidian"
+			id: "32110F0842424800"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "2BCBB413B5CC8B9F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "653B75736190B4BA"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Obsidian"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F09E722460DC4B9"]
+			disable_toast: true
+			icon: "minecraft:leather"
+			id: "228D0939D464F274"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 4
+				id: "76D10460D5B75512"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "62A7F2F403EACACD"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Leather"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F09E722460DC4B9"]
+			disable_toast: true
+			icon: "minecraft:white_wool"
+			id: "57E1FD669CC675AB"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 2
+				id: "152FB52CEAC03A7A"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7D36CE62251C4F57"
+				item: { Count: 3, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Wool"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F09E722460DC4B9"]
+			disable_toast: true
+			icon: "minecraft:feather"
+			id: "140B18906EE6141B"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 2
+				id: "25CD75CC34C0484F"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0528536313B45182"
+				item: { Count: 3, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Feather"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["454CA66DDBE09581"]
+			disable_toast: true
+			icon: "minecraft:rotten_flesh"
+			id: "42CE8844A0F910E8"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "399E319F98F65E3E"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "5860867EBE68FDF7"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Rotten Flesh"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["454CA66DDBE09581"]
+			disable_toast: true
+			icon: "minecraft:bone"
+			id: "3D497122D882A999"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 2
+				id: "2848372A59A00023"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "07FE4D97E617E4A4"
+					item: "kubejs:coin_copper"
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "64B522E397BA729D"
+					item: "kubejs:coin_bronze"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Bone"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["454CA66DDBE09581"]
+			disable_toast: true
+			icon: "minecraft:spider_eye"
+			id: "51E77A6C308A8B4C"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "6F09A66E60B2600B"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2E37819F1CE3B36F"
+				item: { Count: 4, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Spider Eye"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["454CA66DDBE09581"]
+			disable_toast: true
+			icon: "minecraft:string"
+			id: "1F08B1C008439D3F"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 8
+				id: "246E374EFAF23CB7"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "24F486641749E6B2"
+				item: { Count: 3, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "String"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["454CA66DDBE09581"]
+			disable_toast: true
+			icon: "minecraft:gunpowder"
+			id: "76159F2FCD74BB15"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "3EDEE2F5806D0FF0"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "23DBFCC08D3F5061"
+				item: { Count: 6, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Gunpowder"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["24354EBA95E6EF73"]
+			disable_toast: true
+			icon: "minecraft:ender_pearl"
+			id: "03A9B6FE703289A4"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "6ECD7B95906FFE55"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "771C8F0D6416CC52"
+				item: { Count: 4, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Ender Pearl"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["039912F62EE6BF3E"]
+			disable_toast: true
+			icon: "minecraft:blaze_rod"
+			id: "35346320F9AA96D8"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "5BCB4FC8E736D177"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "748A6CEEDB887FF7"
+				item: { Count: 6, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Blaze Rod"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5CA4D09DB5945946"]
+			disable_toast: true
+			icon: "minecraft:ghast_tear"
+			id: "7F35B9EE5D6B41A0"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "659C4BDDB6C97323"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "73A35F28E618E6EA"
+				item: { Count: 4, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Ghast Tear"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "tconstruct:bacon"
+			id: "77BA8B1939EE4D40"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "4B4A28E287EEC83C"
+				item: "tconstruct:bacon"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "66CFF91C440D5256"
+				item: { Count: 2, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Bacon"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "pamhc2foodcore:fruitsaladitem"
+			id: "39F000FDE5F3E25C"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "7A818D16429CA7A5"
+				item: "pamhc2foodcore:fruitsaladitem"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "7F164BF215A8C645"
+					item: "kubejs:coin_copper"
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "164BF5E48E55A5BF"
+					item: "kubejs:coin_bronze"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Fruit Salad"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "pamhc2foodcore:basicchickensandwichitem"
+			id: "0DC24EA5B1D2C8A4"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "5173E09CB3AD2E9C"
+				item: "pamhc2foodcore:basicchickensandwichitem"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "04DBE54152CAB09A"
+				item: { Count: 2, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Chicken Sandwich"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: ["... is a lie!"]
+			disable_toast: true
+			icon: "minecraft:cake"
+			id: "26259FD9CAC9DD29"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "4D9CA61EF6E1A5E7"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "44EE55B5F976DC37"
+				item: "kubejs:coin_bronze"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Cake"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			description: ["Is there anything they can't do?"]
+			disable_toast: true
+			icon: "pamhc2foodcore:basicchickensandwichitem"
+			id: "258ABA99B31E9E7A"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "5A59AB3B417F15D9"
+				item: "pamhc2foodcore:basicchickensandwichitem"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "57C629431FF80B67"
+					item: { Count: 3, id: "kubejs:coin_copper" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6E6D643DB0EBDB99"
+					item: "kubejs:coin_bronze"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Donut"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "nuclearcraft:dominos"
+			id: "21514B854FBFCC70"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "5B3CF6A13C8963C8"
+				item: "nuclearcraft:dominos"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "2BCC53157A67F781"
+					item: { Count: 2, id: "kubejs:coin_copper" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "2727561AA977F736"
+					item: { Count: 2, id: "kubejs:coin_bronze" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Domino's Special"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:copper_ore"
+			id: "60420F5C6BF549E2"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "0326EFF85BDB0FBB"
+				item: "minecraft:copper_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "33307DBDCB6EE22E"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Copper"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "thermal:tin_ore"
+			id: "222E1A1582A2E524"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "060EF649933D2D70"
+				item: "thermal:tin_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "646448154B0E25AE"
+				item: { Count: 2, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Tin"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:iron_ore"
+			id: "519FF4D1E834F737"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "63685150E59EE03A"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "31C974E88A448C56"
+				item: { Count: 2, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Iron"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "thermal:lead_ore"
+			id: "39FD364391E6F1A6"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "03371E8BBC45481E"
+				item: "thermal:lead_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0AB389A81D171252"
+				item: { Count: 4, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Lead"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:gold_ore"
+			id: "7C430055E55ED307"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "2E1F9B444CE14EF8"
+				item: "minecraft:gold_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0446EC6BC1FF3D52"
+				item: { Count: 2, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Gold"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "thermal:silver_ore"
+			id: "4A9E72240F6B5EF5"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "41747263462E779A"
+				item: "thermal:silver_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3484D357CE2FD3D2"
+				item: { Count: 4, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Silver"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "immersiveengineering:ore_aluminum"
+			id: "2E092A30F0DC0417"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "0238972E837A9B08"
+				item: "immersiveengineering:ore_aluminum"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "7A4604B963C50D2E"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Aluminuminium"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			description: ["...all the nickels in Jupiter"]
+			disable_toast: true
+			icon: "thermal:nickel_ore"
+			id: "11670DAD48BCFB1A"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "3D73AC5A6FEDCD5E"
+				item: "thermal:nickel_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "4A4BA4A15F36F507"
+				item: "kubejs:coin_bronze"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Nickel"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["666EEE5D946A7BBE"]
+			disable_toast: true
+			icon: "minecraft:ancient_debris"
+			id: "64AA2664D5F7999C"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "64045B1EF942F8BF"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "66D4AF261AEB10BC"
+				item: "kubejs:coin_silver"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Ancient Debris"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26B39841A0EDC236"]
+			description: ["... whose?"]
+			disable_toast: true
+			icon: "nuclearcraft:uranium_ore"
+			id: "16B6330E4E8403EF"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "568B1695459C0BBB"
+				item: "nuclearcraft:uranium_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "31776D00CF44A41A"
+				item: { Count: 4, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Uranium"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26B39841A0EDC236"]
+			disable_toast: true
+			icon: "nuclearcraft:thorium_ore"
+			id: "04E3C154A79393C6"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "1AC4FE4942F1D05D"
+				item: "nuclearcraft:thorium_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7D541892194ADC19"
+				item: { Count: 2, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Thorium"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26B39841A0EDC236"]
+			disable_toast: true
+			icon: "nuclearcraft:boron_ore"
+			id: "25E8AC0A5E4A5B80"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "053839D7289B3228"
+				item: "nuclearcraft:boron_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7A3A2D65AE67700B"
+				item: { Count: 2, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Boron"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26B39841A0EDC236"]
+			disable_toast: true
+			icon: "nuclearcraft:lithium_ore"
+			id: "5CB2671CEBD682CB"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "15233ABAB8D8BD49"
+				item: "nuclearcraft:lithium_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "662A52A6B235355D"
+				item: { Count: 4, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Lithium"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26B39841A0EDC236"]
+			disable_toast: true
+			icon: "nuclearcraft:magnesium_ore"
+			id: "791BBC16CFC0FB84"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "5352E987E685BBF1"
+				item: "nuclearcraft:magnesium_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "10C4A1BD5F8DD0F6"
+				item: { Count: 2, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Magnesium"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44071016E3A34737"]
+			disable_toast: true
+			icon: "tconstruct:cobalt_ore"
+			id: "613AFCB43C077C88"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "07C9255D22E80F01"
+				item: "tconstruct:cobalt_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "69B7F0E4BDD8B1B0"
+				item: "kubejs:coin_bronze"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Cobalt"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "projectred_exploration:sapphire_ore"
+			id: "2024498A6BC7247D"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "22C400B0F30A8BBC"
+				item: "projectred_exploration:sapphire_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0A2D6A3A78D2B80E"
+				item: { Count: 2, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Sapphire"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "projectred_exploration:ruby_ore"
+			id: "016FBFF781010A9E"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "1DF2BD1CBD5CA010"
+				item: "projectred_exploration:ruby_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5C76D80EFBEFA01E"
+				item: { Count: 2, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Ruby"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "projectred_exploration:peridot_ore"
+			id: "7F79493A8BF2827A"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "348C87D1D2408236"
+				item: "projectred_exploration:peridot_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1408412A44565532"
+				item: { Count: 2, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Peridot"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["525980C7534BF5CF"]
+			disable_toast: true
+			icon: "kubejs:certus_ore"
+			id: "4DA59B31D1F841C0"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "4CFCEF8CFA4EE35F"
+				item: "kubejs:certus_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "2C6F8FBD8E29D563"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Certus Quartz"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:redstone_ore"
+			id: "344DE6C66DD323AA"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 5
+				id: "57B53E616860337B"
+				item: "minecraft:redstone_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "1907AAF81E0BA0B8"
+				item: "kubejs:coin_bronze"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Redstone"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:coal_ore"
+			id: "6EB511FCD33C7282"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "1504CD6EC1CA0A64"
+				item: "minecraft:coal_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "6EF42517C0F7A8D2"
+				item: "kubejs:coin_copper"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Coal"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44071016E3A34737"]
+			disable_toast: true
+			icon: "minecraft:nether_quartz_ore"
+			id: "37C9B9ACD8AA3F94"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "5C68410E6DEAD7CD"
+				item: "minecraft:nether_quartz_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3A140218107F6185"
+				item: { Count: 2, id: "kubejs:coin_bronze" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Quartz"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:lapis_ore"
+			id: "78681A5AB9CAB598"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "09E9978AE6777C1E"
+				item: "minecraft:lapis_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "19E24036A77CFDA0"
+					item: { Count: 5, id: "kubejs:coin_bronze" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "41599A341C5C807C"
+					item: "kubejs:coin_silver"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Lapis"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:diamond_ore"
+			id: "52D821F32648FADB"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "3807E49694B39E72"
+				item: "minecraft:diamond_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "0630044F7A61DDB1"
+				item: "kubejs:coin_silver"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Diamond"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "rftoolsbase:dimensionalshard_overworld"
+			id: "57313939C25871BA"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "621FCA51A9E74019"
+				item: "rftoolsbase:dimensionalshard_overworld"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "198B364CE2AA9995"
+				item: "kubejs:coin_silver"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Dimensional Shard"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["502E2EB98F1091C9"]
+			disable_toast: true
+			icon: "minecraft:emerald_ore"
+			id: "30A1C5DE57F4B04B"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "616B9D3C48055C6D"
+				item: "minecraft:emerald_ore"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "73F6EB02F10DD043"
+				item: { Count: 2, id: "kubejs:coin_silver" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Emerald"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44071016E3A34737"]
+			disable_toast: true
+			icon: "minecraft:glowstone"
+			id: "388D3BFCFB316AE1"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "44861263551E18CD"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "7231DB397DCF4047"
+				item: { Count: 6, id: "kubejs:coin_copper" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Glowstone"
+			x: 11.0d
+			y: 5.0d
+		}
+	]
+	subtitle: ["Khajiit has wares, if you have coin"]
 	title: "The Shop"
 }
