@@ -631,14 +631,12 @@
 			y: 1.5d
 		}
 		{
-			description: ["The first piece you'll need to open the End is a quartz bone, held by an old Forgotten in his underground lab in the Overworld"]
-			icon: {
-				Count: 1
-				id: "quark:forgotten_hat"
-				tag: {
-					Damage: 0
-				}
-			}
+			description: [
+				"The first piece you'll need to open the End is a quartz bone, held by an old mad scientist in his underground lab in the Overworld."
+				""
+				"He hasn't been seen in a while... beware of unattended experiments..."
+			]
+			icon: "minecraft:skeleton_skull"
 			id: "5BC2BEC129823553"
 			rewards: [{
 				id: "049C7CD4C4DCD88E"
@@ -650,7 +648,7 @@
 				item: "kubejs:quartz_bone"
 				type: "item"
 			}]
-			title: "Forget Me Not"
+			title: "Jailbreak"
 			x: 0.0d
 			y: 1.5d
 		}
