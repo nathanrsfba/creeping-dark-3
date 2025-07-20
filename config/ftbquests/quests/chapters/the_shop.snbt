@@ -1380,6 +1380,379 @@
 			x: 11.0d
 			y: 5.0d
 		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: "minecraft:oak_log"
+			id: "2D043B39E2D3ECE5"
+			optional: true
+			shape: "square"
+			title: "Template"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: ["Pick, axe, shovel, and hoe all in one"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "mekanismtools:iron_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1002C79E65F3D64D"
+			optional: true
+			rewards: [{
+				id: "31DFCB872FC12A14"
+				item: {
+					Count: 1
+					id: "mekanismtools:iron_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5B05CB6800C5BDD1"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			title: "Iron Paxel"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: "projectred_exploration:white_backpack"
+			id: "1018A82DF961DC35"
+			optional: true
+			rewards: [{
+				id: "6AF3B28C12C26F28"
+				item: "projectred_exploration:white_backpack"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "43771F9E23184068"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			title: "Backpack"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: "chipped:mason_table"
+			id: "4F5FCA5CDAD09474"
+			optional: true
+			rewards: [
+				{
+					id: "28E8747DBFE07363"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "75DA82D344FAE355"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1C1FF5D9697E3097"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "3FDE5DA57C5848EF"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "4A252A4BBBAA9453"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "0DBEB5D9BBC0D380"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+				{
+					id: "68BB041FE5815E96"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "57BC7525C2A816E0"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			title: "Chisel Kit"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "06C76D1C47A3C58C"
+			optional: true
+			rewards: [{
+				id: "6784FFCF921802BA"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0817D79196475F64"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			title: "Builder's Wand"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "exchangers:iron_exchanger"
+				tag: {
+					Damage: 0
+					blockstate: {
+						Name: "minecraft:air"
+					}
+					directionalPlacement: 0b
+					forceDropItems: 0b
+					fuzzyPlacement: 0b
+					fuzzyPlacementChance: 100
+					mode: 0
+					range: 0
+					voidItems: 0b
+				}
+			}
+			id: "499167FDEDC57990"
+			optional: true
+			rewards: [{
+				id: "73AFD2C518E2C7CF"
+				item: {
+					Count: 1
+					id: "exchangers:iron_exchanger"
+					tag: {
+						Damage: 0
+						blockstate: {
+							Name: "minecraft:air"
+						}
+						directionalPlacement: 0b
+						forceDropItems: 0b
+						fuzzyPlacement: 0b
+						fuzzyPlacementChance: 100
+						mode: 0
+						range: 0
+						voidItems: 0b
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "087F8820F52B6735"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			title: "Exchanger"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Place it in your chest slot, or as a \"back\" curio, and it'll charge your armor and whatever's in your hand."
+				""
+				"Recharging it involves putting it into an engineer's workbench and taking out the accumulator and charging it."
+				""
+				"It can also be crafted with a piece of chest armor to combine the two, and separated by dropping into a crafting bench."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							Count: 1b
+							Slot: 0
+							id: "immersiveengineering:capacitor_hv"
+							tag: {
+								energy: 4000000
+								sideConfig_0: 0
+								sideConfig_1: 0
+								sideConfig_2: 0
+								sideConfig_3: 0
+								sideConfig_4: 0
+								sideConfig_5: 0
+							}
+						}]
+						Size: 4
+					}
+				}
+				id: "immersiveengineering:powerpack"
+				tag: {
+					upgrades: { }
+				}
+			}
+			id: "3857852106A93CC9"
+			optional: true
+			rewards: [{
+				id: "3B3EAF1CF722412E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								Count: 1b
+								Slot: 0
+								id: "immersiveengineering:capacitor_hv"
+								tag: {
+									energy: 4000000
+									sideConfig_0: 0
+									sideConfig_1: 0
+									sideConfig_2: 0
+									sideConfig_3: 0
+									sideConfig_4: 0
+									sideConfig_5: 0
+								}
+							}]
+							Size: 4
+						}
+					}
+					id: "immersiveengineering:powerpack"
+					tag: {
+						upgrades: { }
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3AEC6C2850B2E51E"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			title: "Accumulator Backpack"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "simplyjetpacks:jetpack_te4"
+				tag: { }
+			}
+			id: "67AB8D18C9916EA7"
+			optional: true
+			rewards: [{
+				id: "34098EE2ECDAEE3A"
+				item: {
+					Count: 1
+					id: "simplyjetpacks:jetpack_te4"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0FE0449C9B8F430C"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			title: "Jetpack"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Place on a block, then break it to pick it up, contents and all."
+				""
+				"Shift-click with an empty hand to remove the box."
+			]
+			disable_toast: true
+			icon: "mekanism:cardboard_box"
+			id: "681B85504670CB41"
+			optional: true
+			rewards: [{
+				id: "4FDB983E194FDAA3"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0FA2554D7719979E"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			title: "Cardboard Box"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"400rf/t."
+				""
+				"For free."
+				""
+				"Forever."
+			]
+			disable_toast: true
+			icon: "nuclearcraft:americium_rtg"
+			id: "05322CEA585FD2B4"
+			optional: true
+			rewards: [{
+				id: "2726F5F0FA2C8ECE"
+				item: "nuclearcraft:americium_rtg"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5C12B6A14AE0FC83"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			title: "Radioisotope Thermoelectric Generator"
+			x: 8.0d
+			y: 6.0d
+		}
 	]
 	subtitle: ["Khajiit has wares, if you have coin"]
 	title: "The Shop"
