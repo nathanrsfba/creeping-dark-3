@@ -2221,6 +2221,226 @@
 			x: 7.0d
 			y: 7.0d
 		}
+		{
+			can_repeat: true
+			description: ["One of the toughest armor sets around"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "mekanismtools:refined_obsidian_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73CDDA5E59A0BF08"
+			optional: true
+			rewards: [
+				{
+					id: "18D7D780F52E1E0A"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CA360FDA71D8FAC"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07B3BE20FF690675"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22608523E4DA9853"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0F083C38A5DD976D"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			title: "Refined Obsidian Armor"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Top of the line for the hedge alchemist"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "botania:terrasteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D7DB88C9F5FC4AC"
+			optional: true
+			rewards: [
+				{
+					id: "5CE54A165F7B9FB1"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AFEF4041B6E62DA"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "669160A03E0A7E61"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EE924AF46C3A4F0"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 2L
+				id: "4A0C7ADEC3550FD7"
+				item: { Count: 2, id: "kubejs:coin_platinum" }
+				type: "item"
+			}]
+			title: "Terrasteel Armor"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: [""]
+			disable_toast: true
+			icon: "cookingforblockheads:oven"
+			id: "0B8DF0578DA36DEA"
+			optional: true
+			rewards: [
+				{
+					id: "1311223FAC331BD6"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5618DE68683CAEDB"
+					item: "cookingforblockheads:fridge"
+					type: "item"
+				}
+				{
+					id: "1D8806C24DDD2B80"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					id: "1B5C7D0FB3595C8C"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "365A3A0F053CEDFD"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+				{
+					id: "22B5DE9313ACC341"
+					item: "cookingforblockheads:corner"
+					type: "item"
+				}
+				{
+					id: "77EACD9409979CBF"
+					item: "cookingforblockheads:hanging_corner"
+					type: "item"
+				}
+				{
+					id: "334FFFF6EEAED229"
+					item: "cookingforblockheads:oven"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "215B324EDDDBC850"
+					item: "cookingforblockheads:white_kitchen_floor"
+					type: "item"
+				}
+				{
+					id: "05D7DDE4ED229B0B"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "3CC0AD111644E418"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+				{
+					id: "4CA4A6B3D7676EB9"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5745C472795CD72A"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			title: "Kitchenette Set"
+			x: 9.0d
+			y: 6.0d
+		}
 	]
 	subtitle: ["Khajiit has wares, if you have coin"]
 	title: "The Shop"
