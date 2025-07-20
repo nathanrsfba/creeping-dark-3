@@ -1753,6 +1753,474 @@
 			x: 8.0d
 			y: 6.0d
 		}
+		{
+			can_repeat: true
+			description: [
+				"Hold down the right mouse button until it's charged, then release to fire a rod of ammo. Steel, iron, aluminum, and blaze rods are all usable ammo."
+				""
+				"Complimentary starter pack of ammo included!"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 3
+					}
+				}
+				id: "immersiveengineering:railgun"
+				tag: {
+					ammo_slot: 31
+					energy: 8000
+				}
+			}
+			id: "0E7F2829F415B577"
+			optional: true
+			rewards: [
+				{
+					id: "452315F2631266A7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 3
+							}
+						}
+						id: "immersiveengineering:railgun"
+						tag: {
+							ammo_slot: 31
+							energy: 8000
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4D3594958E35E7E2"
+					item: "immersiveengineering:stick_steel"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "492C18ED55428ACD"
+				item: "kubejs:coin_platinum"
+				type: "item"
+			}]
+			title: "Railgun"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ammo for the railgun."]
+			disable_toast: true
+			icon: "immersiveengineering:stick_iron"
+			id: "42061FAFB1690C46"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "6D0B48B65261A866"
+				item: "immersiveengineering:stick_iron"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "256967A1B0F7C9EA"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			title: "Iron Rod"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Better ammo for the railgun"]
+			disable_toast: true
+			icon: "immersiveengineering:stick_steel"
+			id: "4A5C1CB7F0193D07"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "3678974BBC72143D"
+				item: "immersiveengineering:stick_steel"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 2L
+				id: "6DDED74DA8225E9B"
+				item: { Count: 2, id: "kubejs:coin_silver" }
+				type: "item"
+			}]
+			title: "Steel Rod"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Fire! Fire! heh heh heh"
+				""
+				"Free refill included."
+			]
+			disable_toast: true
+			icon: "mekanism:flamethrower"
+			id: "24E43C568F8DF52D"
+			optional: true
+			rewards: [
+				{
+					id: "70DC42DFE3FD84F7"
+					item: {
+						Count: 1
+						id: "mekanism:flamethrower"
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										amount: 24000L
+										gasName: "mekanism:hydrogen"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "744603F3A1874EB0"
+					item: {
+						Count: 1
+						id: "mekanism:basic_chemical_tank"
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										amount: 64000L
+										gasName: "mekanism:hydrogen"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0EE397EBFEF6EC79"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			title: "Flamethrower"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Cylinder exchange program for flamethrower refills"]
+			disable_toast: true
+			icon: "mekanism:basic_chemical_tank"
+			id: "043FDD052B14E031"
+			optional: true
+			rewards: [{
+				id: "34DF5F816390F6D4"
+				item: {
+					Count: 1
+					id: "mekanism:basic_chemical_tank"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 64000L
+									gasName: "mekanism:hydrogen"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5F20A695C6B135E7"
+					item: "kubejs:coin_bronze"
+					type: "item"
+				}
+				{
+					id: "7709C47DA23AB713"
+					item: "mekanism:basic_chemical_tank"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Hydrogen"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["A magical gun!"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "botania:mana_gun"
+				tag: {
+					lens: {
+						Count: 1b
+						id: "botania:lens_damage"
+					}
+				}
+			}
+			id: "0437909F2B83FCCB"
+			optional: true
+			rewards: [
+				{
+					id: "713BA1F06AACA87C"
+					item: {
+						Count: 1
+						id: "botania:mana_gun"
+						tag: {
+							lens: {
+								Count: 1b
+								id: "botania:lens_damage"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "588C1BC05DC5E921"
+					item: {
+						Count: 1
+						id: "botania:mana_tablet"
+						tag: {
+							mana: 500000
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6B96BA7C48DC353F"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			title: "Mana Blaster"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Shift-click to reload, or just right-click while holding a loaded speedloader"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [
+							{
+								Count: 1b
+								Slot: 0
+								id: "immersiveengineering:casull"
+							}
+							{
+								Count: 1b
+								Slot: 1
+								id: "immersiveengineering:casull"
+							}
+							{
+								Count: 1b
+								Slot: 2
+								id: "immersiveengineering:casull"
+							}
+							{
+								Count: 1b
+								Slot: 3
+								id: "immersiveengineering:casull"
+							}
+							{
+								Count: 1b
+								Slot: 4
+								id: "immersiveengineering:casull"
+							}
+							{
+								Count: 1b
+								Slot: 5
+								id: "immersiveengineering:casull"
+							}
+							{
+								Count: 1b
+								Slot: 6
+								id: "immersiveengineering:casull"
+							}
+							{
+								Count: 1b
+								Slot: 7
+								id: "immersiveengineering:casull"
+							}
+						]
+						Size: 21
+					}
+				}
+				id: "immersiveengineering:revolver"
+			}
+			id: "07C03D806E367443"
+			optional: true
+			rewards: [
+				{
+					id: "33BFE27A68190027"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 4
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 5
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 6
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 7
+										id: "immersiveengineering:casull"
+									}
+								]
+								Size: 21
+							}
+						}
+						id: "immersiveengineering:revolver"
+					}
+					type: "item"
+				}
+				{
+					id: "2E12F848DA89B83A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 4
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 5
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 6
+										id: "immersiveengineering:casull"
+									}
+									{
+										Count: 1b
+										Slot: 7
+										id: "immersiveengineering:casull"
+									}
+								]
+								Size: 8
+							}
+						}
+						id: "immersiveengineering:speedloader"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "...well do you, punk?"
+			tasks: [{
+				id: "5F65694CABAADBC4"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			title: "Revolver"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Basic ammo for the revolver"]
+			disable_toast: true
+			icon: "immersiveengineering:casull"
+			id: "2D48725387D702C4"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "32EF728F29F22F67"
+				item: "immersiveengineering:casull"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1227D97DFAED8EAA"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			title: "Casull Cartridges"
+			x: 7.0d
+			y: 7.0d
+		}
 	]
 	subtitle: ["Khajiit has wares, if you have coin"]
 	title: "The Shop"
