@@ -1382,18 +1382,6 @@
 		}
 		{
 			can_repeat: true
-			description: [""]
-			disable_toast: true
-			icon: "minecraft:oak_log"
-			id: "2D043B39E2D3ECE5"
-			optional: true
-			shape: "square"
-			title: "Template"
-			x: 10.5d
-			y: 3.0d
-		}
-		{
-			can_repeat: true
 			description: ["Pick, axe, shovel, and hoe all in one"]
 			disable_toast: true
 			icon: {
