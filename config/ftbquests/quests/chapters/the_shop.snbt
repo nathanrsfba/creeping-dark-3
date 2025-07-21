@@ -1955,6 +1955,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "7709C47DA23AB713"
 					item: "mekanism:basic_chemical_tank"
 					match_nbt: false
