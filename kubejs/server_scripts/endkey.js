@@ -80,16 +80,16 @@ ServerEvents.recipes( event => {
             "n": { "item": "minecraft:nether_star" },
             "q": { "item": "kubejs:quartz_bone" }, // Miniboss loot
             "s": { "item": "kubejs:evil_eye" }, // Spider dome loot
-            // "s": { "item": "" }, // Space Needle drop  
             "v": { "item": "minecraft:dragon_head" }, // Void city item  
-            "w": { "item": "ars_nouveau:wilden_tribute" }
+            "w": { "item": "ars_nouveau:wilden_tribute" },
+            "x": { "item": "kubejs:glacio_aquamarine" } // Space Needle drop  
         },
         "pattern": [
             " Cqh ",
             " VFS ",
             "Hean5",
             " AMN ",
-            " vws "
+            "xv ws"
         ]
     });
 });
