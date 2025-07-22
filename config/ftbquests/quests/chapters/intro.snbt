@@ -19,14 +19,14 @@
 			icon: "minecraft:dragon_head"
 			id: "055021ADCC543D28"
 			rewards: [{
-				id: "5FA21C00F6D1C839"
+				id: "50F6CB4BEB7A7244"
 				item: {
 					Count: 1
 					id: "projectred_exploration:white_backpack"
 					tag: {
 						RepairCost: 0
 						backpack_inventory: {
-							item_count: 5
+							item_count: 6
 							items: [
 								{
 									Count: 1b
@@ -55,6 +55,11 @@
 									Count: 64b
 									id: "minecraft:apple"
 									slot: 4
+								}
+								{
+									Count: 1b
+									id: "prefab:item_house"
+									slot: 5
 								}
 							]
 						}
