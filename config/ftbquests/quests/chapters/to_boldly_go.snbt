@@ -343,10 +343,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"00A99A8DF6D1D95D"
-				"2D28283B6820D387"
-			]
+			dependencies: ["00A99A8DF6D1D95D"]
 			description: ["An upgraded space suit that can withstand the heat of Venus and Mercury"]
 			icon: {
 				Count: 1
@@ -416,10 +413,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: [
-				"00A99A8DF6D1D95D"
-				"2D28283B6820D387"
-			]
+			dependencies: ["00A99A8DF6D1D95D"]
 			description: ["A rocket that will take you to Venus and Mercury"]
 			id: "28AF3EFB4F08370D"
 			rewards: [{
@@ -460,6 +454,10 @@
 			y: 8.0d
 		}
 		{
+			dependencies: [
+				"28AF3EFB4F08370D"
+				"2EA59C86F869753E"
+			]
 			description: ["A hot world near the sun, with new dangers"]
 			icon: "ad_astra:venus_globe"
 			id: "2D28283B6820D387"
@@ -516,6 +514,23 @@
 			}]
 			x: 3.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["6AEC216956478318"]
+			description: ["On Glacio is a Vindicator in his toroid tower. Find him and kill him."]
+			id: "4DE3F8F53CA48F21"
+			rewards: [{
+				id: "42993F3604EF64EF"
+				item: "kubejs:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F58D998AC0F25A6"
+				item: "kubejs:glacio_aquamarine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
 		}
 	]
 	title: "To Boldly Go"
