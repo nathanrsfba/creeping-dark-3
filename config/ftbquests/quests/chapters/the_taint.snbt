@@ -463,6 +463,7 @@
 				}
 				type: "item"
 			}]
+			title: "Marilyn Mansion"
 			x: 0.5d
 			y: -6.5d
 		}
