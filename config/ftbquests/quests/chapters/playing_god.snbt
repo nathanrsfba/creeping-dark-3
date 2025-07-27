@@ -221,7 +221,7 @@
 		}
 		{
 			dependencies: ["4FFA29EE35DD01AC"]
-			description: ["In the otherwise peaceful world of Solara, you'll find the Horned Tower, fortress of the Lost Hunter. Kill him, and peel the very flesh from his bones."]
+			description: ["In the otherwise peaceful world of Solara, you'll find the Horned Tower. Find the cursed stray within, kill him, and peel the very flesh from his bones. What's left of it, anyway."]
 			id: "07C2502F11E2D9EF"
 			rewards: [{
 				id: "11BE1722E43916D2"
