@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "solara_dimension:solarademension",
+  "biomes": "solara_dimension:solara",
   "spawn_overrides": {},
   "step": "surface_structures",
   "start_pool": "cddp:horned_tower/start",
