@@ -1,0 +1,17 @@
+{
+    "name": "cddp:horned_tower/start_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "cddp:horned_tower",
+                "processors": {
+                    "processors": []
+                },
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ]
+}
