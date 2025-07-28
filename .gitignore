@@ -35,3 +35,4 @@ world/
 # Tracked by the manifest file
 mods/*
 !mods/readme.txt
+!mods/plaguesky-*
