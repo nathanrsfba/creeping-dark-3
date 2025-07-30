@@ -78,6 +78,7 @@ ServerEvents.recipes( event => {
             "e": { "item": "tropicraft:eih_spawn_egg" }, // Eye of head  
             "h": { "item": "kubejs:shadow_flesh" }, // Horned tower loot  
             "n": { "item": "minecraft:nether_star" },
+            "p": { "item": "astral_dimension:void_organ" }, // Pure Void
             "q": { "item": "kubejs:quartz_bone" }, // Miniboss loot
             "s": { "item": "kubejs:evil_eye" }, // Spider dome loot
             "v": { "item": "minecraft:dragon_head" }, // Void city item  
@@ -85,7 +86,7 @@ ServerEvents.recipes( event => {
             "x": { "item": "kubejs:glacio_aquamarine" } // Space Needle drop  
         },
         "pattern": [
-            " Cqh ",
+            "Cq hp",
             " VFS ",
             "Hean5",
             " AMN ",
