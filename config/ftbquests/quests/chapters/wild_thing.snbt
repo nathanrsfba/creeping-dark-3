@@ -13,8 +13,8 @@
 				"111EF84EB0F800F6"
 				"4E58607183CAB4BC"
 			]
-			description: ["Place the spellbook on the table, select the Summon Steed glyph, then toss 4 leathers onto the table. You'll need a bit of XP to do this."]
-			icon: "ars_nouveau:glyph_summon_steed"
+			description: ["Place the spellbook on the table, select the Ignite glyph, then toss 3 coals onto the table. You'll need a bit of XP to do this."]
+			icon: "ars_nouveau:glyph_ignite"
 			id: "339BE3C37C384ADE"
 			rewards: [{
 				id: "5008BC8D46EB3A77"
@@ -23,7 +23,7 @@
 			}]
 			tasks: [{
 				id: "1FFD50A4E1F4167E"
-				item: "ars_nouveau:glyph_summon_steed"
+				item: "ars_nouveau:glyph_ignite"
 				type: "item"
 			}]
 			title: "Crunch"
@@ -300,11 +300,9 @@
 				"339BE3C37C384ADE"
 			]
 			description: [
-				"A Summon Steed glyph can be \"corrupted\" into a wilden summoning artifact."
+				"With this you can summon Wilden creatures."
 				""
-				"Enchant it in the Enchanting Apparatus with some Vexing Archwood, a Lapis Block, and either (a) 3 wilden drops, or (b) an Emerald Block, bow, and iron sword."
-				""
-				"You'll need a bit of Source for this."
+				"Or a Wilden boss."
 			]
 			id: "68F2C398E5DF3E86"
 			rewards: [{
@@ -321,6 +319,6 @@
 			y: -0.5d
 		}
 	]
-	subtitle: ["Ars Nouveau"]
-	title: "Wild Thing"
+	subtitle: ["Ars Nouveau and the Setback"]
+	title: "Two Steps Forward"
 }
