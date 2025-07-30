@@ -12,7 +12,8 @@ ServerEvents.recipes( event => {
             { item: "astral_dimension:nanta_pearl" },
             { item: "astral_dimension:nanta_pearl" },
             { item: "astral_dimension:nanta_pearl" },
-            { item: "astral_dimension:nanta_pearl" }
+            { item: "astral_dimension:nanta_pearl" },
+            { item: "ars_nouveau:glyph_ignite" }
         ],
         reagent: [
             { item: "astral_dimension:faded_star" }
