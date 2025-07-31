@@ -22,6 +22,8 @@ saves/
 screenshots/
 usercache.json
 usernamecache.json
+.qmenu_opened.marker
+fancymenu_data/
 
 # Server garbage
 eula.txt
@@ -36,3 +38,4 @@ world/
 mods/*
 !mods/readme.txt
 !mods/plaguesky-*
+
