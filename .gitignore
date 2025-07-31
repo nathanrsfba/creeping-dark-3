@@ -24,6 +24,7 @@ usercache.json
 usernamecache.json
 .qmenu_opened.marker
 fancymenu_data/
+config/worldedit/sessions/
 
 # Server garbage
 eula.txt
