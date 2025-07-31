@@ -342,8 +342,11 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["17DE47DC2926A3DF"]
-			description: ["Build a portal of Glowing Obsidian, and light it with the Nanta Star"]
+			dependencies: [
+				"17DE47DC2926A3DF"
+				"27057D8B6AA90D45"
+			]
+			description: ["Build a portal of Gloomy Obsidian, and light it with the Nanta Star"]
 			id: "047A3D6ABB1BFDA6"
 			rewards: [{
 				id: "4B19F4C9D626A9B0"
