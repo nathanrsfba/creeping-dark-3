@@ -13,7 +13,7 @@
 				"111EF84EB0F800F6"
 				"4E58607183CAB4BC"
 			]
-			description: ["Place the spellbook on the table, select the Ignite glyph, then toss 3 coals onto the table. You'll need a bit of XP to do this."]
+			description: ["Place the spellbook on the table, select the Ignite glyph, then toss 3 coals and a lighter onto the table. You'll need a bit of XP to do this."]
 			icon: "ars_nouveau:glyph_ignite"
 			id: "339BE3C37C384ADE"
 			rewards: [{
@@ -27,8 +27,8 @@
 				type: "item"
 			}]
 			title: "Crunch"
-			x: -1.0d
-			y: -2.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4D0A14A86FD46259"]
@@ -46,8 +46,8 @@
 				type: "item"
 			}]
 			title: "Magical Scribbles"
-			x: -3.0d
-			y: -2.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7A4F1896DA221B07"]
@@ -82,8 +82,8 @@
 				}
 			]
 			title: "Poor Man's Infusion"
-			x: -0.5d
-			y: 1.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["04E991A0CF99EA0F"]
@@ -132,11 +132,11 @@
 				}
 			]
 			title: "Liquid Magic"
-			x: -2.5d
-			y: -0.5d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["3EB1F46B11C52215"]
+			dependencies: ["7A4F1896DA221B07"]
 			dependency_requirement: "all_started"
 			description: ["A device for performing magical rituals"]
 			id: "6A8C5BB3A32414F1"
@@ -151,8 +151,8 @@
 				type: "item"
 			}]
 			title: "Cultists"
-			x: 1.0d
-			y: 1.0d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -194,7 +194,7 @@
 				}
 			]
 			title: "Wild Thing"
-			x: 1.0d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -228,8 +228,8 @@
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -256,8 +256,8 @@
 				title: "Archwood"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["047028D469D6F80D"]
@@ -273,7 +273,7 @@
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -6.5d
 			y: 1.0d
 		}
 		{
@@ -290,15 +290,10 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: -0.5d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"3EB1F46B11C52215"
-				"6C439855A968C105"
-				"339BE3C37C384ADE"
-			]
 			description: [
 				"With this you can summon Wilden creatures."
 				""
@@ -317,6 +312,52 @@
 			}]
 			x: -0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3EB1F46B11C52215"
+				"6C439855A968C105"
+				"339BE3C37C384ADE"
+				"3EB3273881A4FF18"
+			]
+			description: ["With this, you can venture further into the Astral Dimension."]
+			id: "17DE47DC2926A3DF"
+			rewards: [{
+				id: "141F69F65DE254B8"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04AD7BC1277B91A8"
+				item: {
+					Count: 1
+					id: "astral_dimension:setback"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["17DE47DC2926A3DF"]
+			description: ["Build a portal of Glowing Obsidian, and light it with the Nanta Star"]
+			id: "047A3D6ABB1BFDA6"
+			rewards: [{
+				id: "4B19F4C9D626A9B0"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "astral_dimension:setback"
+				id: "678A11236C52FDEE"
+				title: "Visit The Setback"
+				type: "dimension"
+			}]
+			x: -4.5d
+			y: 5.5d
 		}
 	]
 	subtitle: ["Ars Nouveau and the Setback"]
