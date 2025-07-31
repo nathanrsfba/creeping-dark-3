@@ -386,7 +386,7 @@
 				}
 			]
 			title: "Antigem"
-			x: 2.0d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -405,8 +405,8 @@
 				type: "item"
 			}]
 			title: "Sanctuary"
-			x: 0.5d
-			y: -3.5d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -466,6 +466,63 @@
 			title: "Marilyn Mansion"
 			x: 0.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["3EB3273881A4FF18"]
+			description: ["Look for faded electric swamps... then dig some of these up from the floating islands."]
+			id: "5C0830574681D82F"
+			rewards: [{
+				id: "359D909FA672ECEB"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19126670A7833EFB"
+				item: "astral_dimension:twisted_coral"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C0830574681D82F"]
+			description: [
+				"Look for a Faded Fortress. Then feed the coral to the Nantas until you get four of their pearls."
+				""
+				"You can also just murder them. You monster."
+			]
+			id: "4402356DE28336A4"
+			rewards: [{
+				id: "1A7AEA588532EF0C"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7A0A73DA2729C285"
+				item: { Count: 4, id: "astral_dimension:nanta_pearl" }
+				type: "item"
+			}]
+			title: "Nanta Pearls"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C0830574681D82F"]
+			description: ["Kill some Slurkers in the faded fortress to get one of these."]
+			id: "1421F8AB89F57D39"
+			rewards: [{
+				id: "36B9DAAC45DDB9F8"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "745E88E4B6F231D2"
+				item: "astral_dimension:faded_star"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
 		}
 	]
 	subtitle: ["Mekanism and the Astral Dimension"]

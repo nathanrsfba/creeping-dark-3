@@ -318,7 +318,8 @@
 				"3EB1F46B11C52215"
 				"6C439855A968C105"
 				"339BE3C37C384ADE"
-				"3EB3273881A4FF18"
+				"4402356DE28336A4"
+				"1421F8AB89F57D39"
 			]
 			description: ["With this, you can venture further into the Astral Dimension."]
 			id: "17DE47DC2926A3DF"
@@ -361,6 +362,93 @@
 			}]
 			x: -4.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["047A3D6ABB1BFDA6"]
+			description: ["This thing can cure certain corrupted blocks in the Astral Dimension."]
+			id: "57C822CBAB56E8C3"
+			rewards: [{
+				id: "7D61DB6C9F829EC7"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A57C7E5B0072F3C"
+				item: {
+					Count: 1
+					id: "astral_dimension:void_eater"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "nom"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["047A3D6ABB1BFDA6"]
+			description: ["Find a Postrum Temple. On the upper levels, you'll find a trap in a cage. Smack it to summon the Tower of Malice, and kill it."]
+			id: "466B56E98FA706C4"
+			rewards: [{
+				id: "3FB8B40424C80FBE"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F8EFB507C5A2428"
+				item: "astral_dimension:void_eater_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Bigger Fish"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"466B56E98FA706C4"
+				"57C822CBAB56E8C3"
+			]
+			description: ["Use the upgrade template at a smithing table to upgrade your void eater"]
+			id: "1E6B4706F93196E2"
+			rewards: [{
+				id: "5117C2AE27BEC163"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66692FF2C9ED3CDA"
+				item: {
+					Count: 1
+					id: "astral_dimension:upgraded_void_eater"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "nom nom"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1E6B4706F93196E2"]
+			description: ["On the surface of the Setback, you'll find blocks of Void Organs. Right-click them with the upgraded Void Eater to yank the guts out of them."]
+			id: "341D86CC7AD374C7"
+			rewards: [{
+				id: "1A0B9E50EC493D18"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B23DA8D2CE80732"
+				item: "astral_dimension:void_organ"
+				type: "item"
+			}]
+			title: "Wurlitzer"
+			x: -0.5d
+			y: 7.0d
 		}
 	]
 	subtitle: ["Ars Nouveau and the Setback"]
