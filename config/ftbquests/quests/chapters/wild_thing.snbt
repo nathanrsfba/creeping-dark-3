@@ -215,7 +215,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4D0A14A86FD46259"]
+			dependencies: [
+				"4D0A14A86FD46259"
+				"3A5D713ABE254325"
+			]
 			description: ["Mixes magical essense with items to make magical materials"]
 			id: "04E991A0CF99EA0F"
 			rewards: [{
