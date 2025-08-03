@@ -29,7 +29,7 @@
 	sloughPercent = 10
 	#How quickly a decaying dragonscale block should turn into an ore. 100 means 'the moment it lands'. Technically this is the chance it has to change each time the block ticks.
 	#Range: 0 ~ 100
-	orePercent = 10
+	orePercent = 90
 	#The height that the plague seeds at
 	#Range: 0 ~ 319
 	plagueHeight = 255
@@ -37,7 +37,7 @@
 	healDefault = false
 	#When dragonskin blocks decay, they decay in patches of connected blocks, rather than individual blocks
 	patchyDecay = true
-	#The blocks that might be released from Dragonscale. This can be a resource ID (minecraft:stone) or a tagentry (forge:ores/iron)
+	#The blocks that might be released from Dragonscale. This can be a resource ID (minecraft:stone) or a tagentry (#forge:ores/iron)
 	dropBlocks = ["ae2:quartz_block", "create:zinc_block", "immersiveengineering:coke", "immersiveengineering:storage_aluminum", "mekanism:block_charcoal", "mekanism:block_fluorite", "mekanism:block_osmium", "mekanism:block_steel", "minecraft:glowstone", "nuclearcraft:beryllium_block", "nuclearcraft:boron_block", "nuclearcraft:graphite_block", "nuclearcraft:lithium_block", "nuclearcraft:magnesium_block", "nuclearcraft:platinum_block", "nuclearcraft:thorium_block", "nuclearcraft:uranium_block", "nuclearcraft:zirconium_block", "projectred_exploration:electrotine_block", "projectred_exploration:peridot_block", "projectred_exploration:ruby_block", "projectred_exploration:sapphire_block", "tconstruct:cobalt_block", "thermal:lead_block", "thermal:nickel_block", "thermal:silver_block", "thermal:tin_block", "minecraft:amethyst_block", "minecraft:coal_block", "minecraft:copper_block", "minecraft:diamond_block", "minecraft:emerald_block", "minecraft:gold_block", "minecraft:iron_block", "minecraft:lapis_block", "minecraft:netherite_block", "minecraft:quartz_block", "minecraft:redstone_block"]
 	#Display debugging data in the console
 	debug = false
