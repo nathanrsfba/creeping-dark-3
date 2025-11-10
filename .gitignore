@@ -33,7 +33,7 @@ libraries/
 run.bat
 run.sh
 server.properties
-user_jvm_args.txt
+/user_jvm_args.txt
 world/
 
 # Tracked by the manifest file
