@@ -14,7 +14,7 @@ journeymap/
 local/
 logs/
 minecraftinstance.json
-options.txt
+/options.txt
 patchouli_data.json
 resourcepacks/
 rhino.local.properties
@@ -26,6 +26,7 @@ usernamecache.json
 fancymenu_data/
 config/worldedit/sessions/
 config/pregen/
+/servers.dat*
 
 # Server garbage
 eula.txt
