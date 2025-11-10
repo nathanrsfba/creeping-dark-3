@@ -32,9 +32,17 @@ eula.txt
 libraries/
 run.bat
 run.sh
-server.properties
+/server.properties
 /user_jvm_args.txt
 world/
+banned-ips.json
+banned-players.json
+config/configured-developer.toml
+forge-*-installer.jar
+*.log
+/go.sh
+ops.json
+whitelist.json
 
 # Tracked by the manifest file
 mods/*
