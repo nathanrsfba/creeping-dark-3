@@ -41,9 +41,10 @@ banned-players.json
 config/configured-developer.toml
 forge-*-installer.jar
 *.log
-/go.sh
+/*.sh
 ops.json
 whitelist.json
+/backups
 
 # Tracked by the manifest file
 mods/*
