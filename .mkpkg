@@ -1,5 +1,5 @@
 {
-  "exclude": "~$|\\.bak$|[Dd]eep.[Dd]ark|Chunk-Pregenerator",
+  "exclude": "~$|\\.bak$|[Dd]eep.[Dd]ark|Chunk-Pregenerator|freecam",
   "overrides": [
     "config/",
     "defaultconfigs/",
