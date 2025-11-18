@@ -1,7 +1,5 @@
-This is the repository for Creeping Dark III development. It is still in the
-very early stages of development, so basically just a bunch of mods thrown
-together and not much else.
+This is the repository for Creeping Dark III development. The pack is in
+"alpha", and will probably remain so until our YouTube series is finished.
 
-Some developments notes are in devs.txt, for those working on the pack. (Hi
-Mineman!)
-
+Those that wish to check out the pack, alpha releases will be uploaded here,
+which may be imported into any CurseForge compatible launcher.
