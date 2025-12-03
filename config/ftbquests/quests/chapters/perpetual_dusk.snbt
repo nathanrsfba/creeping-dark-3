@@ -19,7 +19,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				dimension: "twilightforest:twilightforest"
+				dimension: "twilightforest:twilight_forest"
 				id: "3A8D2A477583D50D"
 				title: "Visit The Twilight Forest"
 				type: "dimension"
