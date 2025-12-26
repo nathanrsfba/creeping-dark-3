@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["666EEE5D946A7BBE"]
+			dependencies: ["39012871C008B07F"]
 			description: ["Create a 2x2 pool of water, surround it with plants (flowers, grass, saplings, whatever), and throw in the netherite"]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "10D720ABFDEBCFD0"

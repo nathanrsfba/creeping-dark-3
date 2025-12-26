@@ -25,6 +25,11 @@
 			dependencies: ["4CF5E025B4C6FA0A"]
 			description: ["You'll need Netherite to get into the Twilight Forest. It spawns in the Nether, inside walls insulated from air."]
 			id: "666EEE5D946A7BBE"
+			rewards: [{
+				id: "47CE97245EEC4138"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D27F65AE2B2E0ED"
 				item: "minecraft:ancient_debris"
@@ -188,6 +193,36 @@
 			title: "Nether Minerals"
 			x: -1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: [
+				"666EEE5D946A7BBE"
+				"5E527BA2C154DB72"
+			]
+			description: ["Get four netherite scraps, mix it with some gold, and you get a netherite ingot"]
+			icon: "minecraft:netherite_ingot"
+			id: "39012871C008B07F"
+			rewards: [{
+				id: "6971AD271E78626C"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7DD7134712584704"
+					item: { Count: 4, id: "minecraft:netherite_scrap" }
+					type: "item"
+				}
+				{
+					id: "6CEC52B4917F2C1F"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "Netherite"
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["The Nether"]
