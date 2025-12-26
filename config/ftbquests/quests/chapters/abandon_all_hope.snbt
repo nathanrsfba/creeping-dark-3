@@ -75,6 +75,7 @@
 			}]
 			tasks: [
 				{
+					count: 3L
 					id: "044FF6DFA7D8E629"
 					item: "minecraft:wither_skeleton_skull"
 					type: "item"
