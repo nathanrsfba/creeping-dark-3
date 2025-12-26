@@ -108,16 +108,16 @@
 				type: "item"
 			}]
 			title: "Fire in a Box"
-			x: 0.5d
-			y: -4.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"52197ACCDF84AEA8"
 				"5159D58699500171"
-				"3A74BF6DEC02636C"
 				"05662BB926A979A5"
 				"70D89A2BB84E0E34"
+				"3A74BF6DEC02636C"
 			]
 			description: [
 				"Mix the biomass with cinder flour and sugar to get biofuel. Then pour it onto a blaze cake base"
@@ -302,8 +302,8 @@
 				type: "item"
 			}]
 			title: "Despot"
-			x: 0.5d
-			y: -2.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4D62B6188B10E877"]
@@ -315,18 +315,11 @@
 				item: "kubejs:coin_bronze"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "3321A719952F2D03"
-					item: "create:mechanical_press"
-					type: "item"
-				}
-				{
-					id: "735BAF43305931E4"
-					item: "create:basin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3321A719952F2D03"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
 			title: "Stomp"
 			x: 2.0d
 			y: -0.5d
@@ -335,6 +328,7 @@
 			dependencies: [
 				"3A1AC6B5BA0AEA94"
 				"760A11B52C1D6FAA"
+				"52B9E9D08775BE46"
 			]
 			description: ["Press some seeds to make seed oil (or make plant oil in the IE squeezer), then mix it with flowers."]
 			id: "05662BB926A979A5"
@@ -352,7 +346,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4A83F5F0C037BC03"]
+			dependencies: [
+				"4A83F5F0C037BC03"
+				"52B9E9D08775BE46"
+			]
 			description: ["The cakes made from this are definitely &onot&r edible"]
 			id: "70D89A2BB84E0E34"
 			rewards: [{
@@ -366,8 +363,20 @@
 				type: "item"
 			}]
 			title: "Hotcakes"
-			x: 0.0d
+			x: 0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["4D62B6188B10E877"]
+			description: ["Used alongside multiple Create machines"]
+			id: "52B9E9D08775BE46"
+			tasks: [{
+				id: "217555F372960F2A"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Create and The End"]
