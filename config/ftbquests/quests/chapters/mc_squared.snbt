@@ -39,9 +39,9 @@
 			description: [
 				"Once you've found some Certus, you'll want to make some Fluix. It's an essential part of most AE2 machines."
 				""
-				"To do this, simply put some certus, nether quartz, and redstone into an induction smelter."
+				"To do this, simply throw some charged certus, nether quartz, and redstone into a puddle. Or if you want something that's more amenable to automation, you can put them in an induction smelter or a Create mixer."
 				""
-				"Charged certus does not generate in the world anymore, but isn't necessary to make Fluix with this method. However, once you have fluix, you can make a charger to make charged certus, which you'll need if you want to make a meteorite compass."
+				"Charged certus does not generate in the world anymore; instead, you can use a charger, which you can make with iron and copper."
 			]
 			id: "661C3ADD8CD53DC8"
 			rewards: [{
@@ -59,7 +59,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["661C3ADD8CD53DC8"]
 			description: [
 				"The good news: You don't have go hunting all over the countryside for meteorites anymore. You just need to find one. They contain a Mysterious Cube that has all the presses. They're found in the Twilight Forest."
 				""
@@ -96,10 +95,9 @@
 			]
 			title: "The Sky Is Falling"
 			x: -7.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
-			dependencies: ["661C3ADD8CD53DC8"]
 			description: ["You'll need these to make ME circuits. Unlike most AE2 machines, these run on regular RF power, instead of being plugged into an ME network"]
 			id: "12AA3121C032D235"
 			rewards: [{
@@ -114,7 +112,7 @@
 			}]
 			title: "Chomp"
 			x: -7.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
