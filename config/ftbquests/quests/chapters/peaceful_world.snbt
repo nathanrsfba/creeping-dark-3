@@ -119,6 +119,7 @@
 			dependencies: [
 				"09FDACDD5A5FB5AA"
 				"6C2CF1454D976697"
+				"6F5692DA71ADD998"
 			]
 			description: [
 				"Mix the appropriate mineral with the appropriate fluid in the crystallizer to make these crystals."
@@ -240,6 +241,35 @@
 			}]
 			x: -0.5d
 			y: 1.0d
+		}
+		{
+			description: [
+				"You'll need to pulverize some apatite into dust to make crystallized lapis."
+				""
+				"You can get apatite as a byproduct of processing tin ore in the pulverizer or induction smelter."
+			]
+			icon: "thermal:apatite"
+			id: "6F5692DA71ADD998"
+			rewards: [{
+				id: "0875A887CDF1C29F"
+				item: "kubejs:coin_bronze"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7899C961E944EFE4"
+					item: "thermal:apatite"
+					type: "item"
+				}
+				{
+					id: "765B429479EB2606"
+					item: "thermal:apatite_dust"
+					type: "item"
+				}
+			]
+			title: "Insatiable"
+			x: -0.5d
+			y: -0.5d
 		}
 	]
 	subtitle: ["Thermal Expansion and Gaia"]
