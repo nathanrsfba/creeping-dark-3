@@ -3,7 +3,7 @@
 // Better mod cross-compatibility for plate construction
 
 ServerEvents.recipes( event => {
-    function addPlate( material, output )
+    function addPlateThermal( material, output )
     {
         event.custom({
             type: "thermal:press",
@@ -18,8 +18,51 @@ ServerEvents.recipes( event => {
         });
     }
 
-    addPlate( 'steel', 'immersiveengineering:plate_steel' );
-    addPlate( 'aluminum', 'immersiveengineering:plate_aluminum' );
-    addPlate( 'brass', 'create:brass_sheet' );
+    function addPlateCreate( material, output )
+    {
+        event.custom({
+            type: "create:pressing",
+            ingredients: [
+                {
+                    tag: `forge:ingots/${material}`
+                }
+            ],
+            results: [
+                {
+                    item: output
+                }
+            ]
+        });
+    }
+
+    function addPlateIE( material, output )
+    {
+        event.custom({
+            type: "immersiveengineering:metal_press",
+            input: {
+                tag: `forge:ingots/${material}`
+            },
+            mold : "immersiveengineering:mold_plate",
+            result : {
+                item: output
+            },
+            energy: 2400
+        });
+    }
+    addPlateThermal( 'steel', 'immersiveengineering:plate_steel' );
+    addPlateThermal( 'aluminum', 'immersiveengineering:plate_aluminum' );
+    addPlateThermal( 'uranium', 'immersiveengineering:plate_uranium' );
+    addPlateThermal( 'zinc', 'createaddition:zinc_sheet' );
+    addPlateThermal( 'brass', 'create:brass_sheet' );
+
+    ['tin', 'bronze', 'enderium', 'invar', 'lumium', 'netherite',
+        'signalum'].forEach( material => {
+            addPlateCreate( material, `thermal:${material}_plate` );
+        });
+
+    ['tin', 'enderium', 'lumium', 'netherite',
+        'signalum'].forEach( material => {
+            addPlateIE( material, `thermal:${material}_plate` );
+        });
 });
 
