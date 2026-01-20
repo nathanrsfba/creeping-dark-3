@@ -11,7 +11,8 @@ ServerEvents.recipes( event => {
         ],
         result: [
             { item: "gaiadimension:crystallized_redstone" }
-        ]
+        ],
+        energy: 500
     });
     event.custom({
         type: "thermal:crystallizer",
@@ -23,7 +24,8 @@ ServerEvents.recipes( event => {
         result: [
             { item: "gaiadimension:crystallized_lapis_lazuli" }
     
-        ]
+        ],
+        energy: 500
     });
 
 });
