@@ -121,11 +121,7 @@
 				"6C2CF1454D976697"
 				"6F5692DA71ADD998"
 			]
-			description: [
-				"Mix the appropriate mineral with the appropriate fluid in the crystallizer to make these crystals."
-				""
-				"You need at least 40 of each."
-			]
+			description: ["Mix the appropriate mineral with the appropriate fluid in the crystallizer to make these crystals."]
 			icon: "gaiadimension:crystallized_redstone"
 			id: "771CF03292A41126"
 			rewards: [{
@@ -135,11 +131,13 @@
 			}]
 			tasks: [
 				{
+					count: 40L
 					id: "13C33EF4B8F9EEBE"
 					item: "gaiadimension:crystallized_redstone"
 					type: "item"
 				}
 				{
+					count: 40L
 					id: "4F31B761C75E5749"
 					item: "gaiadimension:crystallized_lapis_lazuli"
 					type: "item"
