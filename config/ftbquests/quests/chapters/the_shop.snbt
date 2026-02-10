@@ -630,13 +630,13 @@
 			can_repeat: true
 			description: ["Is there anything they can't do?"]
 			disable_toast: true
-			icon: "pamhc2foodcore:basicchickensandwichitem"
+			icon: "pamhc2foodextended:frosteddonutitem"
 			id: "258ABA99B31E9E7A"
 			optional: true
 			rewards: [{
 				auto: "no_toast"
 				id: "5A59AB3B417F15D9"
-				item: "pamhc2foodcore:basicchickensandwichitem"
+				item: "pamhc2foodextended:frosteddonutitem"
 				team_reward: true
 				type: "item"
 			}]
