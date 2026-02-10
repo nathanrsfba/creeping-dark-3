@@ -23,6 +23,7 @@
 				auto: "no_toast"
 				id: "2C6B95CB56B7CA84"
 				item: "minecraft:oak_log"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -50,6 +51,7 @@
 				count: 32
 				id: "3D41B1DC2C141E9D"
 				item: "minecraft:dirt"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -77,6 +79,7 @@
 				count: 32
 				id: "58A731F81FC084AD"
 				item: "minecraft:cobblestone"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -108,6 +111,7 @@
 				count: 32
 				id: "06D084B23E794EF5"
 				item: "minecraft:sand"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -134,6 +138,7 @@
 				count: 8
 				id: "678E35BEEB0003C3"
 				item: "minecraft:gravel"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -159,6 +164,7 @@
 				auto: "no_toast"
 				id: "0B44C3E853F6F964"
 				item: "minecraft:clay"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -185,6 +191,7 @@
 				auto: "no_toast"
 				id: "2BCBB413B5CC8B9F"
 				item: "minecraft:obsidian"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -211,6 +218,7 @@
 				count: 4
 				id: "76D10460D5B75512"
 				item: "minecraft:leather"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -237,6 +245,7 @@
 				count: 2
 				id: "152FB52CEAC03A7A"
 				item: "minecraft:white_wool"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -264,6 +273,7 @@
 				count: 2
 				id: "25CD75CC34C0484F"
 				item: "minecraft:feather"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -290,6 +300,7 @@
 				auto: "no_toast"
 				id: "399E319F98F65E3E"
 				item: "minecraft:rotten_flesh"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -316,6 +327,7 @@
 				count: 2
 				id: "2848372A59A00023"
 				item: "minecraft:bone"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -350,6 +362,7 @@
 				auto: "no_toast"
 				id: "6F09A66E60B2600B"
 				item: "minecraft:spider_eye"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -377,6 +390,7 @@
 				count: 8
 				id: "246E374EFAF23CB7"
 				item: "minecraft:string"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -403,6 +417,7 @@
 				auto: "no_toast"
 				id: "3EDEE2F5806D0FF0"
 				item: "minecraft:gunpowder"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -429,6 +444,7 @@
 				auto: "no_toast"
 				id: "6ECD7B95906FFE55"
 				item: "minecraft:ender_pearl"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -455,6 +471,7 @@
 				auto: "no_toast"
 				id: "5BCB4FC8E736D177"
 				item: "minecraft:blaze_rod"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -481,6 +498,7 @@
 				auto: "no_toast"
 				id: "659C4BDDB6C97323"
 				item: "minecraft:ghast_tear"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -506,6 +524,7 @@
 				auto: "no_toast"
 				id: "4B4A28E287EEC83C"
 				item: "tconstruct:bacon"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -531,6 +550,7 @@
 				auto: "no_toast"
 				id: "7A818D16429CA7A5"
 				item: "pamhc2foodcore:fruitsaladitem"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -564,6 +584,7 @@
 				auto: "no_toast"
 				id: "5173E09CB3AD2E9C"
 				item: "pamhc2foodcore:basicchickensandwichitem"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -590,6 +611,7 @@
 				auto: "no_toast"
 				id: "4D9CA61EF6E1A5E7"
 				item: "minecraft:cake"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -615,6 +637,7 @@
 				auto: "no_toast"
 				id: "5A59AB3B417F15D9"
 				item: "pamhc2foodcore:basicchickensandwichitem"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -649,6 +672,7 @@
 				auto: "no_toast"
 				id: "5B3CF6A13C8963C8"
 				item: "nuclearcraft:dominos"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -685,6 +709,7 @@
 				auto: "no_toast"
 				id: "0326EFF85BDB0FBB"
 				item: "minecraft:copper_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -710,6 +735,7 @@
 				auto: "no_toast"
 				id: "060EF649933D2D70"
 				item: "thermal:tin_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -736,6 +762,7 @@
 				auto: "no_toast"
 				id: "63685150E59EE03A"
 				item: "minecraft:iron_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -762,6 +789,7 @@
 				auto: "no_toast"
 				id: "03371E8BBC45481E"
 				item: "thermal:lead_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -788,6 +816,7 @@
 				auto: "no_toast"
 				id: "2E1F9B444CE14EF8"
 				item: "minecraft:gold_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -814,6 +843,7 @@
 				auto: "no_toast"
 				id: "41747263462E779A"
 				item: "thermal:silver_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -840,6 +870,7 @@
 				auto: "no_toast"
 				id: "0238972E837A9B08"
 				item: "immersiveengineering:ore_aluminum"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -866,6 +897,7 @@
 				auto: "no_toast"
 				id: "3D73AC5A6FEDCD5E"
 				item: "thermal:nickel_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -891,6 +923,7 @@
 				auto: "no_toast"
 				id: "64045B1EF942F8BF"
 				item: "minecraft:ancient_debris"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -917,6 +950,7 @@
 				auto: "no_toast"
 				id: "568B1695459C0BBB"
 				item: "nuclearcraft:uranium_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -943,6 +977,7 @@
 				auto: "no_toast"
 				id: "1AC4FE4942F1D05D"
 				item: "nuclearcraft:thorium_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -969,6 +1004,7 @@
 				auto: "no_toast"
 				id: "053839D7289B3228"
 				item: "nuclearcraft:boron_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -995,6 +1031,7 @@
 				auto: "no_toast"
 				id: "15233ABAB8D8BD49"
 				item: "nuclearcraft:lithium_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1021,6 +1058,7 @@
 				auto: "no_toast"
 				id: "5352E987E685BBF1"
 				item: "nuclearcraft:magnesium_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1047,6 +1085,7 @@
 				auto: "no_toast"
 				id: "07C9255D22E80F01"
 				item: "tconstruct:cobalt_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1072,6 +1111,7 @@
 				auto: "no_toast"
 				id: "22C400B0F30A8BBC"
 				item: "projectred_exploration:sapphire_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1098,6 +1138,7 @@
 				auto: "no_toast"
 				id: "1DF2BD1CBD5CA010"
 				item: "projectred_exploration:ruby_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1124,6 +1165,7 @@
 				auto: "no_toast"
 				id: "348C87D1D2408236"
 				item: "projectred_exploration:peridot_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1150,6 +1192,7 @@
 				auto: "no_toast"
 				id: "4CFCEF8CFA4EE35F"
 				item: "kubejs:certus_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1176,6 +1219,7 @@
 				count: 5
 				id: "57B53E616860337B"
 				item: "minecraft:redstone_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1201,6 +1245,7 @@
 				auto: "no_toast"
 				id: "1504CD6EC1CA0A64"
 				item: "minecraft:coal_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1227,6 +1272,7 @@
 				count: 3
 				id: "5C68410E6DEAD7CD"
 				item: "minecraft:nether_quartz_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1254,6 +1300,7 @@
 				count: 3
 				id: "09E9978AE6777C1E"
 				item: "minecraft:lapis_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1289,6 +1336,7 @@
 				auto: "no_toast"
 				id: "3807E49694B39E72"
 				item: "minecraft:diamond_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1314,6 +1362,7 @@
 				auto: "no_toast"
 				id: "621FCA51A9E74019"
 				item: "rftoolsbase:dimensionalshard_overworld"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1339,6 +1388,7 @@
 				auto: "no_toast"
 				id: "616B9D3C48055C6D"
 				item: "minecraft:emerald_ore"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1365,6 +1415,7 @@
 				auto: "no_toast"
 				id: "44861263551E18CD"
 				item: "minecraft:glowstone"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1402,6 +1453,7 @@
 						Damage: 0
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1424,6 +1476,7 @@
 			rewards: [{
 				id: "6AF3B28C12C26F28"
 				item: "projectred_exploration:white_backpack"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1447,36 +1500,43 @@
 				{
 					id: "28E8747DBFE07363"
 					item: "chipped:botanist_workbench"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "75DA82D344FAE355"
 					item: "chipped:glassblower"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "1C1FF5D9697E3097"
 					item: "chipped:carpenters_table"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "3FDE5DA57C5848EF"
 					item: "chipped:loom_table"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "4A252A4BBBAA9453"
 					item: "chipped:mason_table"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "0DBEB5D9BBC0D380"
 					item: "chipped:tinkering_table"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "68BB041FE5815E96"
 					item: "chipped:alchemy_bench"
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1514,6 +1574,7 @@
 						wand_options: { }
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1568,6 +1629,7 @@
 						voidItems: 0b
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1645,6 +1707,7 @@
 						upgrades: { }
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1675,6 +1738,7 @@
 					id: "simplyjetpacks:jetpack_te4"
 					tag: { }
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1701,6 +1765,7 @@
 			rewards: [{
 				id: "4FDB983E194FDAA3"
 				item: "mekanism:cardboard_box"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1729,6 +1794,7 @@
 			rewards: [{
 				id: "2726F5F0FA2C8ECE"
 				item: "nuclearcraft:americium_rtg"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1782,12 +1848,14 @@
 							energy: 8000
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
 					count: 64
 					id: "4D3594958E35E7E2"
 					item: "immersiveengineering:stick_steel"
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1812,6 +1880,7 @@
 				count: 16
 				id: "6D0B48B65261A866"
 				item: "immersiveengineering:stick_iron"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1835,6 +1904,7 @@
 				count: 16
 				id: "3678974BBC72143D"
 				item: "immersiveengineering:stick_steel"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1877,6 +1947,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1896,6 +1967,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1933,6 +2005,7 @@
 						}
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1983,6 +2056,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1994,6 +2068,7 @@
 							mana: 500000
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2118,6 +2193,7 @@
 						}
 						id: "immersiveengineering:revolver"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2173,6 +2249,7 @@
 						}
 						id: "immersiveengineering:speedloader"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2198,6 +2275,7 @@
 				count: 64
 				id: "32EF728F29F22F67"
 				item: "immersiveengineering:casull"
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2233,6 +2311,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2244,6 +2323,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2255,6 +2335,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2266,6 +2347,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2302,6 +2384,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2313,6 +2396,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2324,6 +2408,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2335,6 +2420,7 @@
 							Damage: 0
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2360,63 +2446,75 @@
 				{
 					id: "1311223FAC331BD6"
 					item: "cookingforblockheads:cooking_table"
+					team_reward: true
 					type: "item"
 				}
 				{
 					count: 2
 					id: "5618DE68683CAEDB"
 					item: "cookingforblockheads:fridge"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "1D8806C24DDD2B80"
 					item: "cookingforblockheads:sink"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "1B5C7D0FB3595C8C"
 					item: "cookingforblockheads:counter"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "365A3A0F053CEDFD"
 					item: "cookingforblockheads:cabinet"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "22B5DE9313ACC341"
 					item: "cookingforblockheads:corner"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "77EACD9409979CBF"
 					item: "cookingforblockheads:hanging_corner"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "334FFFF6EEAED229"
 					item: "cookingforblockheads:oven"
+					team_reward: true
 					type: "item"
 				}
 				{
 					count: 32
 					id: "215B324EDDDBC850"
 					item: "cookingforblockheads:white_kitchen_floor"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "05D7DDE4ED229B0B"
 					item: "cookingforblockheads:tool_rack"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "3CC0AD111644E418"
 					item: "cookingforblockheads:spice_rack"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "4CA4A6B3D7676EB9"
 					item: "cookingforblockheads:fruit_basket"
+					team_reward: true
 					type: "item"
 				}
 			]
