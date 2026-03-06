@@ -146,6 +146,8 @@
 				"If you're not careful, it might turn into another Moai creature."
 				""
 				"(Keeping it secret is optional)"
+				""
+				"&bYou'll need a pickaxe to damage him. Tinkers pickaxes may or may not work, depending on what mood Minecraft is in today.&r"
 			]
 			id: "2C6212FE3010B715"
 			rewards: [{
