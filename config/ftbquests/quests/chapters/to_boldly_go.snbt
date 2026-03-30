@@ -500,6 +500,7 @@
 		{
 			dependencies: ["4C2D010721CF80FF"]
 			description: ["A world out side our solar system. Cold, but habitable, with a breathable atmosphere."]
+			icon: "ad_astra:glacio_globe"
 			id: "6AEC216956478318"
 			rewards: [{
 				id: "519BB3610953D16E"
