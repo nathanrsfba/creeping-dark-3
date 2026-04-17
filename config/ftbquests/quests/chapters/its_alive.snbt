@@ -387,7 +387,11 @@
 				"2A249A9B7E9BCA3E"
 				"2D32F49A5C31A30F"
 			]
-			description: ["A furnace that can also smelt items together to make alloys."]
+			description: [
+				"A furnace that can also smelt items together to make alloys."
+				""
+				"Hint: The primitive alloy smelter is not available, but you can make the dark steel needed for the regular alloy smelter using the induction smelter"
+			]
 			id: "7581BB97463052B0"
 			rewards: [{
 				id: "27C7E5EC6EF7F17B"
