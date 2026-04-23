@@ -1,5 +1,12 @@
 #!/bin/sh
 
+# You can also put the following options into a file called go-opts.sh
+# (I do this to keep this file identical to the copy in the repo)
+# You could also put any commands you want executed before starting the server
+# in there.
+# If there is a file called go-exit.sh, it will be sourced when the server
+# exits. $STATUS will be set to the exit status of the server.
+
 # If you need to specify the path to java:
 # JAVAEXE="/usr/lib64/openjdk8/bin/java"
 
@@ -9,6 +16,10 @@ FORGEVER=47.4.0
 FORGEURL="https://maven.minecraftforge.net/net/minecraftforge/forge/$MCVER-$FORGEVER/forge-$MCVER-$FORGEVER-installer.jar"
 
 INSTALLER="forge-$MCVER-$FORGEVER-installer.jar"
+
+if [ -e go-opts.sh ]; then
+    . ./go-opts.sh || exit 1
+fi
 
 JAVAEXE=${JAVAEXE:-java}
 
@@ -49,7 +60,13 @@ echo "Starting server..."
 # Add custom program arguments {such as nogui} to this file in the next line before the "$@" or
 #  pass them to this script directly
 "$JAVAEXE" @user_jvm_args.txt @libraries/net/minecraftforge/forge/$MCVER-$FORGEVER/unix_args.txt "$@"
+STATUS=$?
 
 echo ""
-echo "Server exited. To restart, run:"
+echo "Server exited with status $STATUS. To restart, run:"
 echo "$0"
+
+if [ -e go-exit.sh ]; then
+   . ./go-exit.sh || exit 1
+fi
+
