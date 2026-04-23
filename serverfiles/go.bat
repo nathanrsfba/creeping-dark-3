@@ -1,0 +1,54 @@
+@echo off
+
+rem If you need to specify the path to java:
+rem set JAVAEXE=c:\Program Files\Java\jdk1.8.0_191\bin\java.exe
+
+rem Minecraft and Forge versions
+set MCVER=1.20.1
+set FORGEVER=47.4.0
+set FORGEURL=https://maven.minecraftforge.net/net/minecraftforge/forge/%MCVER%-%FORGEVER%/forge-%MCVER%-%FORGEVER%-installer.jar
+
+if exist go-opts.bat call go-opts.bat
+
+if "%JAVAEXE%" == "" set JAVAEXE=java
+
+set INSTALLER=forge-%MCVER%-%FORGEVER%-installer.jar
+set SERVER=forge-%MCVER%-%FORGEVER%.jar
+
+rem See if we need to run the installer
+if exist libraries goto run
+
+rem See if we need to download the installer
+if exist %INSTALLER% goto install
+
+echo Downloading installer...
+curl %FORGEURL% --output %INSTALLER%
+
+if not errorlevel 1 goto install
+echo Unable to download the Forge installer. Please download the following
+echo file and place it in this folder:
+echo %FORGEURL%
+goto end
+
+:install
+echo Running installer...
+"%JAVAEXE%" -jar %INSTALLER% --installServer .
+if errorlevel 1 goto error
+
+:run
+echo Launching server...
+REM Forge requires a configured set of both JVM and program arguments.
+REM Add custom JVM arguments to the user_jvm_args.txt
+REM Add custom program arguments {such as nogui} to this file in the next line before the %* or
+REM  pass them to this script directly
+"%JAVAEXE%" @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.1-47.4.0/win_args.txt nogui %*
+if errorlevel 1 goto error
+goto end
+
+:error
+echo An error occurred, exiting
+
+:end
+echo.
+if exist go-exit.bat call go-exit.bat
+pause
