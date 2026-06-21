@@ -176,7 +176,7 @@
 		}
 		{
 			dependencies: ["62E488605B110CED"]
-			description: ["Make a soul vial and trap a zombie in it."]
+			description: ["Make a soul vial and trap an enderman in it."]
 			icon: "enderio:empty_soul_vial"
 			id: "0850EE72A6CC2D6E"
 			rewards: [{
@@ -354,7 +354,7 @@
 			id: "234AF9C4EC3F3519"
 			rewards: [{
 				id: "30BF04261734FD77"
-				item: "kubejs:coin_silver"
+				item: "kubejs:coin_bronze"
 				type: "item"
 			}]
 			tasks: [{
@@ -425,7 +425,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["234AF9C4EC3F3519"]
+			dependencies: ["41981133EDE416ED"]
 			description: [
 				"The Undergarden is a subterranian cavern, full of flora and fauna adapted to the darkness."
 				""
@@ -462,6 +462,23 @@
 			}]
 			title: "Who dis?"
 			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["234AF9C4EC3F3519"]
+			description: ["The Undergarden portal igniter"]
+			id: "41981133EDE416ED"
+			rewards: [{
+				id: "31EC56E86C96DA8E"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46345A8A486472C1"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: 2.5d
 			y: 1.0d
 		}
 	]
