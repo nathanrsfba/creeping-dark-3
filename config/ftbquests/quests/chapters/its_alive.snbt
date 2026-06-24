@@ -157,7 +157,11 @@
 		{
 			dependencies: ["1E8446D54EE73607"]
 			dependency_requirement: "all_started"
-			description: ["Use the souls of your fallen enemies ... in machinery?"]
+			description: [
+				"Use the souls of your fallen enemies ... in machinery?"
+				""
+				"This machine takes experience. You can create an Experience Rod and shift-right-click the machine to transfer your own XP to it (and right-click to reclaim the surplus). You can also pipe liquid XP into it if you have some from, say, a mob farm."
+			]
 			icon: "enderio:soul_binder"
 			id: "6C52999AC1714D37"
 			rewards: [{
