@@ -508,8 +508,8 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5C0830574681D82F"]
-			description: ["Kill some Slurkers in the faded fortress to get one of these."]
+			dependencies: ["3EB3273881A4FF18"]
+			description: ["Kill some Slurkers to get one of these. The're found in faded fortresses and tormented mansions."]
 			id: "1421F8AB89F57D39"
 			rewards: [{
 				id: "36B9DAAC45DDB9F8"
