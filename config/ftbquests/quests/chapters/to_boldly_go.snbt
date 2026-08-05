@@ -299,7 +299,7 @@
 		}
 		{
 			dependencies: ["1A4C6E61F4782869"]
-			description: ["You'll need to build one of these to get to Marss"]
+			description: ["You'll need to build one of these to get to Mars"]
 			id: "52C90E5D1B298CBD"
 			rewards: [{
 				id: "63AC59B80B0046F1"
