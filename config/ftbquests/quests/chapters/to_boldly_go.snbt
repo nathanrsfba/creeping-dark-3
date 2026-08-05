@@ -357,7 +357,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["00A99A8DF6D1D95D"]
+			dependencies: [
+				"00A99A8DF6D1D95D"
+				"4271F23EACF0A195"
+			]
 			description: ["An upgraded space suit that can withstand the heat of Venus and Mercury"]
 			icon: {
 				Count: 1
@@ -546,6 +549,26 @@
 			}]
 			x: 3.5d
 			y: 8.0d
+		}
+		{
+			description: [
+				"Search for bastion remnants in the nether to get one of these; you'll need them to make the Netherite space suit."
+				""
+				"Once you find one, you can duplicate it as needed."
+			]
+			id: "4271F23EACF0A195"
+			rewards: [{
+				id: "341969FC4E0587D4"
+				item: "kubejs:coin_silver"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0329DA725895B885"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
 		}
 	]
 	title: "To Boldly Go"
