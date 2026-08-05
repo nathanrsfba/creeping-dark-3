@@ -228,6 +228,8 @@
 				""
 				"If you're crafting components using an ME autocrafting setup, program the pattern for gas tanks with both \"allow substitutions\" and \"liquid substitutions\" turned &loff&r. Otherwise, the components get stuck in the molecular assemblers and don't craft."
 				""
+				"This also applies to the large gas tanks that you'll use later."
+				""
 				"As far as I can tell this is a bug in Applied Energistics 2."
 			]
 			id: "653AE7F3EBF9F4F9"
