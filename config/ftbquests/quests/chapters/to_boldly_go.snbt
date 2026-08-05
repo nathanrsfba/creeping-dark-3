@@ -451,7 +451,7 @@
 		{
 			dependencies: ["2D28283B6820D387"]
 			dependency_requirement: "one_started"
-			description: ["Go to either Venus or Mercury and grab some of this metal, native to hot worlds"]
+			description: ["Go to Venus and grab some of this metal, native to hot worlds"]
 			id: "4368A557F1E59C9E"
 			rewards: [{
 				id: "4369B379DFC077E5"
