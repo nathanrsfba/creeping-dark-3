@@ -143,7 +143,13 @@
 		}
 		{
 			dependencies: ["476D7E338B452A93"]
-			description: ["You'll need this to survive in space"]
+			description: [
+				"You'll need this to survive in space."
+				""
+				"&4IMPORTANT NOTE&r"
+				""
+				"See the note about gas tanks in the \"Do Breathe This\" quest."
+			]
 			icon: {
 				Count: 1
 				id: "ad_astra:space_suit"
@@ -217,6 +223,12 @@
 				"Pipe water into this and it'll electrolyse out the oxygen. Then stick the spacesuit chest into it and it'll fill it."
 				""
 				"You can also pipe it out into a tank, and right-click with the suit to fill it."
+				""
+				"&4IMPORTANT NOTE&r"
+				""
+				"If you're crafting components using an ME autocrafting setup, program the pattern for gas tanks with both \"allow substitutions\" and \"liquid substitutions\" turned &loff&r. Otherwise, the components get stuck in the molecular assemblers and don't craft."
+				""
+				"As far as I can tell this is a bug in Applied Energistics 2."
 			]
 			id: "653AE7F3EBF9F4F9"
 			rewards: [{
