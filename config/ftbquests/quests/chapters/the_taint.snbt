@@ -434,8 +434,14 @@
 				}
 				{
 					entity: "astral_dimension:void_titan"
+					icon: {
+						Count: 1
+						id: "astral_dimension:void_boots_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
 					id: "247D513C588C873F"
-					title: "Titanic"
 					type: "kill"
 					value: 1L
 				}
