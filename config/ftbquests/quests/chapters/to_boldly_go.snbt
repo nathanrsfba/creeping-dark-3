@@ -105,6 +105,7 @@
 				item: "kubejs:coin_bronze"
 				type: "item"
 			}]
+			subtitle: "Take your protein pills and put your helmet on"
 			tasks: [{
 				id: "3C1CF4E80C07D7F3"
 				item: {
