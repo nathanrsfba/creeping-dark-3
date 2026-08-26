@@ -217,6 +217,13 @@
 				""
 				"Find it, climb to the top, kill the guard's drones, then kill him."
 			]
+			icon: {
+				Count: 1
+				id: "gaiadimension:malachite_guard_baton"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7BFAF47457B62B26"
 			rewards: [{
 				id: "17E5702F5A4C22E1"
@@ -224,18 +231,51 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "gaiadimension:malachite_guard"
-				icon: {
+				id: "113ACAE870A4BF6B"
+				item: {
 					Count: 1
-					id: "gaiadimension:malachite_guard_baton"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "gaiadimension:malachite_guard_baton"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "gaiadimension:malachite_guard_headgear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "gaiadimension:malachite_guard_brace"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "gaiadimension:malachite_guard_gear"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "gaiadimension:malachite_guard_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-				id: "770A8D12E2FDFBC4"
-				title: "Mal"
-				type: "kill"
-				value: 1L
+				type: "item"
 			}]
 			x: -0.5d
 			y: 1.0d
