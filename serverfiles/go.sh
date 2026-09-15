@@ -8,7 +8,7 @@
 # exits. $STATUS will be set to the exit status of the server.
 
 # If you need to specify the path to java:
-# JAVAEXE="/usr/lib64/openjdk8/bin/java"
+# JAVAEXE="/usr/lib64/zulu-openjdk11/bin/java"
 
 # Minecraft and Forge versions
 MCVER=1.20.1

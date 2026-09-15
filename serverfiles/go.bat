@@ -1,7 +1,7 @@
 @echo off
 
 rem If you need to specify the path to java:
-rem set JAVAEXE=c:\Program Files\Java\jdk1.8.0_191\bin\java.exe
+rem set JAVAEXE=C:\Program Files\Java\jdk-18.0.1\bin\java.exe
 
 rem Minecraft and Forge versions
 set MCVER=1.20.1
