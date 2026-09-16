@@ -1,0 +1,6 @@
+PACKNAME="Creeping-Dark-III-Server"
+PACKVER="3.0"
+SERVERVER="1"
+SERVERDIR="cd3server"
+FOLDERS="config defaultconfig kubejs mods"
+EXCLUDE="Controlling Ding JustEnoughResources light-overlay MouseTweaks Toast fancymenu"
