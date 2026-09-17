@@ -2,25 +2,33 @@
 ! curseforge.
 ! 
 ! See the tools/mkserverpack.sh file and related documentation in
-! tools/readme.md.
+! tools/readme.md in the Creeping Dark 1 repo
 !
 ! Everything is this file not preceeded by a ! will be copied into the
 ! README.txt file in the final pack
 !
-! THIS IS A WORK IN PROGRESS
-! In particular, I need to edit and test go.bat for Windows
 Creeping Dark III Server Pack
 =============================
 
 This server pack should have everything you need to run a Creeping Dark
-server. It includes:
+III server. It includes:
 
 * A batch file (for Windows) and a shell script (for Unix) that will
   run the server
 * The mods and configuration required to run the pack
 * A default server.properties file
 
-To use it, do the following:
+Minecraft Hosts
+---------------
+If you're hosting this on a Minecraft hosting service, I *think* you just need
+to select an appropriate version of Forge (I tested with 47.4.0 for Minecraft
+1.20.1) and then upload these files. I'm not sure, I've never used a dedicated
+Minecraft host.
+
+Self-hosting
+------------
+
+If you're hosting on your own machine or virtual machine:
 
 1. Install Java 21 if you don't already have it.
 2. If Java isn't in your path (or you need to run a specific version), you can
@@ -29,13 +37,15 @@ To use it, do the following:
 
    On Windows this looks something like:
    ```
-   set JAVAEXE=c:\Program Files\Java\jdk1.8.0_191\bin\java.exe
+   set JAVAEXE=c:\Program Files\Java\<whatever>\bin\java.exe
    ```
+   before starting the batch file.
 
    On Unix this looks something like:
    ```
-   JAVAEXE=/usr/lib64/openjdk8/bin/java ./go.sh
+   JAVAEXE=/usr/lib64/<whatever>/bin/java ./go.sh
    ```
+   which will start the script with the appropriate environment value.
 
    Adjust the paths as appropriate to your installation. You can also edit the
    go.bat or go.sh file to set it.
@@ -47,13 +57,15 @@ To use it, do the following:
 
    In particular make sure "enable-command-block" is set to "true", or the
    custom dungeons in the pack won't work. It might also be a good idea to set
-   allow-flight=true, as there are legit flight items in the pack.
+   allow-flight=true, as there are legit flight items in the pack. Also if the
+   plague effect in the sky isn't showing, turn up view-distance and/or
+   simulation-distance
 
    The server pack contains a copy of server.properties with these changes
    made, but it's good to verify that Minecraft hasn't mangled them.
 
    Shutdown and restart the server if you make any changes.
-6. The server is now ready for use, or to upload to your hosting platform.
+5. The server is now ready for use, or to upload to your hosting platform.
 
 Manual Setup
 ------------
@@ -64,7 +76,7 @@ launch the server as following:
 First of all, download a copy of the Forge installer from
 files.minecraftforge.net, and place it in this directory. You'll need Forge
 for Minecraft 1.20.1, version 47.4.0. Later versions for 1.20.1 may also
-
+work.
 
 The Forge installer can be run on the command line as follows:
 
